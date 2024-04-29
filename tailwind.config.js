@@ -11,8 +11,8 @@ export default {
         hijauPrimary: '#37B02D',
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-      },
+        'poppins': ['Poppins', 'sans-serif'],
+      }
     },
   },
   plugins: [],

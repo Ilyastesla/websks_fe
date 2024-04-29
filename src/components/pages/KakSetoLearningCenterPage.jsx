@@ -1,11 +1,11 @@
 import { Helmet } from "react-helmet"
 import LocationSection from "../organisms/LocationSection"
 
-const KakSetoSchoolPage = () => {
+const KakSetoLearningCenterPage = () => {
   return (
     <>
       <Helmet>
-        <title>Kak Seto School - Sekolah Kak Seto</title>
+        <title>Kak Seto Learning Center - Sekolah Kak Seto</title>
       </Helmet>
       <div>
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
@@ -16,4 +16,4 @@ const KakSetoSchoolPage = () => {
   )
 }
 
-export default KakSetoSchoolPage
+export default KakSetoLearningCenterPage
