@@ -4,35 +4,41 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import DashboardPage from "./components/pages/DashboardPage";
 import HomeSchoolingKakSetoPage from "./components/pages/HomeSchoolingKakSetoPage";
+import KakSetoSchoolPage from "./components/pages/KakSetoSchoolPage";
+import SekolahKhususKakSetoPage from "./components/pages/SekolahKhususKakSetoPage";
+import KakSetoLearningCenterPage from "./components/pages/KakSetoLearningCenterPage";
+import { HelmetProvider } from "react-helmet-async";
 
-const BASE_URL = "http://192.168.1.4:5173/";
+const BASE_URL = "http://localhost:5173/";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <DashboardPage />,
-    // errorElement: <ErrorPage />
   },
   {
     path: "/homeschooling-kak-seto",
     element: <HomeSchoolingKakSetoPage />,
-    // errorElement: <ErrorPage />
   },
   {
-    path: "/homeschooling-kak-seto",
-    element: <HomeSchoolingKakSetoPage />,
-    // errorElement: <ErrorPage />
+    path: "/kak-seto-school",
+    element: <KakSetoSchoolPage />,
   },
   {
-    path: "/homeschooling-kak-seto",
-    element: <HomeSchoolingKakSetoPage />,
-    // errorElement: <ErrorPage />
+    path: "/sekolah-khusus-kak-seto",
+    element: <SekolahKhususKakSetoPage />,
+  },
+  {
+    path: "/kak-seto-learning-center",
+    element: <KakSetoLearningCenterPage />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>
 );
 
