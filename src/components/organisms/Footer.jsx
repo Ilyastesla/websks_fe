@@ -8,7 +8,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="bg-biruPrimary py-16">
+    <div className="bg-biruPrimary py-16 mt-24">
       <div className="container container-lg mx-auto text-white py-20">
         <div className="lg:flex justify-between">
           <div className="flex flex-col gap-10">

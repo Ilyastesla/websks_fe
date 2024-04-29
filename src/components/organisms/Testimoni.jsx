@@ -1,6 +1,7 @@
 import React from 'react';
 import CardTestimoni from './../molecules/CardTestimoni';
 import CardTutor from '../molecules/CardTutor';
+import CsVirtual from '../../../public/images/Content-CS-VIRTUAL-768x424.png';
 
 const dataTestimoni = [
   {
@@ -35,8 +36,8 @@ const dataTutor = [
 
 const Testimoni = () => {
   return (
-    <div className="pattern bg-biruPrimary pb-10">
-      <div className="-translate-y-1/2 border-2 border-black bg-biruPrimary text-white px-10 py-6 mx-auto w-4/12 rounded-xl">
+    <div className="pattern bg-biruPrimary pb-32 mt-40">
+      <div className="-translate-y-1/2 border-2 border-black bg-biruPrimary text-white px-10 py-6 mx-auto max-w-[598px] rounded-xl">
         <h1 className="text-4xl font-semibold text-center">Pengalaman Dari Orang Tua dan Peserta Didik </h1>
       </div>
       <div className="container mx-auto container-xl">
@@ -48,10 +49,14 @@ const Testimoni = () => {
       </div>
       <div className="container mx-auto container-xl mt-32">
         <h1 className="text-5xl font-semibold text-white text-center mb-8">Tutor Homeschooling Kak Seto</h1>
-        <div className="flex gap-5 justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center">
           {dataTutor.map((data) => (
             <CardTutor bgImg={data.bgImg} name={data.name} />
           ))}
+        </div>
+        <div className="relative max-w-max mx-auto mt-24">
+          <img src={CsVirtual} alt="Gambar" className="h-auto" />
+          <button className="absolute top-2/4 ml-9 border-b border-blue-500 text-blue-500 hover:font-semibold text-xl mt-5">Hubungi layanan pelanggan virtual &#8594;</button>
         </div>
       </div>
     </div>
