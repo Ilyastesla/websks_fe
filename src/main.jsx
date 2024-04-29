@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
-import DashboardPage from './assets/components/pages/DashboardPage'
-import HomeSchoolingKakSetoPage from './assets/components/pages/HomeSchoolingKakSetoPage'
+import DashboardPage from './components/pages/DashboardPage'
+import HomeSchoolingKakSetoPage from './components/pages/HomeSchoolingKakSetoPage'
 
 const router = createBrowserRouter([
   {
