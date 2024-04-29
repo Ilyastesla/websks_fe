@@ -1,35 +1,39 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './index.css'
-import DashboardPage from './components/pages/DashboardPage'
-import HomeSchoolingKakSetoPage from './components/pages/HomeSchoolingKakSetoPage'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
+import DashboardPage from "./components/pages/DashboardPage";
+import HomeSchoolingKakSetoPage from "./components/pages/HomeSchoolingKakSetoPage";
+
+const BASE_URL = "http://192.168.1.4:5173/";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <DashboardPage />,
     // errorElement: <ErrorPage />
   },
   {
-    path: '/homeschooling-kak-seto',
+    path: "/homeschooling-kak-seto",
     element: <HomeSchoolingKakSetoPage />,
     // errorElement: <ErrorPage />
   },
   {
-    path: '/homeschooling-kak-seto',
+    path: "/homeschooling-kak-seto",
     element: <HomeSchoolingKakSetoPage />,
     // errorElement: <ErrorPage />
   },
   {
-    path: '/homeschooling-kak-seto',
+    path: "/homeschooling-kak-seto",
     element: <HomeSchoolingKakSetoPage />,
     // errorElement: <ErrorPage />
   },
-])
+]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
+
+export default BASE_URL;

@@ -1,7 +1,11 @@
+import JadiBisaSection from "../organisms/JadiBisaSection";
+
 const HomeSchoolingKakSetoPage = () => {
   return (
-    <div>HomeSchoolingKakSetoPage</div>
-  )
-}
+    <div>
+      <JadiBisaSection />
+    </div>
+  );
+};
 
-export default HomeSchoolingKakSetoPage
+export default HomeSchoolingKakSetoPage;
