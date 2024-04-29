@@ -36,7 +36,7 @@ const dataTutor = [
 
 const Testimoni = () => {
   return (
-    <div className="pattern bg-biruPrimary pb-32 mt-40">
+    <div className="pattern bg-biruPrimary pb-32 mt-24">
       <div className="-translate-y-1/2 border-2 border-black bg-biruPrimary text-white px-10 py-6 mx-auto max-w-[598px] rounded-xl">
         <h1 className="text-4xl font-semibold text-center">Pengalaman Dari Orang Tua dan Peserta Didik </h1>
       </div>
