@@ -1,43 +1,45 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './index.css'
-import DashboardPage from './components/pages/DashboardPage'
-import HomeSchoolingKakSetoPage from './components/pages/HomeSchoolingKakSetoPage'
-import KakSetoLearningCenter from './components/pages/KakSetoLearningCenter'
-import SekolahKhususKakSeto from './components/pages/SekolahKhususKakSeto'
-import KakSetoSchoolPage from './components/pages/KakSetoSchoolPage'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
+import DashboardPage from "./components/pages/DashboardPage";
+import HomeSchoolingKakSetoPage from "./components/pages/HomeSchoolingKakSetoPage";
+import KakSetoSchoolPage from "./components/pages/KakSetoSchoolPage";
+import SekolahKhususKakSetoPage from "./components/pages/SekolahKhususKakSetoPage";
+import KakSetoLearningCenterPage from "./components/pages/KakSetoLearningCenterPage";
+import { HelmetProvider } from "react-helmet-async";
+
+const BASE_URL = "http://localhost:5173/";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <DashboardPage />,
-    // errorElement: <ErrorPage />
   },
   {
-    path: '/homeschooling-kak-seto',
+    path: "/homeschooling-kak-seto",
     element: <HomeSchoolingKakSetoPage />,
-    // errorElement: <ErrorPage />
   },
   {
-    path: '/learningcenter-kak-seto',
-    element: <KakSetoLearningCenter />,
-    // errorElement: <ErrorPage />
+    path: "/kak-seto-school",
+    element: <KakSetoSchoolPage />,
   },
   {
-    path: '/sekolahkhusus-kak-seto',
-    element: <SekolahKhususKakSeto />,
-    // errorElement: <ErrorPage />
+    path: "/sekolah-khusus-kak-seto",
+    element: <SekolahKhususKakSetoPage />,
   },
   {
-    path: '/school-kak-seto',
-    element: <KakSetoSchoolPage/>,
-    // errorElement: <ErrorPage />
+    path: "/kak-seto-learning-center",
+    element: <KakSetoLearningCenterPage />,
   },
 ])
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
+  </React.StrictMode>
+);
+
+export default BASE_URL;
