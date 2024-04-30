@@ -1,7 +1,7 @@
 
 /* eslint-disable react/prop-types */
 import React from 'react';
-import dot from '../../assets/dot.svg';
+import dot from '../../assets/heropage2/dot.svg';
 
 const HeroPage2 = ({ backgroundClass, title, pointsLeft, pointsRight, imageSrc, cover }) => (
     <div className={backgroundClass}>

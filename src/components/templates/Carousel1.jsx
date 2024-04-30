@@ -44,8 +44,9 @@ function Carousel1() {
     // Komponen carousel
     return (
         <>
+        <div className="py-14">
             <div className='block text-center p-6 font-semibold p-10'>
-                <span className='text-5xl bg-red-500 text-white mx-2 rounded-md text-bold'>#JadiBisa</span>
+                <span className='text-5xl bg-red-500 px-2 text-white mx-2 rounded-md text-bold'>#JadiBisa</span>
                 <span className='text-5xl'>Bersama Sekolah Kak Seto</span>
             </div>
             <div className="slider-container">
@@ -58,6 +59,7 @@ function Carousel1() {
                         />
                     ))}
                 </Slider>
+            </div>
             </div>
         </>
     );

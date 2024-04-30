@@ -1,22 +1,22 @@
 import { Helmet } from "react-helmet"
 import LocationSection from "../organisms/LocationSection"
-import SubProgramSection from "../organisms/SubProgramSection"
 import Navbar2 from "../molecules/Navbar2"
-import HeroPage2 from "../templates/HeroPage1"
-import image from "../../assets/heropage2/image2.png"
-import cover from "../../assets/heropage2/cover2.png"
+import HeroPage2 from '../templates/HeroPage1';
+import image from "../../assets/heropage2/image3.png"
+import cover from "../../assets/heropage2/cover.png"
+import SubProgramSection from "../organisms/SubProgramSection"
 
-const KakSetoSchoolPage = () => {
+const SekolahKhususKakSetoPage = () => {
   return (
     <>
       <Helmet>
-        <title>Kak Seto School - Sekolah Kak Seto</title>
+        <title>Sekolah Khusus Kak Seto Page - Sekolah Kak Seto</title>
       </Helmet>
       <div>
         <Navbar2/>
         <div>
           <HeroPage2
-            backgroundClass="bgmerah"
+            backgroundClass="bgbirusecond"
             title="Kenapa Sih Pilih Homeschooling Kak Seto?"
             pointsLeft={[
               "Berdiri sejak 2007",
@@ -33,8 +33,7 @@ const KakSetoSchoolPage = () => {
             cover={cover}
           />
         </div>
-        {/* Card Sub Program */}
-        <SubProgramSection school='KAK SETO SCHOOL' backgroundColour='text-biruPrimary'/>
+        <SubProgramSection school='SEKOLAH KHUSUS KAK SETO' backgroundColour='text-biruPrimary' />
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
           Lokasi KSS Pusat
         </LocationSection>
@@ -43,4 +42,4 @@ const KakSetoSchoolPage = () => {
   )
 }
 
-export default KakSetoSchoolPage;
+export default SekolahKhususKakSetoPage
