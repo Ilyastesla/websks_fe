@@ -4,7 +4,7 @@ function ArticleSubProgram() {
     return(
         <>
             {/* Card 1 */}
-            <article className="rounded-lg border border-gray-100 bg-white shadow-lg transition hover:shadow-xl h-[780px] w-[318px]">
+            <article className="rounded-2xl border-2 bg-white shadow-xl transition hover:shadow-2xl h-[780px] w-[318px]">
                 <div className="flex flex-col gap-[251px] py-10">
                     <div className="flex flex-col gap-6">
                         <h3 className="text-2xl font-semibold text-blackPrimary text-center">Komunitas</h3>
@@ -22,7 +22,7 @@ function ArticleSubProgram() {
                 </div>
             </article>
             {/* Card 2 */}
-            <article className="rounded-lg border border-gray-100 bg-white shadow-lg transition hover:shadow-xl h-[780px] w-[318px]">
+            <article className="rounded-2xl border-2 bg-white shadow-xl transition hover:shadow-2xl h-[780px] w-[318px]">
                 <div className="flex flex-col gap-[94px] py-10">
                     <div className="flex flex-col gap-6">
                         <h3 className="text-2xl font-semibold text-blackPrimary text-center">Komunitas Online Learning</h3>
@@ -43,7 +43,7 @@ function ArticleSubProgram() {
                 </div>
             </article>
             {/* Card 3 */}
-            <article className="rounded-lg border border-gray-100 bg-white shadow-lg transition hover:shadow-xl h-[780px] w-[318px]">
+            <article className="rounded-2xl border-2 bg-white shadow-xl transition hover:shadow-2xl h-[780px] w-[318px]">
                 <div className="flex flex-col gap-[275px] py-10">
                     <div className="flex flex-col gap-6">
                         <h3 className="text-2xl font-semibold text-blackPrimary text-center">Distance Learning</h3>
@@ -61,7 +61,7 @@ function ArticleSubProgram() {
                 </div>
             </article>
             {/* Card 4 */}
-            <article className="rounded-lg border border-gray-100 bg-white shadow-lg transition hover:shadow-xl h-[780px] w-[318px]">
+            <article className="rounded-2xl border-2 bg-white shadow-xl transition hover:shadow-2xl h-[780px] w-[318px]">
                 <div className="flex flex-col gap-[220px] py-10">
                     <div className="flex flex-col gap-6">
                         <h3 className="text-2xl font-semibold text-blackPrimary text-center">Distance Learning Tunggal</h3>

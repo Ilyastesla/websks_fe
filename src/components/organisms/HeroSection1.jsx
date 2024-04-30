@@ -7,7 +7,7 @@ import RulerImage from "../../assets/hero/ruler.webp";
 export default function HeroSection1() {
   return (
     <div>
-      <section id="heroPage1" className="mb-10">
+      <section id="heroPage1" className="my-9">
         <div className="relative w-full">
           <div className="absolute w-full -z-50">
             <div className="w-full translate-y-7 flex flex-row justify-between px-10 md:px-24 lg:px-44">
