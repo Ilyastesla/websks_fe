@@ -30,9 +30,6 @@ export default function JadiBisaSection({ theme, textColor }) {
               className="w-14 h-14 translate-y-4 md:h-28 md:w-28 lg:32"
             />
           </div>
-          {/* <div
-            className={`${backgroundColor} absolute h-[45%] w-full -z-50 bottom-0`}
-          ></div> */}
           <div className="flex flex-col justify-center pb-10">
             <h1
               className={`${textColor} text-xl leading-5 font-semibold text-center mt-6 md:mt-10 md:text-2xl lg:text-5xl`}
