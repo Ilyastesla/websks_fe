@@ -11,8 +11,8 @@ function Navbar2() {
 
     return(
         <>
-            <div className="border-b-2">
-                <header className="bg-white xl:mx-auto mx-4 max-w-screen-xl xl:h-32">
+            <header className="border-b-2 bg-white/80 backdrop-blur-xl container fixed z-50 top-0">
+                <div className="xl:mx-auto mx-4 max-w-screen-xl xl:h-32">
                     <div className="flex items-center justify-between xl:py-7 py-2">
                         <div className=" xl:scale-100 scale-75">
                             <div className="flex xl:py-0 py-2 xl:ml-0 -ml-8">
@@ -79,8 +79,8 @@ function Navbar2() {
                             </ul>
                         </div>
                     </div>
-                </header>
-            </div>
+                </div>
+            </header>
         </>
     )
 };
