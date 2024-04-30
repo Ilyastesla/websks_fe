@@ -1,7 +1,7 @@
 import React from 'react';
 import CardTestimoni from './../molecules/CardTestimoni';
 import CardTutor from '../molecules/CardTutor';
-import CsVirtual from '../../../public/images/Content-CS-VIRTUAL-768x424.png';
+import CsVirtual from '/images/Content-CS-VIRTUAL-768x424.png';
 
 const dataTestimoni = [
   {

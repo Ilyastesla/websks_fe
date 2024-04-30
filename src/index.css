@@ -14,40 +14,58 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b2b2b2b2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5bacff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5bacff;
+  opacity: 0.6;
+}
+
 .pattern {
   background-image: url('./assets/pattern/Pattern.svg');
   background-repeat: repeat; /* Gambar akan diulang di kedua sumbu (horizontal dan vertikal) */
 }
 
-
 .bgbiru {
-    position: relative;
-    overflow: hidden;
-    background: url('../src/assets/heropage2/pattern1.svg'), url('../src/assets/heropage2/bgbiru.svg');
-    background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat;
-    background-position: top center, top center;
-    height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: url('../src/assets/heropage2/pattern1.svg'), url('../src/assets/heropage2/bgbiru.svg');
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
+  height: 100vh;
 }
 
 .bgmerah {
-    position: relative;
-    overflow: hidden;
-    background:url('../src/assets/heropage2/bgmerah.svg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: url('../src/assets/heropage2/bgmerah.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
 }
-
 
 .bgbirusecond {
   position: relative;
-    overflow: hidden;
-    background: url('../src/assets/heroPage2/bgbirusecond.svg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 100vh;
+  overflow: hidden;
+  background: url('../src/assets/heroPage2/bgbirusecond.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
 }
