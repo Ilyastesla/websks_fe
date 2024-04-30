@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  font-family: 'Poppins', sans-serif;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @tailwind base;
@@ -15,39 +9,38 @@
 @tailwind utilities;
 
 .pattern {
-  background-image: url('./assets/pattern/Pattern.svg');
+  background-image: url("./assets/pattern/Pattern.svg");
   background-repeat: repeat; /* Gambar akan diulang di kedua sumbu (horizontal dan vertikal) */
 }
 
-
 .bgbiru {
-    position: relative;
-    overflow: hidden;
-    background: url('../src/assets/heropage2/pattern1.svg'), url('../src/assets/heropage2/bgbiru.svg');
-    background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat;
-    background-position: top center, top center;
-    height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../src/assets/heropage2/pattern1.svg"),
+    url("../src/assets/heropage2/bgbiru.svg");
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
+  height: 100vh;
 }
 
 .bgmerah {
-    position: relative;
-    overflow: hidden;
-    background:url('../src/assets/heropage2/bgmerah.svg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: url("../src/assets/heropage2/bgmerah.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
 }
-
 
 .bgbirusecond {
   position: relative;
-    overflow: hidden;
-    background: url('../src/assets/heroPage2/bgbirusecond.svg');
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 100vh;
+  overflow: hidden;
+  background: url("../src/assets/heroPage2/bgbirusecond.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
 }
