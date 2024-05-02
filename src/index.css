@@ -8,6 +8,26 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b2b2b2b2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5bacff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5bacff;
+  opacity: 0.6;
+}
+
 .pattern {
   background-image: url("./assets/pattern/Pattern.svg");
   background-repeat: repeat; /* Gambar akan diulang di kedua sumbu (horizontal dan vertikal) */

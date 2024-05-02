@@ -1,7 +1,5 @@
 
-/* eslint-disable react/prop-types */
-import React from 'react';
-import dot from '../../assets/heropage2/dot.svg';
+import dot from '../../assets/heropage2/dot.svg'
 
 const HeroPage2 = ({ backgroundClass, title, pointsLeft, pointsRight, imageSrc, cover }) => (
     <div className={`${backgroundClass} mt-32`}>
@@ -35,4 +33,4 @@ const HeroPage2 = ({ backgroundClass, title, pointsLeft, pointsRight, imageSrc, 
     </div>
 )
 
-export default HeroPage2;
+export default HeroPage2

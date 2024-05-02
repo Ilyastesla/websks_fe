@@ -1,7 +1,6 @@
-import React from 'react';
 import CardTestimoni from './../molecules/CardTestimoni';
 import CardTutor from '../molecules/CardTutor';
-import CsVirtual from '../../../public/images/Content-CS-VIRTUAL-768x424.png';
+import CsVirtual from '/images/Content-CS-VIRTUAL-768x424.png';
 
 const dataTestimoni = [
   {
@@ -37,21 +36,21 @@ const dataTutor = [
 const Testimoni = () => {
   return (
     <div className="pattern bg-biruPrimary pb-32 mt-24">
-      <div className="-translate-y-1/2 border-2 border-black bg-biruPrimary text-white px-10 py-6 mx-auto max-w-[598px] rounded-xl">
-        <h1 className="text-4xl font-semibold text-center">Pengalaman Dari Orang Tua dan Peserta Didik </h1>
+      <div className="-translate-y-1/2 border-2 border-black bg-biruPrimary text-white xl:px-10 py-4 xl:py-6 mx-auto w-fit max-w-[598px] rounded-xl">
+        <h1 className="text-3xl md:text-5xl font-semibold text-center">Pengalaman Dari Orang Tua dan Peserta Didik </h1>
       </div>
       <div className="container mx-auto container-xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-          {dataTestimoni.map((data) => (
-            <CardTestimoni ProfilePicture={data.ProfilePicture} name={data.name} position={data.position} comment={data.comment} />
+        <div className="grid grid-col-1 md:grid-cols-2 xl:grid-cols-3">
+          {dataTestimoni.map((data, index) => (
+            <CardTestimoni key={index} ProfilePicture={data.ProfilePicture} name={data.name} position={data.position} comment={data.comment} />
           ))}
         </div>
       </div>
       <div className="container mx-auto container-xl mt-32">
-        <h1 className="text-5xl font-semibold text-white text-center mb-8">Tutor Homeschooling Kak Seto</h1>
+        <h1 className="text-3xl mx-4 md:text-5xl font-semibold text-white text-center mb-8">Tutor Homeschooling Kak Seto</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center">
-          {dataTutor.map((data) => (
-            <CardTutor bgImg={data.bgImg} name={data.name} />
+          {dataTutor.map((data, index) => (
+            <CardTutor key={index} bgImg={data.bgImg} name={data.name} />
           ))}
         </div>
         <div className="relative max-w-max mx-auto mt-24">
