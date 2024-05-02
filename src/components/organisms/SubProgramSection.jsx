@@ -3,7 +3,7 @@ import CardSubProgram from "../molecules/CardSubProgram";
 
 function SubProgramSection({school, backgroundColour}) {
     return(
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col">
             <TitleSubProgram school={school} backgroundColour={backgroundColour}/>
             <CardSubProgram/>
         </div>

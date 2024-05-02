@@ -39,7 +39,7 @@ const HomeSchoolingKakSetoPage = () => {
           />
         </div>
         {/* Card Sub Program */}
-        <SubProgramSection school="HOME SCHOOLING KAK SETO" backgroundColour="text-biruPrimary" />
+        <SubProgramSection school="HOMESCHOOLING KAK SETO" backgroundColour="text-biruPrimary" />
         <JadiBisaSection theme={1} textColor="text-biruPrimary" />
         <Testimoni />
         <LocationSection backgroundColor={'bg-biruPrimary'} borderColor={'border-[#05215D]'}>

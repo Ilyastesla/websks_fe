@@ -37,7 +37,7 @@ const KakSetoSchoolPage = () => {
         {/* Card Sub Program */}
         <SubProgramSection
           school="KAK SETO SCHOOL"
-          backgroundColour="text-biruPrimary"
+          backgroundColour="text-merahSecondary"
         />
         <JadiBisaSection theme={2} textColor="text-merahSecondary" />
         <LocationSection
