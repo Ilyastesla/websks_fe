@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 import CardTestimoni from './../molecules/CardTestimoni'
 import CardTutor from '../molecules/CardTutor'
 import CsVirtual from '../../../public/images/Content-CS-VIRTUAL-768x424.png'
-=======
-import React from 'react';
-import CardTestimoni from './../molecules/CardTestimoni';
-import CardTutor from '../molecules/CardTutor';
-import CsVirtual from '/images/Content-CS-VIRTUAL-768x424.png';
->>>>>>> 7c4aafddf7427fd93375332f7df1dd1fd56e2ef9
 
 const dataTestimoni = [
   {
