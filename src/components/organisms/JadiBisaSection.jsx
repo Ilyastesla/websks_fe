@@ -1,18 +1,17 @@
-import React from "react";
-import BagImage from "../../assets/gallery/bag.webp";
-import TriangleRulerImage from "../../assets/gallery/triangel_ruler.webp";
-import BrushImage from "../../assets/gallery/brush.webp";
-import BookImage from "../../assets/gallery/book.webp";
-import JadiBisaGallery from "../molecules/JadiBisaGallery";
+import BagImage from "../../assets/gallery/bag.webp"
+import TriangleRulerImage from "../../assets/gallery/triangel_ruler.webp"
+import BrushImage from "../../assets/gallery/brush.webp"
+import BookImage from "../../assets/gallery/book.webp"
+import JadiBisaGallery from "../molecules/JadiBisaGallery"
 
 export default function JadiBisaSection({ theme, textColor }) {
-  let backgroundImage = [BagImage, TriangleRulerImage];
-  let firstWordTitle = "Jelajah";
-  let backgroundColor = "bg-transparent";
+  let backgroundImage = [BagImage, TriangleRulerImage]
+  let firstWordTitle = "Jelajah"
+  let backgroundColor = "bg-transparent"
   if (theme == 2) {
-    backgroundImage = [BookImage, BrushImage];
-    firstWordTitle = "Explore";
-    backgroundColor = "bg-merahSecondary";
+    backgroundImage = [BookImage, BrushImage]
+    firstWordTitle = "Explore"
+    backgroundColor = "bg-merahSecondary"
   }
   return (
     <>
@@ -45,5 +44,5 @@ export default function JadiBisaSection({ theme, textColor }) {
         </div>
       </section>
     </>
-  );
+  )
 }
