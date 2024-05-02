@@ -54,8 +54,8 @@ const Testimoni = () => {
           ))}
         </div>
         <div className="relative max-w-max mx-auto mt-24">
-          <img src={CsVirtual} alt="Gambar" className="h-auto" />
-          <button className="absolute top-2/4 ml-9 border-b border-blue-500 text-blue-500 hover:font-semibold text-xl mt-5">Hubungi layanan pelanggan virtual &#8594;</button>
+          <img src={CsVirtual} alt="Gambar" className="h-auto max-w-[350px] md:max-w-[800px]" />
+          <button className="absolute top-2/4 ml-4 md:ml-9 border-b border-blue-500 text-blue-500 hover:font-semibold text-xs md:text-xl mt-2 md:mt-5">Hubungi layanan pelanggan virtual &#8594;</button>
         </div>
       </div>
     </div>
