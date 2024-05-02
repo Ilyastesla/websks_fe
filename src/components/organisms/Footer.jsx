@@ -9,8 +9,8 @@ const Footer = () => {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
   return (
-    <div className="bg-biruPrimary py-16 mt-24 px-5 pattern">
-      <div className="container container-lg mx-auto text-white py-20">
+    <div className="bg-biruPrimary py-4 mt-24 px-5 pattern">
+      <div className="container mx-auto text-white py-20">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 justify-between">
           <div className="flex flex-col gap-5">
             <img src={LogoSKS} alt="gambar" className="max-w-40 max-h-40" />
