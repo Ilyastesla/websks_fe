@@ -3,8 +3,10 @@ import { HiOutlineArrowRight } from "react-icons/hi"
 
 const CardProgram = ({ img, title, tingkat, description, link }) => {
   return (
-    <div className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-biruPrimary hover:text-white duration-300">
-      <img src={img} alt={title} className="mx-auto mb-[14px] w-full" />
+    <div className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-biruPrimary hover:scale-110 hover:text-white duration-300">
+      <Link to={link} target='_blank'>
+        <img src={img} alt={title} className="mx-auto mb-[14px] w-full" />
+      </Link>
       <h1 className="text-2xl font-semibold mb-2">{title}</h1>
       <p className="text-xl font-medium">{tingkat}</p>
       <p>{description}</p>
