@@ -10,7 +10,7 @@ function DropdownNav() {
     return (
         <div className="relative inline-block text-left">
         <div>
-            <button type="button" onClick={toggleDropdown} id='options-menu' aria-haspopup="true" aria-expanded="true" className="border-2 border-biruPrimary rounded-lg text-biruPrimary px-4 py-1.5 font-medium flex justify-between items-center gap-2 hover:shadow-md">
+            <button type="button" onClick={toggleDropdown} id='options-menu' aria-haspopup="true" aria-expanded="true" className="border-2 border-biruPrimary rounded-lg text-biruPrimary px-4 py-2.5 font-medium flex justify-between items-center gap-2 hover:shadow-md">
                 <img src="/src/assets/ID.png" alt="" />
                 <img src="/src/assets/dropdown.svg" alt="" />
             </button>

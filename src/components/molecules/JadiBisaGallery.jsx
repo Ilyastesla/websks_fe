@@ -25,7 +25,7 @@ export default function JadiBisaGallery() {
   ];
   return (
     <div>
-      <div className="mx-auto mt-5 px-5 max-w-5xl grid grid-cols-1 gap-1 md:mt-14 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto mt-5 px-5 max-w-[75em] grid grid-cols-1 gap-1 md:mt-14 md:grid-cols-2 lg:grid-cols-3">
         {galleryData?.map((item, index) => (
           <GalleryImageCard key={index} source={item?.link} />
         ))}

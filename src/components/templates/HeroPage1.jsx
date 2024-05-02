@@ -2,7 +2,7 @@
 import dot from '../../assets/heropage2/dot.svg'
 
 const HeroPage2 = ({ backgroundClass, title, pointsLeft, pointsRight, imageSrc, cover }) => (
-    <div className={backgroundClass}>
+    <div className={`${backgroundClass} mt-32`}>
         <div>
             <h2 className="ml-12 pt-8 text-3xl font-bold text-white">{title}</h2>
         </div>
