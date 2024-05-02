@@ -17,19 +17,21 @@ const SekolahKhususKakSetoPage = () => {
         <div>
           <HeroPage2
             backgroundClass="bgbirusecond"
-            title="Kenapa Sih Pilih Homeschooling Kak Seto?"
+            title="Kenapa Sih Pilih Sekolah Khusus Kak Seto?"
             pointsLeft={[
-              "Berdiri sejak 2007",
-              "Tutor Ramah Anak dan Berpengalaman",
-              "Mencetak Alumni ke PTN, PTS, dan PTLN",
-              "Lingkungan sekolah yang supportif"
+              "Sekolah formal berbasis vokasi dan lifeskill",
+              "Pengembangan minat dan bakat bagi peserta didik berkebutuhan khusus",
+              "Pengembangan pembelajaran akademik yang fungsional sesuai karakteristik",
+              "Mengedepankan budaya Community Builder dan Good Character"
             ]}
             pointsRight={[
-              "Terakreditasi A",
-              "Metode Belajar yang Menyenangkan",
+              "Pengalaman belajar secara langsung sebagai keterampilan hidup",
+              "Model pembelajaran variatif guna menunjang Projek P5 Pendidikan Khusus",
+              "Support Collaboration dalam perkembangan belajar peserta didik",
               "Tempat dan Waktu Belajar Fleksibel"
             ]}
             imageSrc={image}
+            classNameImg="w-auto h-auto mb-0 mt-[-26.6rem]"
             cover={cover}
           />
         </div>
