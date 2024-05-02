@@ -1,6 +1,6 @@
-import CardTestimoni from './../molecules/CardTestimoni'
-import CardTutor from '../molecules/CardTutor'
-import CsVirtual from '../../../public/images/Content-CS-VIRTUAL-768x424.png'
+import CardTestimoni from './../molecules/CardTestimoni';
+import CardTutor from '../molecules/CardTutor';
+import CsVirtual from '/images/Content-CS-VIRTUAL-768x424.png';
 
 const dataTestimoni = [
   {
@@ -24,14 +24,14 @@ const dataTestimoni = [
     comment:
       'Sheehan bergabung di Kak Seto School, pada pertengahan semester 1 di kelas 1. Saat itu, Sheehan adalah murid baru. Tiga bulan bergabung di Kak Seto School, sudah terlihat progres yang sangat meningkat dari Sheehan. Kemampuan bicara, motorik halus, kemandirian, rentang fokus, bersosialisasi dengan banyak teman, dan kreatifitas serta ide-ide Sheehan yang terlihat “significant” dari sebelumnya. Saat ini Sheehan kelas 2. Bersyukur menemukan sekolah yang sangat fokus dan detail untuk perkembangan anak, tidak hanya secara akademik tapi juga',
   },
-]
+];
 
 const dataTutor = [
   { bgImg: 'images/Foto-tutor1.png', name: 'Mirna Ferdiyawati, S.Pd., M.M.' },
   { bgImg: 'images/Foto-tutor2.png', name: 'Imelda Julistiyanto Wahyunin, S.Pd.' },
   { bgImg: 'images/Foto-tutor3.png', name: 'Ratih Puspita Sari, S.Pd.' },
   { bgImg: 'images/Foto-tutor4.png', name: 'Aldiyan Saputra, S.Pd., M.M. ' },
-]
+];
 
 const Testimoni = () => {
   return (
@@ -59,7 +59,7 @@ const Testimoni = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Testimoni
+export default Testimoni;
