@@ -1,4 +1,3 @@
-import React from "react";
 import BagImage from "../../assets/gallery/bag.webp";
 import TriangleRulerImage from "../../assets/gallery/triangel_ruler.webp";
 import BrushImage from "../../assets/gallery/brush.webp";
@@ -16,7 +15,7 @@ export default function JadiBisaSection({ theme, textColor }) {
   }
   return (
     <>
-      <section className="my-10">
+      <section className="my-20">
         <div className="relative">
           <div className="w-full -z-30 absolute flex justify-between px-2 md:px-3">
             <img
@@ -30,9 +29,6 @@ export default function JadiBisaSection({ theme, textColor }) {
               className="w-14 h-14 translate-y-4 md:h-28 md:w-28 lg:32"
             />
           </div>
-          {/* <div
-            className={`${backgroundColor} absolute h-[45%] w-full -z-50 bottom-0`}
-          ></div> */}
           <div className="flex flex-col justify-center pb-10">
             <h1
               className={`${textColor} text-xl leading-5 font-semibold text-center mt-6 md:mt-10 md:text-2xl lg:text-5xl`}

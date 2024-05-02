@@ -1,4 +1,3 @@
-import React from 'react';
 import dot from '../../assets/heropage2/dot.svg';
 
 const HeroPage2 = ({ backgroundClass, title, pointsLeft, pointsRight, imageSrc, cover, classNameImg }) => (
@@ -6,7 +5,7 @@ const HeroPage2 = ({ backgroundClass, title, pointsLeft, pointsRight, imageSrc, 
         <div>
             <h2 className="ml-12 pt-8 text-3xl font-bold text-white">{title}</h2>
         </div>
-        <div className="ml-12 grid grid-cols-1 sm:grid-cols-[40%_60%] text-white gap-2 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-[40%_60%] text-white gap-2 mt-10 ml-4 mr-4 sm:ml-12 sm:mr-0">
             <ul className="text-xl">
                 {pointsLeft.map((point, index) => (
                     <li key={index} className="flex items-center mb-6">

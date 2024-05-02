@@ -7,10 +7,10 @@ import RulerImage from "../../assets/hero/ruler.webp";
 export default function HeroSection1() {
   return (
     <div>
-      <section id="heroPage1" className="mb-10">
+      <section id="heroPage1" className="mb-10 lg:my-9">
         <div className="relative w-full">
           <div className="absolute w-full -z-50">
-            <div className="w-full translate-y-7 flex flex-row justify-between px-10 md:px-24 lg:px-44">
+            <div className="w-full translate-y-7 flex flex-row justify-between px-10 md:px-24 md:translate-y-3 lg:translate-y-7 lg:px-44">
               <img
                 src={PencilImage}
                 alt="Background Image Pencil"
@@ -35,7 +35,7 @@ export default function HeroSection1() {
               />
             </div>
           </div>
-          <div className="px-7 max-h-96 flex justify-center items-center pt-32 md:pt-32 lg:pt-56">
+          <div className="px-7 max-h-96 flex justify-center items-center pt-32 md:pt-44 lg:pt-56">
             <h1 className="text-lg font-semibold max-w-[950px] text-center md:text-4xl md:leading-[55px] lg:leading-[70px] lg:text-5xl">
               Sekolah{" "}
               <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">

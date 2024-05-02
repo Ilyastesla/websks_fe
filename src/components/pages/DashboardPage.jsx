@@ -4,6 +4,7 @@ import HeroSection1 from "../organisms/HeroSection1";
 import Navbar from "../molecules/Navbar";
 import Carousel from "../templates/Carousel1"
 import Footer from "../organisms/Footer";
+import CsButton from "../atoms/CsButton";
 
 const DashboardPage = () => {
   return (
@@ -17,6 +18,7 @@ const DashboardPage = () => {
         <HeroSection1 />
         <CardsProgram />
         <Carousel />
+        <CsButton />
         <Footer/>
       </div>
     </>

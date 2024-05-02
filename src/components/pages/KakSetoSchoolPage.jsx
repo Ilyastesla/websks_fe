@@ -1,10 +1,13 @@
-import { Helmet } from "react-helmet"
-import LocationSection from "../organisms/LocationSection"
-import SubProgramSection from "../organisms/SubProgramSection"
-import Navbar2 from "../molecules/Navbar2"
-import HeroPage2 from "../templates/HeroPage1"
-import image from "../../assets/heropage2/image2.png"
-import cover from "../../assets/heropage2/cover2.png"
+import { Helmet } from 'react-helmet';
+import LocationSection from '../organisms/LocationSection';
+import SubProgramSection from '../organisms/SubProgramSection';
+import JadiBisaSection from '../organisms/JadiBisaSection';
+import Navbar2 from '../molecules/Navbar2';
+import HeroPage2 from '../templates/HeroPage1';
+import image from '../../assets/heropage2/image2.png';
+import cover from '../../assets/heropage2/cover2.png';
+import Footer from '../organisms/Footer';
+import CsButton from '../atoms/CsButton';
 
 const KakSetoSchoolPage = () => {
   return (
@@ -13,7 +16,7 @@ const KakSetoSchoolPage = () => {
         <title>Kak Seto School - Sekolah Kak Seto</title>
       </Helmet>
       <div>
-        <Navbar2/>
+        <Navbar2 />
         <div>
           <HeroPage2
             backgroundClass="bgmerah"
@@ -36,13 +39,16 @@ const KakSetoSchoolPage = () => {
           />
         </div>
         {/* Card Sub Program */}
-        <SubProgramSection school='KAK SETO SCHOOL' backgroundColour='text-biruPrimary'/>
+        <SubProgramSection school="KAK SETO SCHOOL" backgroundColour="text-biruPrimary" />
+        <JadiBisaSection theme={2} textColor="text-merahSecondary" />
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
           Lokasi KSS Pusat
         </LocationSection>
+        <CsButton />
+        <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default KakSetoSchoolPage;

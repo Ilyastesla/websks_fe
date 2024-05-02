@@ -6,6 +6,7 @@ import HeroPage2 from '../templates/HeroPage1';
 import image from "../../assets/heropage2/image4.png"
 import cover from "../../assets/heropage2/cover2.png"
 import Footer from "../organisms/Footer";
+import CsButton from "../atoms/CsButton";
 
 const KakSetoLearningCenterPage = () => {
   return (
@@ -14,6 +15,7 @@ const KakSetoLearningCenterPage = () => {
         <title>Kak Seto Learning Center - Sekolah Kak Seto</title>
       </Helmet>
       <div>
+        <Navbar2 />
         <Navbar2 />
         <div>
           <HeroPage2
@@ -43,6 +45,7 @@ const KakSetoLearningCenterPage = () => {
         >
           Lokasi KSS Pusat
         </LocationSection>
+        <CsButton />
         <Footer />
       </div>
     </>
