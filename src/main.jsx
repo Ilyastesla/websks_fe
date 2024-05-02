@@ -9,7 +9,7 @@ import SekolahKhususKakSetoPage from "./components/pages/SekolahKhususKakSetoPag
 import KakSetoLearningCenterPage from "./components/pages/KakSetoLearningCenterPage";
 import { HelmetProvider } from "react-helmet-async";
 
-const BASE_URL = "http://localhost:5173/";
+const BASE_URL = "http://192.168.207.190:5173/";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     path: "/kak-seto-learning-center",
     element: <KakSetoLearningCenterPage />,
   },
-])
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

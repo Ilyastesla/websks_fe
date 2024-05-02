@@ -46,18 +46,28 @@ function Carousel1() {
   // Komponen carousel
   return (
     <>
-      <div className="py-14 relative">
-        <div className="absolute w-full -z-50 flex justify-between">
-          <img src={MagnifGlassImage} alt="Background Image" className="h-44" />
-          <img src={BrushImage} alt="Background Image" className="h-52" />
+      <div className="pt-14 relative">
+        <div className="absolute w-full -z-50 flex justify-between pt-16 md:pt-0">
+          <img
+            src={MagnifGlassImage}
+            alt="Background Image"
+            className="h-16 md:h-28 lg:h-44"
+          />
+          <img
+            src={BrushImage}
+            alt="Background Image"
+            className="h-20 md:h-32 lg:h-52"
+          />
         </div>
-        <div className="block text-center font-semibold p-10">
-          <span className="text-5xl bg-red-500 px-2 text-white mx-2 rounded-md text-bold">
-            #JadiBisa
-          </span>
-          <span className="text-5xl">Bersama Sekolah Kak Seto</span>
+        <div className="text-xl block text-center font-semibold p-10 md:text-3xl lg:text-5xl">
+          <h1>
+            <span className="bg-red-500 px-2 mx-2 text-white rounded-md text-bold">
+              #JadiBisa
+            </span>
+            Bersama Sekolah Kak Seto
+          </h1>
         </div>
-        <div className="slider-container mt-5">
+        <div className="slider-container md:mt-5">
           <Slider {...settings}>
             {images.map((image, index) => (
               <CustomSlides
