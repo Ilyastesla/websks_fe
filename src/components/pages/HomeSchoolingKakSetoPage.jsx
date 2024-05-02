@@ -35,6 +35,7 @@ const HomeSchoolingKakSetoPage = () => {
               "Tempat dan Waktu Belajar Fleksibel"
             ]}
             imageSrc={image}
+            classNameImg="w - auto h-auto mb-0 mt-[-18.6rem]"
             cover={cover}
           />
         </div>
