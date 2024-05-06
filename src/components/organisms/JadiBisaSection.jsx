@@ -26,7 +26,7 @@ export default function JadiBisaSection({ theme, textColor }) {
             <img
               src={backgroundImage[1]}
               alt="Background Image Triangel Ruler"
-              className="w-14 h-14 translate-y-4 md:h-28 md:w-28 lg:32"
+              className="w-14 h-14 translate-y-4 md:h-28 md:w-28 lg:32 animate-wiggle-more animate-infinite"
             />
           </div>
           <div className="flex flex-col justify-center pb-10">

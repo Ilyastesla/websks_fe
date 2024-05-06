@@ -1,26 +1,26 @@
 import React from "react";
 import GalleryImageCard from "../atoms/GalleryImageCard";
-import BASE_URL from "../../main";
+// import BASE_URL from "../../main";
 
 export default function JadiBisaGallery() {
   const galleryData = [
     {
-      link: BASE_URL + "images/jadi-bisa/content_1.webp",
+      link: "images/jadi-bisa/content_1.webp",
     },
     {
-      link: BASE_URL + "images/jadi-bisa/content_2.webp",
+      link: "images/jadi-bisa/content_2.webp",
     },
     {
-      link: BASE_URL + "images/jadi-bisa/content_3.webp",
+      link: "images/jadi-bisa/content_3.webp",
     },
     {
-      link: BASE_URL + "images/jadi-bisa/content_4.webp",
+      link: "images/jadi-bisa/content_4.webp",
     },
     {
-      link: BASE_URL + "images/jadi-bisa/content_5.webp",
+      link: "images/jadi-bisa/content_5.webp",
     },
     {
-      link: BASE_URL + "images/jadi-bisa/content_6.webp",
+      link: "images/jadi-bisa/content_6.webp",
     },
   ];
   return (
