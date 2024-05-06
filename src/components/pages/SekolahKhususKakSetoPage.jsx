@@ -15,7 +15,7 @@ const SekolahKhususKakSetoPage = () => {
   return (
     <>
       <Helmet>
-        <title>Sekolah Khusus Kak Seto Page - Sekolah Kak Seto</title>
+        <title>Sekolah Khusus Kak Seto - Sekolah Kak Seto</title>
       </Helmet>
       <div>
         <Navbar2 />
@@ -27,13 +27,13 @@ const SekolahKhususKakSetoPage = () => {
               "Sekolah formal berbasis vokasi dan lifeskill",
               "Pengembangan minat dan bakat bagi peserta didik berkebutuhan khusus",
               "Pengembangan pembelajaran akademik yang fungsional sesuai karakteristik",
-              "Mengedepankan budaya Community Builder dan Good Character"
+              "Mengedepankan budaya Community Builder dan Good Character",
             ]}
             pointsRight={[
               "Pengalaman belajar secara langsung sebagai keterampilan hidup",
               "Model pembelajaran variatif guna menunjang Projek P5 Pendidikan Khusus",
               "Support Collaboration dalam perkembangan belajar peserta didik",
-              "Tempat dan Waktu Belajar Fleksibel"
+              "Tempat dan Waktu Belajar Fleksibel",
             ]}
             imageSrc={image}
             classNameImg="w-auto h-auto mb-0 mt-[-26.6rem]"
@@ -47,7 +47,10 @@ const SekolahKhususKakSetoPage = () => {
             imgLeft={IconLampu} 
         />
         <JadiBisaSection theme={1} textColor="text-biruSecondary" />
-        <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
+        <LocationSection
+          backgroundColor={"bg-merahPrimary"}
+          borderColor={"border-[#740939]"}
+        >
           Lokasi KSS Pusat
         </LocationSection>
         <CsButton />
