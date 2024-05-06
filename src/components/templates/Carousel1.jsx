@@ -38,6 +38,23 @@ function Carousel1() {
     centerPadding: "15%",
     arrows: false,
     afterChange: (current) => setCurrentSlide(current), // Menyimpan slide saat ini
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          centerPadding: "0",
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          centerPadding: "15%",
+        },
+      },
+    ],
   };
 
   // Array gambar
