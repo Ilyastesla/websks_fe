@@ -8,6 +8,8 @@ import cover from '../../assets/heropage2/cover.png';
 import SubProgramSection from '../organisms/SubProgramSection';
 import Footer from '../organisms/Footer';
 import CsButton from '../atoms/CsButton';
+import IconTanganTos from "../../assets/subprogram/Icon Tangan Tos.png"
+import IconLampu from "../../assets/subprogram/Icon Lampu.png"
 
 const SekolahKhususKakSetoPage = () => {
   return (
@@ -37,8 +39,13 @@ const SekolahKhususKakSetoPage = () => {
             classNameImg="w-auto h-auto mb-0 mt-[-26.6rem]"
             cover={cover}
           />
-        </div>
-        <SubProgramSection school="SEKOLAH KHUSUS KAK SETO" backgroundColour="text-biruPrimary" />
+        </div>  
+        <SubProgramSection 
+            school="SEKOLAH KHUSUS KAK SETO" 
+            backgroundColour="text-biruPrimary" 
+            imgRight={IconTanganTos}
+            imgLeft={IconLampu} 
+        />
         <JadiBisaSection theme={1} textColor="text-biruSecondary" />
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
           Lokasi KSS Pusat

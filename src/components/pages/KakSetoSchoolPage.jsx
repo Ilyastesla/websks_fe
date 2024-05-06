@@ -8,6 +8,8 @@ import image from '../../assets/heropage2/image2.png';
 import cover from '../../assets/heropage2/cover2.png';
 import Footer from '../organisms/Footer';
 import CsButton from '../atoms/CsButton';
+import IconGlobe from '../../assets/subprogram/Icon Globe.png';
+import IconKacaPembesar from '../../assets/subprogram/Icon Kaca Pembesar.png';
 
 const KakSetoSchoolPage = () => {
   return (
@@ -42,6 +44,8 @@ const KakSetoSchoolPage = () => {
         <SubProgramSection
           school="KAK SETO SCHOOL"
           backgroundColour="text-merahSecondary"
+          imgRight={IconGlobe}
+          imgLeft={IconKacaPembesar}
         />
         <JadiBisaSection theme={2} textColor="text-merahSecondary" />
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
