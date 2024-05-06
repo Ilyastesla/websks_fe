@@ -9,6 +9,8 @@ import SubProgramSection from '../organisms/SubProgramSection';
 import HeroPage2 from '../templates/HeroPage1';
 import image from "../../assets/heropage2/image1.png"
 import cover from "../../assets/heropage2/cover.png"
+import IconTanganTos from "../../assets/subprogram/Icon Tangan Tos.png"
+import IconLampu from "../../assets/subprogram/Icon Lampu.png"
 
 const HomeSchoolingKakSetoPage = () => {
   return (
@@ -40,7 +42,7 @@ const HomeSchoolingKakSetoPage = () => {
           />
         </div>
         {/* Card Sub Program */}
-        <SubProgramSection school="HOME SCHOOLING KAK SETO" backgroundColour="text-biruPrimary" />
+        <SubProgramSection school="HOMESCHOOLING KAK SETO" backgroundColour="text-biruPrimary" imgRight={IconTanganTos} imgLeft={IconLampu} />
         <JadiBisaSection theme={1} textColor="text-biruPrimary" />
         <Testimoni />
         <LocationSection backgroundColor={'bg-biruPrimary'} borderColor={'border-[#05215D]'}>

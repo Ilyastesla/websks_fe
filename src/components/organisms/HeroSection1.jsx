@@ -24,8 +24,8 @@ export default function HeroSection1() {
               <img data-aos="zoom-in-right" data-aos-duration="1000"  src={BookImage} alt="Background Image Book" className="hidden h-56 lg:block" />
             </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="1000" className="px-7 max-h-96 flex justify-center items-center pt-32 md:pt-44 lg:pt-56">
-            <h1 className="text-lg font-semibold max-w-[950px] text-center md:text-4xl md:leading-[55px] lg:leading-[70px] lg:text-5xl">
+          <div data-aos="fade-up" data-aos-duration="1000" className="px-7 max-h-96 mb-20 flex justify-center items-center pt-32 md:pt-44 lg:pt-56">
+            <h1 className="text-2xl font-semibold max-w-[950px] text-center md:text-4xl md:leading-[55px] lg:leading-[70px] lg:text-5xl">
               Sekolah <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">Berkualitas, Ramah Anak,</span>
               <br className="hidden md:block" /> dan <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">Mengembangkan Potensi Anak.</span>
             </h1>

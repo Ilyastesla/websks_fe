@@ -1,10 +1,10 @@
 import TitleSubProgram from "../atoms/TitleSubProgram";
 import CardSubProgram from "../molecules/CardSubProgram";
 
-function SubProgramSection({school, backgroundColour}) {
+function SubProgramSection({school, backgroundColour, imgRight, imgLeft}) {
     return(
-        <div className="flex flex-col gap-10">
-            <TitleSubProgram school={school} backgroundColour={backgroundColour}/>
+        <div className="flex flex-col">
+            <TitleSubProgram school={school} backgroundColour={backgroundColour} imgRight={imgRight} imgLeft={imgLeft}/>
             <CardSubProgram/>
         </div>
     )
