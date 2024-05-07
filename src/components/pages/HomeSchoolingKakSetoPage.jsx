@@ -20,7 +20,7 @@ const HomeSchoolingKakSetoPage = () => {
       <Helmet>
         <title>Home Schooling Kak Seto - Sekolah Kak Seto</title>
       </Helmet>
-      <div>
+      <div className='overflow-x-hidden'>
         {/* Navbar */}
         <Navbar2 />
         <div>

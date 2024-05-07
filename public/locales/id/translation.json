@@ -64,6 +64,7 @@
     "cards": [
       {
         "gap": "gap-[251px]",
+        "animate": "fade-right",
         "title": "Komunitas",
         "points": [
           "Program belajar secara klasikal.",
@@ -75,6 +76,7 @@
       },
       {
         "gap": "gap-[94px]",
+        "animate": "fade-up",
         "title": "Komunitas Online Learning",
         "points": [
           "Proses belajar menerapkan sistem pembelajaran Multi Channel Learning dengan menggunakan Learning Management System sebagai media pembelajaran",
@@ -89,6 +91,7 @@
       },
       {
         "gap": "gap-[275px]",
+        "animate": "fade-up",
         "title": "Distance Learning",
         "points": [
           "Metode belajar mandiri",
@@ -100,6 +103,7 @@
       },
       {
         "gap": "gap-[220px]",
+        "animate": "fade-left",
         "title": "Distance Learning Tunggal",
         "points": [
           "Metode belajar mandiri",
@@ -145,7 +149,7 @@
     "btntext": "Lihat Lokasi"
   },
   "footer": {
-    "unitsekolah": "Unit Sekolah",
+    "unit": "Unit Sekolah",
     "pendidikan": "Pendidikan {{education}}",
     "pendidikanSLB": "Sekolah Luar Biasa",
     "tautan": "Tautan Bermanfaat",

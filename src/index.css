@@ -38,7 +38,7 @@
     overflow: hidden;
     background: url('../src/assets/heropage2/maskBlue.svg'), #0A3B82;
     background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, repeat;
     background-position: top center, top center;
 }
 
@@ -47,7 +47,7 @@
     overflow: hidden;
     background: url('../src/assets/heropage2/maskRed.svg'), #F23041;
     background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, repeat;
     background-position: top center, top center;
 }
 
@@ -56,7 +56,7 @@
     overflow: hidden;
     background: url('../src/assets/heropage2/maskBiru.svg'), #5BACFF;
     background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, repeat;
     background-position: top center, top center;
 }
 
@@ -65,7 +65,7 @@
     overflow: hidden;
     background: url('../src/assets/heropage2/maskKuning.svg'), #FFA800;
     background-size: auto, auto;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat, repeat;
     background-position: top center, top center;
 }
 

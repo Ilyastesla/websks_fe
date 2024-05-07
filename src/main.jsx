@@ -9,6 +9,7 @@ import SekolahKhususKakSetoPage from "./components/pages/SekolahKhususKakSetoPag
 import KakSetoLearningCenterPage from "./components/pages/KakSetoLearningCenterPage"
 import { HelmetProvider } from "react-helmet-async"
 import './i18n.js'
+import Loading from "./components/organisms/Loading.jsx"
 
 const BASE_URL = "http://192.168.207.190:5173/"
 
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <React.Suspense fallback="loading...">
+    <React.Suspense fallback={<Loading />}>
       <HelmetProvider>
         <RouterProvider router={router} />
       </HelmetProvider>

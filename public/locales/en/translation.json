@@ -64,6 +64,7 @@
     "cards": [
       {
         "gap": "gap-[251px]",
+        "animate": "fade-right",
         "title": "Community",
         "points": [
           "Classical learning program",
@@ -75,6 +76,7 @@
       },
       {
         "gap": "gap-[94px]",
+        "animate": "fade-up",
         "title": "Online Learning Community",
         "points": [
           "The learning process applies Multi Channel Learning system by using Learning Management System as learning media",
@@ -89,6 +91,7 @@
       },
       {
         "gap": "gap-[275px]",
+        "animate": "fade-up",
         "title": "Distance Learning",
         "points": [
           "Self-learning method",
@@ -100,6 +103,7 @@
       },
       {
         "gap": "gap-[220px]",
+        "animate": "fade-left",
         "title": "Single Distance Learning",
         "points": [
           "Self-study method",
@@ -145,7 +149,7 @@
     "btntext": "See Location"
   },
   "footer": {
-    "unitsekolah": "School Unit",
+    "unit": "School Unit",
     "pendidikan": "{{education}} Education ",
     "pendidikanSLB": "Special Education",
     "tautan": "Helpful Links",

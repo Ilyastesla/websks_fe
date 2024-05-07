@@ -1,7 +1,9 @@
 import { useTranslation } from "react-i18next"
-import ButtonNav from "../atoms/ButtonNav"
-import DropdownNav from "../atoms/DropdownNav"
-import { useState } from 'react'
+import ButtonNav from '../atoms/ButtonNav'
+import DropdownNav from '../atoms/DropdownNav'
+import { useEffect, useState } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,15 +14,19 @@ function Navbar() {
 
   const { t } = useTranslation()
 
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
       <header className="border-b-2 bg-white/80 backdrop-blur-xl w-full fixed z-50 top-0">
         <div className="xl:mx-auto mx-4 max-w-screen-xl xl:h-32">
           <div className="flex items-center justify-between xl:py-7 py-2">
-            <a className="" href="/">
+            <a data-aos="fade-right" data-aos-duration="1000" className="" href="/">
               <img className="xl:w-auto w-24" src="/src/assets/Logo Sekolah Kak Seto.png" alt="" />
             </a>
-            <div className="hidden md:block">
+            <div data-aos="fade-left" data-aos-duration="1000" className="hidden md:block">
               <nav aria-label="global">
                 <ul className="flex items-center gap-7 text-lg">
                   <li>

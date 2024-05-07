@@ -15,7 +15,7 @@ const DashboardPage = () => {
       <Helmet>
         <title>{t("title")}</title>
       </Helmet>
-      <div>
+      <div className='overflow-x-hidden'>
         <Navbar />
         <HeroSection1 />
         <CardsProgram />

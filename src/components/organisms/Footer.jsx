@@ -28,19 +28,19 @@ const Footer = () => {
               </li>
               <li className="flex gap-5 mt-7">
                 <a href="">
-                  <FaInstagram size={25} className="hover:scale-110" />
+                  <FaInstagram size={25} className="hover:scale-125 duration-500" />
                 </a>
                 <a href="">
-                  <FaFacebook size={25} className="hover:scale-110" />
+                  <FaFacebook size={25} className="hover:scale-125 duration-500" />
                 </a>
                 <a href="">
-                  <FaYoutube size={25} className="hover:scale-110" />
+                  <FaYoutube size={25} className="hover:scale-125 duration-500" />
                 </a>
                 <a href="">
-                  <FaTwitter size={25} className="hover:scale-110" />
+                  <FaTwitter size={25} className="hover:scale-125 duration-500" />
                 </a>
                 <a href="">
-                  <FaWhatsapp size={25} className="hover:scale-110" />
+                  <FaWhatsapp size={25} className="hover:scale-125 duration-500" />
                 </a>
               </li>
               <li>
@@ -53,10 +53,18 @@ const Footer = () => {
           <div className="flex flex-col gap-5">
             <h2 className="text-2xl font-semibold mb-4">{t('footer.unit')}</h2>
             <ol className="flex flex-col gap-4">
-              <li className="hover:text-biruSecondary">Homeschooling Kak Seto</li>
-              <li className="hover:text-biruSecondary">Kak Seto School</li>
-              <li className="hover:text-biruSecondary">Sekolah Khusus Kak Seto</li>
-              <li className="hover:text-biruSecondary">Kak Seto Learning Center</li>
+              <li className="hover:text-biruSecondary">
+                <a href="/homeschooling-kak-seto">Homeschooling Kak Seto</a>
+              </li>
+              <li className="hover:text-biruSecondary">
+                <a href="/kak-seto-school">Kak Seto School</a>
+              </li>
+              <li className="hover:text-biruSecondary">
+                <a href="/sekolah-khusus-kak-seto">Sekolah Khusus Kak Seto</a>
+              </li>
+              <li className="hover:text-biruSecondary">
+                <a href="/kak-seto-learning-center">Kak Seto Learning Center</a>
+              </li>
             </ol>
           </div>
           <div className="flex flex-col gap-5">

@@ -1,11 +1,17 @@
-import { Link } from "react-router-dom"
-import { HiOutlineArrowRight } from "react-icons/hi"
+import { Link } from 'react-router-dom'
+import { HiOutlineArrowRight } from 'react-icons/hi'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import { useTranslation } from "react-i18next"
 
-const CardProgram = ({ img, title, tingkat, description, link }) => {
+const CardProgram = ({ img, title, tingkat, description, link, animate }) => {
+  useEffect(() => {
+    AOS.init()
+  }, [])
   const { t } = useTranslation()
   return (
-    <div className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-biruPrimary md:hover:scale-110 hover:text-white duration-300">
+    <div data-aos={animate} data-aos-duration="1000" className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-biruPrimary md:hover:!scale-110 hover:text-white">
       <Link to={link} target="_blank">
         <img src={img} alt={title} className="mx-auto mb-[14px] w-full" />
       </Link>

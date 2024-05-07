@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -10,6 +10,8 @@ import gambar5 from "../../assets/carousel/picture5.png"
 import MagnifGlassImage from "../../assets/carousel/magnif-glass.webp"
 import BrushImage from "../../assets/carousel/brush.webp"
 import { useTranslation } from "react-i18next"
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
 // Komponen CustomSlides untuk mengatur gambar
 function CustomSlides({ src, isCenter }) {
@@ -58,6 +60,10 @@ function Carousel1() {
     ],
   }
 
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   // Array gambar
   const images = [gambar1, gambar2, gambar3, gambar4, gambar5]
   const { t } = useTranslation()
@@ -66,26 +72,26 @@ function Carousel1() {
     <>
       <div className="pt-14 relative">
         <div className="absolute w-full -z-50 flex justify-between pt-16 md:pt-0">
-          <img
+          <img data-aos="fade-right" data-aos-duration="1000"
             src={MagnifGlassImage}
             alt="Background Image"
             className="h-16 md:h-28 lg:h-44"
           />
-          <img
+          <img data-aos="fade-left" data-aos-duration="1000"
             src={BrushImage}
             alt="Background Image"
             className="h-20 md:h-32 lg:h-52"
           />
         </div>
         <div className="text-xl block text-center font-semibold p-10 md:text-3xl lg:text-5xl">
-          <h1>
+          <h1 data-aos="fade-up" data-aos-duration="1000">
             <span className="bg-red-500 px-2 mx-2 text-white rounded-md text-bold">
               #JadiBisa
             </span>
             {t('jadibisa.bersama')} Sekolah Kak Seto
           </h1>
         </div>
-        <div className="slider-container md:mt-5">
+        <div data-aos="fade-up" data-aos-duration="1000" className="slider-container md:mt-5">
           <Slider {...settings}>
             {images.map((image, index) => (
               <CustomSlides

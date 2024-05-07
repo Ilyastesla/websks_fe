@@ -4,15 +4,21 @@ import BrushImage from "../../assets/gallery/brush.webp"
 import BookImage from "../../assets/gallery/book.webp"
 import JadiBisaGallery from "../molecules/JadiBisaGallery"
 import { useTranslation } from "react-i18next"
+import AOS from "aos"
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 export default function JadiBisaSection({ theme, textColor }) {
+  useEffect(() => {
+    AOS.init()
+  }, [])
   let backgroundImage = [BagImage, TriangleRulerImage]
   let firstWordTitle = "Jelajah"
-  let backgroundColor = "bg-transparent"
+  // let backgroundColor = "bg-transparent";
   if (theme == 2) {
     backgroundImage = [BookImage, BrushImage]
     firstWordTitle = "Explore"
-    backgroundColor = "bg-merahSecondary"
+    // backgroundColor = "bg-merahSecondary"
   }
   const { t } = useTranslation()
   return (
@@ -28,10 +34,10 @@ export default function JadiBisaSection({ theme, textColor }) {
             <img
               src={backgroundImage[1]}
               alt="Background Image Triangel Ruler"
-              className="w-28 h-28 translate-y-4 hidden md:block lg:32"
+              className="w-28 h-28 translate-y-4 hidden md:block lg:32 animate-wiggle-more animate-infinite"
             />
           </div>
-          <div className="flex flex-col justify-center pb-10">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col justify-center pb-10">
             <h1
               className={`${textColor} text-2xl leading-5 font-semibold text-center mt-6 md:mt-10 md:text-2xl lg:text-5xl`}
             >
