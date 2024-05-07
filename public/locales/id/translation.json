@@ -1,0 +1,158 @@
+{
+  "title": "Beranda - Sekolah Kak Seto",
+  "navbar": {
+    "navli1": "Seputar Sekolah",
+    "navli2": "Promo",
+    "register": "Daftar Peserta Didik Baru"
+  },
+  "hero": {
+    "title": "Sekolah Berkualitas, Ramah Anak, dan Mengembangkan Potensi Anak."
+  },
+  "cardsprogram": {
+    "program1": "Proses pembelajaran yang fleksibel, menyenangkan, dan berbasis at home yang dilakukan dimana saja, kapan saja, dan dengan siapa saja melalui 4 (empat) pilihan program belajar untuk jenjang SD, SMP, dan SMA.",
+    "program2": "Proses pembelajaran jenjang SD berbasis TIK dan ramah anak dalam mengembangkan potensi dan karakter positif yang sesuai dengan keunikan serta kebutuhan anak yang diselenggarakan berdasarkan prinsip-prinsip pendidikan.",
+    "program3": "Pendidikan berbasis Vokasi,  Life Skill, dan aplikatif untuk mengembangkan potensi peserta didik berkebutuhan khusus, baik Jenjang SD maupun SMP dengan Supporting Program Inklusi & Remedial Perilaku.",
+    "program4": "Lembaga Bimbingan Belajar dan Kursus yang diselenggarakan secara offline/online, baik individual maupun grup untuk meningkatkan keterampilan dan minat bakat peserta didik.",
+    "selengkapnya": "Selengkapnya"
+  },
+  "jadibisa": { "bersama": "bersama" },
+  "cs": { "hubungikami": "Hubungi Kami" },
+  "herosection2": {
+    "kenapa": "Kenapa sih pilih {{school}}",
+    "hsks" : {
+      "line1": "Berdiri sejak 2007",
+      "line2": "Tutor Ramah Anak dan Berpengalaman",
+      "line3": "Mencetak Alumni ke PTN, PTS, dan PTLN",
+      "line4": "Lingkungan sekolah yang supportif",
+      "line5": "Terakreditasi A",
+      "line6": "Metode Belajar yang Menyenangkan",
+      "line7": "Tempat dan Waktu Belajar Fleksibel"
+    },
+    "sks" : {
+      "line1": "Berdiri sejak 2018",
+      "line2": "Menggunakan TIK sebagai basis media pembelajaran",
+      "line3": "Menyediakan berbagai program kreatif, aplikatif & inovatif",
+      "line4": "Nyaman dan ramah anak",
+      "line5": "Mendorong berkembangnya minat bakat dan potensi anak",
+      "line6": "Menanamkan karakter positif pada anak",
+      "line7": "Sekolah Formal rasa homeschooling",
+      "line8": "Pendekatan secara individual terhadap anak"
+    },
+    "skks" : {
+      "line1": "Sekolah formal berbasis vokasi dan lifeskill",
+      "line2": "Pengembangan minat dan bakat bagi peserta didik berkebutuhan khusus",
+      "line3": "Pengembangan pembelajaran akademik yang fungsional sesuai karakteristik",
+      "line4": "Mengedepankan budaya Community Builder dan Good Character",
+      "line5": "Pengalaman belajar secara langsung sebagai keterampilan hidup",
+      "line6": "Model pembelajaran variatif guna menunjang Projek P5 Pendidikan Khusus",
+      "line7": "Support Collaboration dalam perkembangan belajar peserta didik",
+      "line8": "Tempat dan Waktu Belajar Fleksibel"
+    },
+    "kslc" : {
+      "line1": "Guru Berkualitas & terbaik di bidangnya",
+      "line2": "Fleksibel: Online dan Offline Learning",
+      "line3": "Tutor Ramah Anak dan Berpengalaman",
+      "line4": "Mengembangkan Keterampilan Sesuai Standar Nasional",
+      "line5": "TO SNBT Online: Pintu ke Perguruan Tinggi Negeri",
+      "line6": "Metode Belajar yang Menyenangkan",
+      "line7": "Ekstrakurikuler terbaru",
+      "line8": "Berijazah dan Bersertifkat"
+    }
+  },
+  "cardsubprogram": {
+    "title": "PROGRAM UNGGULAN {{school}}",
+    "cards": [
+      {
+        "gap": "gap-[251px]",
+        "title": "Komunitas",
+        "points": [
+          "Program belajar secara klasikal.",
+          "Exclusive class (10 peserta didik dalam satu kelas)",
+          "Jadwal belajar seminggu 3x (tiga kali)",
+          "Pembelajaran akademik dilaksanakan di kelas",
+          "Kegiatan non-akademik dilaksanakan menyesuaikan dengan tema yang telah ditentukan."
+        ]
+      },
+      {
+        "gap": "gap-[94px]",
+        "title": "Komunitas Online Learning",
+        "points": [
+          "Proses belajar menerapkan sistem pembelajaran Multi Channel Learning dengan menggunakan Learning Management System sebagai media pembelajaran",
+          "Konten pembelajaran digital yang lebih beraneka ragam dan menarik",
+          "Jadwal belajar seminggu 3x (tiga kali)",
+          "Dua metode pembelajaran yaitu:"
+        ],
+        "subpoints": [
+          "Komunitas Online Learning Plus, menggunakan strategi pembelajaran personalized learning",
+          "Komunitas Online Learning Reguler, menggunakan strategi pembelajaran group learning"
+        ]
+      },
+      {
+        "gap": "gap-[275px]",
+        "title": "Distance Learning",
+        "points": [
+          "Metode belajar mandiri",
+          "Akan didukung kurikulum dan bahan ajar (modul belajar)",
+          "Pendampingan belajar dilakukan oleh keluarga, tutor visit/bimbel",
+          "Tempat dan waktu belajar fleksibel",
+          "Orang tua dan murid dilibatkan dalam pemilihan jam belajar"
+        ]
+      },
+      {
+        "gap": "gap-[220px]",
+        "title": "Distance Learning Tunggal",
+        "points": [
+          "Metode belajar mandiri",
+          "Dapat menggunakan kurikulum dan bahan ajar berdasarkan referensi yang dianjurkan oleh sekolah.",
+          "Pendampingan belajar dilakukan oleh keluarga, tutor visit/bimbel",
+          "Tempat dan waktu belajar fleksibel",
+          "Hadir ke sekolah hanya pada saat evaluasi belajar."
+        ]
+      }
+    ],
+    "btn": "Daftar Sekarang",
+    "desc": "Penjelasan Selengkapnya"
+  },
+  "testimoni": {
+    "title": "Pengalaman Dari Orang Tua dan Peserta Didik",
+    "datatestimoni": [
+      {
+        "ProfilePicture": "images/Ellipse-102.png",
+        "name": "Bunda Lubna",
+        "position": "Orang Tua Murid Kak Seto School",
+        "comment":
+          "Alhamdulillah, tak terbendung kebahagiaan yang kami rasakan setelah ananda masuk di Kak Seto School di program inklusi, ananda menjadi lebih fokus dan banyak sekali perubahan positif nya. Terlebih dengan para kakak tutor yang selalu sabar dalam mendampingi ananda belajar dan berinteraksi. Sekolah yang ramah anak, ananda lebih ceria dan Alhamdulillah ananda Lubna di kelas 2 ini sudah tidak di program inklusi berkat kakak tutor dan kakak pendamping inklusi. Terima kasih Kak Seto School."
+      },
+      {
+        "ProfilePicture": "images/Ellipse-103.png",
+        "name": "Bunda Rere",
+        "position": "Orang Tua Murid Kak Seto School",
+        "comment":
+          "Alhamdulillah Wasyukurillah setelah pencarian sekian tahun lamanya akhirnya kami menemukan sekolah terbaik dalam hidup 🥰 Sekolah yang tidak hanya bagus dalam pendidikan, pembelajaran, pembentukan character, emosi, dan akhlak akan tetapi juga didukung oleh para pengajar yang begitu luar biasa sabar, santun dan terpelajar. Kemajuan pesat Ananda Racher disegala sisi membuat kami bersyukur tiada henti. Sejak bersekolah di Kak Seto School, Ananda Racher pergi dan pulang sekolah selalu dalam keadaan ceria dan bahagia. Tiada hari tanpa semangat ke sekolah. Terima kasih Kak Seto School 💕"
+      },
+      {
+        "ProfilePicture": "images/Ellipse-104.png",
+        "name": "Bunda Sheenan",
+        "position": "Orang Tua Murid Kak Seto School",
+        "comment":
+          "Sheehan bergabung di Kak Seto School, pada pertengahan semester 1 di kelas 1. Saat itu, Sheehan adalah murid baru. Tiga bulan bergabung di Kak Seto School, sudah terlihat progres yang sangat meningkat dari Sheehan. Kemampuan bicara, motorik halus, kemandirian, rentang fokus, bersosialisasi dengan banyak teman, dan kreatifitas serta ide-ide Sheehan yang terlihat “significant” dari sebelumnya. Saat ini Sheehan kelas 2. Bersyukur menemukan sekolah yang sangat fokus dan detail untuk perkembangan anak, tidak hanya secara akademik tapi juga"
+      }
+    ]
+  },
+  "locationsection": {
+    "title": "Lokasi {{location}} Pusat",
+    "school": "HSKS Cabang {{school}}",
+    "btntext": "Lihat Lokasi"
+  },
+  "footer": {
+    "unitsekolah": "Unit Sekolah",
+    "pendidikan": "Pendidikan {{education}}",
+    "pendidikanSLB": "Sekolah Luar Biasa",
+    "tautan": "Tautan Bermanfaat",
+    "unduh": "Unduh Brosur",
+    "daftar": "Daftar Sekarang",
+    "karya": "Karya Peserta Didik",
+    "karir": "Karir",
+    "layanan": "Layanan Pelanggan"
+  }
+}

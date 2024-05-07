@@ -1,14 +1,17 @@
-import { Helmet } from "react-helmet";
-import LocationSection from "../organisms/LocationSection";
-import JadiBisaSection from "../organisms/JadiBisaSection";
-import Navbar2 from "../molecules/Navbar2";
-import HeroPage2 from '../templates/HeroPage1';
+import { Helmet } from "react-helmet"
+import LocationSection from "../organisms/LocationSection"
+import JadiBisaSection from "../organisms/JadiBisaSection"
+import Navbar2 from "../molecules/Navbar2"
+import HeroPage2 from '../templates/HeroPage1'
 import image from "../../assets/heropage2/image4.png"
 import cover from "../../assets/heropage2/cover2.png"
-import Footer from "../organisms/Footer";
-import CsButton from "../atoms/CsButton";
+import Footer from "../organisms/Footer"
+import CsButton from "../atoms/CsButton"
+import { useTranslation } from "react-i18next"
+import Testimoni from "../organisms/Testimoni"
 
 const KakSetoLearningCenterPage = () => {
+  const { t } = useTranslation()
   return (
     <>
       <Helmet>
@@ -20,36 +23,37 @@ const KakSetoLearningCenterPage = () => {
         <div>
           <HeroPage2
             backgroundClass="bgkuning"
-            title="Kenapa Sih Pilih Learning Center Kak Seto?"
+            title={`${t('herosection2.kenapa', { school: 'Learning Center Kak Seto?' })}`}
             pointsLeft={[
-              "Berdiri sejak 2018",
-              "Menggunakan TIK sebagai basis media pembelajaran ",
-              "Menyediakan berbagai program kreatif, aplikatif & inovatif",
-              "Nyaman dan ramah anak"
+              t('herosection2.kslc.line1'),
+              t('herosection2.kslc.line2'),
+              t('herosection2.kslc.line3'),
+              t('herosection2.kslc.line4'),
             ]}
             pointsRight={[
-              "Mendorong berkembangnya minat bakat dan potensi anak",
-              "Menanamkan karakter positif pada anak",
-              "Sekolah Formal rasa homeschooling",
-              "Pendekatan secara individual terhadap anak"
+              t('herosection2.kslc.line5'),
+              t('herosection2.kslc.line6'),
+              t('herosection2.kslc.line7'),
+              t('herosection2.kslc.line8'),
             ]}
             imageSrc={image}
             classNameImg="w-auto h-auto mb-0 mt-[-22.6rem]"
             cover={cover}
           />
         </div>
-        <JadiBisaSection theme={2} textColor="text-merahSecondary" />
+        <JadiBisaSection theme={2} textColor="text-kuningPrimary" />
+        <Testimoni theme='bg-kuningPrimary' />
         <LocationSection
-          backgroundColor={"bg-merahPrimary"}
-          borderColor={"border-[#740939]"}
+          backgroundColor={"bg-kuningPrimary"}
+          borderColor={"border-[#875900]"}
         >
-          Lokasi KSS Pusat
+          {t('locationsection.title', { location: 'Kak Seto Learning Center' })}
         </LocationSection>
         <CsButton />
         <Footer />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default KakSetoLearningCenterPage;
+export default KakSetoLearningCenterPage

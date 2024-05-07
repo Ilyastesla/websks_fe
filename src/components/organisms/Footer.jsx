@@ -1,13 +1,15 @@
-import LogoSKS from '../../assets/Logo-Sekolah-Kak-Seto-(White).png';
-import { FaWhatsapp } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next'
+import LogoSKS from '../../assets/Logo-Sekolah-Kak-Seto-(White).png'
+import { FaWhatsapp } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
-  const currentDate = new Date();
-  const year = currentDate.getFullYear();
+  const { t } = useTranslation()
+  const currentDate = new Date()
+  const year = currentDate.getFullYear()
   return (
     <div className="bg-biruPrimary py-4 mt-24 px-5 pattern">
       <div className="container mx-auto text-white py-20">
@@ -49,7 +51,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">Unit Sekolah</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t('footer.unit')}</h2>
             <ol className="flex flex-col gap-4">
               <li className="hover:text-biruSecondary">Homeschooling Kak Seto</li>
               <li className="hover:text-biruSecondary">Kak Seto School</li>
@@ -60,20 +62,20 @@ const Footer = () => {
           <div className="flex flex-col gap-5">
             <h2 className="text-2xl font-semibold mb-4">Program</h2>
             <ol className="flex flex-col gap-4">
-              <li className="hover:text-biruSecondary">Pendidikan Formal</li>
-              <li className="hover:text-biruSecondary">Pendidikan Nonformal</li>
-              <li className="hover:text-biruSecondary">Pendidikan Informal</li>
-              <li className="hover:text-biruSecondary">Pendidikan Luar Biasa</li>
+              <li className="hover:text-biruSecondary">{t('footer.pendidikan', { education: 'Formal' })}</li>
+              <li className="hover:text-biruSecondary">{t('footer.pendidikan', { education: 'Nonformal' })}</li>
+              <li className="hover:text-biruSecondary">{t('footer.pendidikan', { education: 'Informal' })}</li>
+              <li className="hover:text-biruSecondary">{t('footer.pendidikanSLB')}</li>
             </ol>
           </div>
           <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">Tautan Bermanfaat</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t('footer.tautan')}</h2>
             <ol className="flex flex-col gap-4">
-              <li className="hover:text-biruSecondary">Unduh Brosur</li>
-              <li className="hover:text-biruSecondary">Daftar Sekarang</li>
-              <li className="hover:text-biruSecondary">Karya Peserta Didik</li>
-              <li className="hover:text-biruSecondary">Karir</li>
-              <li className="hover:text-biruSecondary">Layanan Pelanggan</li>
+              <li className="hover:text-biruSecondary">{t('footer.unduh')}</li>
+              <li className="hover:text-biruSecondary">{t('footer.daftar')}</li>
+              <li className="hover:text-biruSecondary">{t('footer.karya')}</li>
+              <li className="hover:text-biruSecondary">{t('footer.karir')}</li>
+              <li className="hover:text-biruSecondary">{t('footer.layanan')}</li>
             </ol>
           </div>
         </div>
@@ -82,7 +84,7 @@ const Footer = () => {
         <p>Sekolah Kak Seto. - &copy; {year} All rights reserved.</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

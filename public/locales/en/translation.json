@@ -1,0 +1,158 @@
+{
+  "title": "Home - Kak Seto School",
+  "navbar": {
+    "navli1": "About School",
+    "navli2": "Promo",
+    "register": "New Student Register"
+  },
+  "hero": {
+    "title": "Quality Schools, Child Friendly and Developing Children's Potential."
+  },
+  "cardsprogram": {
+    "program1": "A flexible, fun, and home-based learning process that is done anywhere, anytime, and with anyone through 4 (four) learning program options for elementary, junior high school, and high school levels.",
+    "program2": "The learning process at elementary school level is ICT-based and child-friendly in developing potential and positive character in accordance with the uniqueness and needs of children organized based on educational principles.",
+    "program3": "Vocational, Life Skill, and applicative-based education to develop the potential of students with special needs, both elementary and junior high school levels with Supporting Inclusion & Remedial Behavior Programs.",
+    "program4": "Tutoring institutions and courses that are organized offline/online, both individually and in groups to improve the skills and interests of students.",
+    "selengkapnya": "More"
+  },
+  "jadibisa": { "bersama": "with" },
+  "cs": { "hubungikami": "Contact Us" },
+  "herosection2": {
+    "kenapa": "Why do you choose {{school}}",
+    "hsks": {
+      "line1": "Established since 2007",
+      "line2": "Child Friendly and Experienced Tutors",
+      "line3": "Graduating alumni to PTN, PTS, and PTLN",
+      "line4": "Supportive school environment",
+      "line5": "Accredited A",
+      "line6": "Fun Learning Methods",
+      "line7": "Flexible Learning Places and Times"
+    },
+    "sks" : {
+      "line1": "Established since 2018",
+      "line2": "Using ICT as the basis of learning media",
+      "line3": "Provides various creative, applicative  innovative programs",
+      "line4": "Comfortable and child-friendly",
+      "line5": "Encouraging the development of children's interests, talents and potential",
+      "line6": "Instilling positive character in children",
+      "line7": "Formal school flavored homeschooling",
+      "line8": "Individualized approach to children"
+    },
+    "skks" : {
+      "line1": "Vocational and lifeskill-based formal school",
+      "line2": "Development of interests and talents for students with special needs",
+      "line3": "Development of functional academic learning according to characteristics",
+      "line4": "Promoting Community Builder and Good Character culture",
+      "line5": "Hands-on learning experience as a life skill",
+      "line6": "Varied learning models to support Special Education P5 Project",
+      "line7": "Support Collaboration in learners' learning development",
+      "line8": "Flexible Learning Place and Time"
+    },
+    "kslc" : {
+      "line1": "Qualified & best teachers in their field",
+      "line2": "Flexible: Online and Offline Learning",
+      "line3": "Child Friendly and Experienced Tutors",
+      "line4": "Developing Skills According to National Standards",
+      "line5": "TO SNBT Online: The Door to State Universities",
+      "line6": "Fun Learning Methods",
+      "line7": "Latest Extracurriculars",
+      "line8": "Degreed and Certified"
+    }
+  },
+  "cardsubprogram": {
+    "title": "{{school}} FEATURED PROGRAM",
+    "cards": [
+      {
+        "gap": "gap-[251px]",
+        "title": "Community",
+        "points": [
+          "Classical learning program",
+          "Exclusive class (10 students in one class)",
+          "Study schedule 3x (three times) a week",
+          "Academic learning is carried out in class",
+          "Non-academic activities are carried out according to a predetermined theme"
+        ]
+      },
+      {
+        "gap": "gap-[94px]",
+        "title": "Online Learning Community",
+        "points": [
+          "The learning process applies Multi Channel Learning system by using Learning Management System as learning media",
+          "Digital learning content that is more diverse and interesting",
+          "Study schedule 3x (three times) a week",
+          "Two learning methods, namely:"
+        ],
+        "subpoints": [
+          "Online Learning Plus community, using personalized learning strategy",
+          "Regular Online Learning Community, using group learning strategy"
+        ]
+      },
+      {
+        "gap": "gap-[275px]",
+        "title": "Distance Learning",
+        "points": [
+          "Self-learning method",
+          "Will be supported by curriculum and teaching materials (learning modules)",
+          "Learning assistance is done by family, tutor visit/bimbel",
+          "Flexible learning place and time",
+          "Parents and students are involved in the selection of study hours"
+        ]
+      },
+      {
+        "gap": "gap-[220px]",
+        "title": "Single Distance Learning",
+        "points": [
+          "Self-study method",
+          "Can use curriculum and teaching materials based on references recommended by the school",
+          "Learning assistance is done by family, tutor visit/bimbel",
+          "Flexible learning place and time",
+          "Attend school only during learning evaluation"
+        ]
+      }
+    ],
+    "btn": "Register Now",
+    "desc": "More Details"
+  },
+  "testimoni": {
+    "title": "Experiences from Parents and Students",
+    "datatestimoni": [
+      {
+        "ProfilePicture": "images/Ellipse-102.png",
+        "name": "Bunda Lubna",
+        "position": "Parents of Kak Seto School Students",
+        "comment":
+          "Alhamdulillah, we can\"t contain the happiness we feel after your child entered Kak Seto School in the inclusion program, my child has become more focused and there are so many positive changes. Especially with the  tutors who are always patient in assisting your child to learn and interact. The school is child-friendly, my child is more cheerful and Alhamdulillah, Lubna is no longer in the inclusion program thanks to the tutors and inclusion assistants. Thank you Kak Seto School."
+      },
+      {
+        "ProfilePicture": "images/Ellipse-103.png",
+        "name": "Bunda Rere",
+        "position": "Parents of Kak Seto School Students",
+        "comment":
+          "Alhamdulillah Wasyukurillah after searching for so many years we finally found the best school in life 🥰 A school that is not only good in education, learning, character building, emotions, and morals but also supported by teachers who are so amazingly patient, polite and educated. Racher\"s rapid progress on all fronts makes us endlessly grateful. Since attending Kak Seto School, Racher goes to and from school always cheerful and happy. There is no day without excitement to go to school. Thank you Kak Seto School 💕"
+      },
+      {
+        "ProfilePicture": "images/Ellipse-104.png",
+        "name": "Bunda Sheenan",
+        "position": "Parents of Kak Seto School Students",
+        "comment":
+          "Sheehan joined Kak Seto School, in the middle of semester 1 in grade 1. At that time, Sheehan was a new student. Three months into her time at Kak Seto School, Sheehan\"s progress was already visible. Sheehan\"s speech, fine motor skills, independence, focus span, socializing with friends, and creativity and ideas are \"significant\" from before. Sheehan is currently in Grade 2. Thankful to find a school that is very focused and detailed for the development of children, not only academically but also"
+      }
+    ]
+  },
+  "locationsection": {
+    "title": "Location of Central {{location}}",
+    "school": "HSKS {{school}} Branch",
+    "btntext": "See Location"
+  },
+  "footer": {
+    "unitsekolah": "School Unit",
+    "pendidikan": "{{education}} Education ",
+    "pendidikanSLB": "Special Education",
+    "tautan": "Helpful Links",
+    "unduh": "Download Brochure",
+    "daftar": "Register Now",
+    "karya": "Learner Works",
+    "karir": "Career",
+    "layanan": "Customer Service"
+  }
+}

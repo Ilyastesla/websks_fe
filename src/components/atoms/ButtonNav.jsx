@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next"
+
 function ButtonNav() {
+  const { t } = useTranslation()
   return (
     <>
       <a href="https://ereg.sekolahkakseto.id" target="_blank">
@@ -6,11 +9,11 @@ function ButtonNav() {
           type="button"
           className="border-2 py-1 border-biruPrimary rounded-lg text-biruPrimary px-4 leading-7 font-medium hover:bg-biruPrimary hover:text-white"
         >
-          Daftar Peserta Didik Baru
+          {t('navbar.register')}
         </button>
       </a>
     </>
-  );
+  )
 }
 
-export default ButtonNav;
+export default ButtonNav
