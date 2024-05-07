@@ -1,6 +1,9 @@
 import CardTestimoni from './../molecules/CardTestimoni';
 import CardTutor from '../molecules/CardTutor';
 import CsVirtual from '/images/Content-CS-VIRTUAL-768x424.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const dataTestimoni = [
   {
@@ -34,26 +37,31 @@ const dataTutor = [
 ];
 
 const Testimoni = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="pattern bg-biruPrimary pb-32 mt-24">
       <div className="-translate-y-1/2 border-2 border-black bg-biruPrimary text-white xl:px-10 py-4 xl:py-6 mx-auto w-fit max-w-[598px] rounded-xl">
         <h1 className="text-3xl md:text-5xl font-semibold text-center">Pengalaman Dari Orang Tua dan Peserta Didik </h1>
       </div>
       <div className="container mx-auto container-xl">
-        <div className="grid grid-col-1 md:grid-cols-2 xl:grid-cols-3">
+        <div data-aos="fade-up" data-aos-duration="1000" className="grid grid-col-1 md:grid-cols-2 xl:grid-cols-3">
           {dataTestimoni.map((data, index) => (
             <CardTestimoni key={index} ProfilePicture={data.ProfilePicture} name={data.name} position={data.position} comment={data.comment} />
           ))}
         </div>
       </div>
       <div className="container mx-auto container-xl mt-32">
-        <h1 className="text-3xl mx-4 md:text-5xl font-semibold text-white text-center mb-8">Tutor Homeschooling Kak Seto</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center">
+        <h1 data-aos="zoom-in" data-aos-duration="1000" className="text-3xl mx-4 md:text-5xl font-semibold text-white text-center mb-8">
+          Tutor Homeschooling Kak Seto
+        </h1>
+        <div data-aos="fade-up" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-center">
           {dataTutor.map((data, index) => (
             <CardTutor key={index} bgImg={data.bgImg} name={data.name} />
           ))}
         </div>
-        <div className="relative max-w-max mx-auto mt-24">
+        <div data-aos="zoom-in" data-aos-duration="1000" className="relative max-w-max mx-auto mt-24">
           <img src={CsVirtual} alt="Gambar" className="h-auto max-w-[350px] md:max-w-[800px]" />
           <button className="absolute top-2/4 ml-4 md:ml-9 border-b border-blue-500 text-blue-500 hover:font-semibold text-xs md:text-xl mt-2 md:mt-5">Hubungi layanan pelanggan virtual &#8594;</button>
         </div>

@@ -6,19 +6,22 @@ const CardsLocation = () => {
       bgImg: 'images/FotoCabangDepok.png',
       title: 'HSKS Cabang Depok',
       address: 'Jl. Putri Tunggal No.53, Harjamukti, Kec. Cimanggis, Kota Depok, Jawa Barat 16454',
-      link: 'https://maps.app.goo.gl/Ahe8jfQK4oSq8jcf7'
+      link: 'https://maps.app.goo.gl/Ahe8jfQK4oSq8jcf7',
+      animation: 'fade-right'
     },
     {
       bgImg: 'images/FotoCabangPekanbaru.png',
       title: 'HSKS Cabang Pekanbaru',
       address: 'Jl. Letjend.S.Parman No.05, Suka Maju, Kec. Sail, Kota Pekanbaru, Riau 28131',
-      link: 'https://maps.app.goo.gl/owXYKjkEDoXpCiwq6'
+      link: 'https://maps.app.goo.gl/owXYKjkEDoXpCiwq6',
+      animation: 'fade-up'
     },
     {
       bgImg: 'images/FotoCabangBekasi.png',
       title: 'HSKS Cabang Bekasi',
       address: 'Jl. Puncak Cikunir No.5-6, Jakasampurna, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17145',
-      link: 'https://maps.app.goo.gl/zeBUpoPVPe9dnWh29'
+      link: 'https://maps.app.goo.gl/zeBUpoPVPe9dnWh29',
+      animation: 'fade-left'
     },
   ]
   return (
@@ -30,6 +33,7 @@ const CardsLocation = () => {
           title={item?.title}
           address={item?.address}
           link={item?.link}
+          animation={item?.animation}
         />
       ))}
     </div>
