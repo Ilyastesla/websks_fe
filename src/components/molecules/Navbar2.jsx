@@ -23,10 +23,10 @@ function Navbar2() {
             <div className=" xl:scale-100 scale-75">
               <div className="flex xl:py-0 py-2 xl:ml-0 -ml-8">
                 <a className="pr-5 border-biruPrimary border-r-2" href="/">
-                  <img className="xl:w-auto w-24" src="/src/assets/Logo Sekolah Kak Seto.png" alt="" />
+                  <img className="xl:w-auto w-24" src="/images/Logo Sekolah Kak Seto.png" alt="" />
                 </a>
                 <a className="pl-5" href="/">
-                  <img className="xl:w-auto w-24 xl:pt-0 pt-1" src="/src/assets/Logo HSKS.png" alt="" />
+                  <img className="xl:w-auto w-24 xl:pt-0 pt-1" src="/images/Logo HSKS.png" alt="" />
                 </a>
               </div>
             </div>

@@ -24,7 +24,7 @@ function Navbar() {
         <div className="xl:mx-auto mx-4 max-w-screen-xl xl:h-32">
           <div className="flex items-center justify-between xl:py-7 py-2">
             <a data-aos="fade-right" data-aos-duration="1000" className="" href="/">
-              <img className="xl:w-auto w-24" src="/src/assets/Logo Sekolah Kak Seto.png" alt="" />
+              <img className="xl:w-auto w-24" src="/images/Logo Sekolah Kak Seto.png" alt="" />
             </a>
             <div data-aos="fade-left" data-aos-duration="1000" className="hidden md:block">
               <nav aria-label="global">

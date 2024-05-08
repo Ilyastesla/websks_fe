@@ -11,6 +11,7 @@ const DropdownNav = () => {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng)
+    setIsOpen(!isOpen)
   }
 
   const [isOpen, setIsOpen] = useState(false)
@@ -23,8 +24,8 @@ const DropdownNav = () => {
     <div className="relative inline-block text-left">
       <div>
         <button type="button" onClick={toggleDropdown} id='options-menu' aria-haspopup="true" aria-expanded="true" className="border-2 border-biruPrimary rounded-lg text-biruPrimary px-4 py-2.5 font-medium flex justify-between items-center gap-2 hover:shadow-md">
-          <img src={`/src/assets/${i18n.language.toUpperCase()}.png`} alt="" />
-          <img src="/src/assets/dropdown.svg" alt="" />
+          <img src={`/images/${i18n.language.toUpperCase()}.png`} alt="" />
+          <img src="/images/dropdown.svg" alt="" />
         </button>
       </div>
       {/* Hamburger Button */}
