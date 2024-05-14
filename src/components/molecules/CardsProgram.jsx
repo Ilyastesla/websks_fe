@@ -1,35 +1,33 @@
-import { useTranslation } from "react-i18next"
 import CardProgram from "../atoms/CardProgram"
 
 const CardsProgram = () => {
-  const { t } = useTranslation()
   const program = [
     {
       img: "images/HomeSchoolingKakSeto.png",
       tingkat: "TK SD SMP SMA",
       title: "Homeschooling Kak Seto",
-      description: t('cardsprogram.program1'),
+      description: 'Proses pembelajaran yang fleksibel, menyenangkan, dan berbasis at home yang dilakukan dimana saja, kapan saja, dan dengan siapa saja melalui 4 (empat) pilihan program belajar untuk jenjang SD, SMP, dan SMA.',
       link: "homeschooling-kak-seto",
       animate: "fade-right"
     },
     {
       img: "images/KakSetoSchool.png",
       title: "Kak Seto School",
-      description: t('cardsprogram.program2'),
+      description: 'Proses pembelajaran jenjang SD berbasis TIK dan ramah anak dalam mengembangkan potensi dan karakter positif yang sesuai dengan keunikan serta kebutuhan anak yang diselenggarakan berdasarkan prinsip-prinsip pendidikan.',
       link: "kak-seto-school",
       animate: "fade-up"
     },
     {
       img: "images/SekolahKhususKakSeto.png",
       title: "Sekolah Khusus Kak Seto",
-      description: t('cardsprogram.program3'),
+      description: 'Pendidikan berbasis Vokasi,  Life Skill, dan aplikatif untuk mengembangkan potensi peserta didik berkebutuhan khusus, baik Jenjang SD maupun SMP dengan Supporting Program Inklusi & Remedial Perilaku.',
       link: "sekolah-khusus-kak-seto",
       animate: "fade-up"
     },
     {
       img: "images/KakSetoLearningCenter.png",
       title: "Kak Seto Learning Center",
-      description: t('cardsprogram.program4'),
+      description: 'Lembaga Bimbingan Belajar dan Kursus yang diselenggarakan secara offline/online, baik individual maupun grup untuk meningkatkan keterampilan dan minat bakat peserta didik.',
       link: "kak-seto-learning-center",
       animate: "fade-left"
     },

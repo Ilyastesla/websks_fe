@@ -3,7 +3,6 @@ import TriangleRulerImage from "../../assets/gallery/triangel_ruler.webp"
 import BrushImage from "../../assets/gallery/brush.webp"
 import BookImage from "../../assets/gallery/book.webp"
 import JadiBisaGallery from "../molecules/JadiBisaGallery"
-import { useTranslation } from "react-i18next"
 import AOS from "aos"
 import 'aos/dist/aos.css'
 import { useEffect } from "react"
@@ -20,7 +19,6 @@ export default function JadiBisaSection({ theme, textColor }) {
     firstWordTitle = "Explore"
     // backgroundColor = "bg-merahSecondary"
   }
-  const { t } = useTranslation()
   return (
     <>
       <section className="my-20">
@@ -42,7 +40,7 @@ export default function JadiBisaSection({ theme, textColor }) {
               className={`${textColor} text-2xl leading-5 font-semibold text-center mt-6 md:mt-10 md:text-2xl lg:text-5xl`}
             >
               {firstWordTitle} #JadiBisa <br />
-              {t('jadibisa.bersama')} Sekolah Kak Seto
+              bersama Sekolah Kak Seto
             </h1>
             <JadiBisaGallery />
           </div>

@@ -5,10 +5,8 @@ import GlobeImage from '../../assets/hero/globe.webp'
 import RulerImage from '../../assets/hero/ruler.webp'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { useTranslation } from "react-i18next"
 
 export default function HeroSection1() {
-  const { i18n } = useTranslation()
   useEffect(() => {
     AOS.init()
   }, [])
@@ -28,28 +26,14 @@ export default function HeroSection1() {
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" className="px-7 max-h-96 mb-20 flex justify-center items-center pt-32 md:pt-44 lg:pt-56">
             <h1 className="text-lg font-semibold max-w-[950px] text-center md:text-4xl md:leading-[55px] lg:leading-[70px] lg:text-5xl">
-              {i18n.language === 'id' ? (
-                <>
-                  Sekolah{" "}
-                  <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">
-                    Berkualitas, Ramah Anak,
-                  </span>
-                  <br className="hidden md:block" /> dan{" "}
-                  <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">
-                    Mengembangkan Potensi Anak.
-                  </span>
-                </>
-              ) : (
-                <>
-                  <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">
-                    Quality Schools, Child Friendly
-                  </span>{" "}
-                  and{" "}
-                  <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">
-                    Developing Children&apos;s Potential.
-                  </span>
-                </>
-              )}
+              Sekolah{" "}
+              <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">
+                Berkualitas, Ramah Anak,
+              </span>
+              <br className="hidden md:block" /> dan{" "}
+              <span className="px-2 bg-biruPrimary text-white rounded-md text-nowrap">
+                Mengembangkan Potensi Anak.
+              </span>
             </h1>
           </div>
         </div>

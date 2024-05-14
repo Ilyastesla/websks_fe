@@ -5,15 +5,12 @@ import Navbar from "../molecules/Navbar"
 import Carousel from "../templates/Carousel1"
 import Footer from "../organisms/Footer"
 import CsButton from "../atoms/CsButton"
-import { useTranslation } from "react-i18next"
 
 const DashboardPage = () => {
-  const { t } = useTranslation()
-
   return (
     <>
       <Helmet>
-        <title>{t("title")}</title>
+        <title>Beranda - Sekolah Kak Seto</title>
       </Helmet>
       <div className='overflow-x-hidden'>
         <Navbar />

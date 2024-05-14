@@ -9,7 +9,6 @@ import gambar4 from "../../assets/carousel/picture4.png"
 import gambar5 from "../../assets/carousel/picture5.png"
 import MagnifGlassImage from "../../assets/carousel/magnif-glass.webp"
 import BrushImage from "../../assets/carousel/brush.webp"
-import { useTranslation } from "react-i18next"
 import Aos from "aos"
 import 'aos/dist/aos.css'
 
@@ -66,7 +65,6 @@ function Carousel1() {
 
   // Array gambar
   const images = [gambar1, gambar2, gambar3, gambar4, gambar5]
-  const { t } = useTranslation()
   // Komponen carousel
   return (
     <>
@@ -88,7 +86,7 @@ function Carousel1() {
             <span className="bg-red-500 px-2 mx-2 text-white rounded-md text-bold">
               #JadiBisa
             </span>
-            {t('jadibisa.bersama')} Sekolah Kak Seto
+            bersama Sekolah Kak Seto
           </h1>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" className="slider-container md:mt-5">

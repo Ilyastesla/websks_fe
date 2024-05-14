@@ -11,14 +11,12 @@ import image from "../../assets/heropage2/image1.png"
 import cover from "../../assets/heropage2/cover.png"
 import IconTanganTos from "../../assets/subprogram/Icon Tangan Tos.png"
 import IconLampu from "../../assets/subprogram/Icon Lampu.png"
-import { useTranslation } from 'react-i18next'
 
 const HomeSchoolingKakSetoPage = () => {
-  const { t } = useTranslation()
   return (
     <>
       <Helmet>
-        <title>Home Schooling Kak Seto - Sekolah Kak Seto</title>
+        <title>HomeSchooling Kak Seto - Sekolah Kak Seto</title>
       </Helmet>
       <div className='overflow-x-hidden overflow-y-hidden'>
         {/* Navbar */}
@@ -26,17 +24,17 @@ const HomeSchoolingKakSetoPage = () => {
         <div>
           <HeroPage2
             backgroundClass="bgbiru"
-            title={`${t('herosection2.kenapa', { school: 'Homeschooling Kak Seto?' })}`}
+            title="Kenapa sih pilih HomeSchooling Kak Seto?"
             pointsLeft={[
-              t('herosection2.hsks.line1'),
-              t('herosection2.hsks.line2'),
-              t('herosection2.hsks.line3'),
-              t('herosection2.hsks.line4'),
+              'Berdiri sejak 2007',
+              'Tutor Ramah Anak dan Berpengalaman',
+              'Mencetak Alumni ke PTN, PTS, dan PTLN',
+              'Lingkungan sekolah yang supportif',
             ]}
             pointsRight={[
-              t('herosection2.hsks.line5'),
-              t('herosection2.hsks.line6'),
-              t('herosection2.hsks.line7'),
+              'Terakreditasi A',
+              'Metode Belajar yang Menyenangkan',
+              'Tempat dan Waktu Belajar Fleksibel',
             ]}
             imageSrc={image}
             classNameImg="w - auto h-auto mb-0 mt-[-18.6rem]"
@@ -48,10 +46,14 @@ const HomeSchoolingKakSetoPage = () => {
         <JadiBisaSection theme={1} textColor="text-biruPrimary" />
         <Testimoni theme="bg-biruPrimary" />
         <LocationSection backgroundColor={'bg-biruPrimary'} borderColor={'border-[#05215D]'}>
-          {t('locationsection.title', { location: 'HSKS' })}
+          Lokasi HSKS Pusat
         </LocationSection>
       </div>
       <CsButton />
+      <div style="position: relative;">
+        <div id="google_translate_element" style="position: relative; opacity: 0;"></div>
+        <button style="position: absolute; left: 0; top: 0; z-index: -1;">Translate</button>
+      </div>
       <Footer />
     </>
   )

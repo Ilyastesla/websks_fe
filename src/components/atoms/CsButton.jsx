@@ -1,11 +1,9 @@
-import { useTranslation } from 'react-i18next'
 import { FaWhatsapp } from 'react-icons/fa'
 
 const CsButton = () => {
-  const { t } = useTranslation()
   return (
     <a href="#" className="text-white bg-[#37B02D] flex gap-2 py-3 px-5 rounded-full fixed bottom-10 right-5 z-50">
-      <FaWhatsapp size={30} className="text-white" /> <span className="my-auto text-lg">{t('cs.hubungikami')}</span>
+      <FaWhatsapp size={30} className="text-white" /> <span className="my-auto text-lg">Hubungi Kami</span>
     </a>
   )
 }

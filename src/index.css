@@ -28,6 +28,16 @@
   opacity: 0.6;
 }
 
+// Tambahkan CSS ini di file CSS global atau di dalam tag <style> di komponen yang relevan
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
 .pattern {
   background-image: url("./assets/pattern/Pattern.svg");
   background-repeat: repeat; /* Gambar akan diulang di kedua sumbu (horizontal dan vertikal) */

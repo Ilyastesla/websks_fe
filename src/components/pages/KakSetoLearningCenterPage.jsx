@@ -7,11 +7,9 @@ import image from "../../assets/heropage2/image4.png"
 import cover from "../../assets/heropage2/cover2.png"
 import Footer from "../organisms/Footer"
 import CsButton from "../atoms/CsButton"
-import { useTranslation } from "react-i18next"
 import Testimoni from "../organisms/Testimoni"
 
 const KakSetoLearningCenterPage = () => {
-  const { t } = useTranslation()
   return (
     <>
       <Helmet>
@@ -23,18 +21,18 @@ const KakSetoLearningCenterPage = () => {
         <div>
           <HeroPage2
             backgroundClass="bgkuning"
-            title={`${t('herosection2.kenapa', { school: 'Learning Center Kak Seto?' })}`}
+            title="Kenapa sih pilih Learning Center Kak Seto?"
             pointsLeft={[
-              t('herosection2.kslc.line1'),
-              t('herosection2.kslc.line2'),
-              t('herosection2.kslc.line3'),
-              t('herosection2.kslc.line4'),
+              'Guru Berkualitas & terbaik di bidangnya',
+              'Fleksibel: Online dan Offline Learning',
+              'Tutor Ramah Anak dan Berpengalaman',
+              'Mengembangkan Keterampilan Sesuai Standar Nasional',
             ]}
             pointsRight={[
-              t('herosection2.kslc.line5'),
-              t('herosection2.kslc.line6'),
-              t('herosection2.kslc.line7'),
-              t('herosection2.kslc.line8'),
+              'TO SNBT Online: Pintu ke Perguruan Tinggi Negeri',
+              'Metode Belajar yang Menyenangkan',
+              'Ekstrakurikuler terbaru',
+              'Berijazah dan Bersertifkat',
             ]}
             imageSrc={image}
             classNameImg="w-auto h-auto mb-0 mt-[-22.6rem]"
@@ -47,7 +45,7 @@ const KakSetoLearningCenterPage = () => {
           backgroundColor={"bg-kuningPrimary"}
           borderColor={"border-[#875900]"}
         >
-          {t('locationsection.title', { location: 'Kak Seto Learning Center' })}
+          Lokasi HSKS Pusat Kak Seto Learning Center
         </LocationSection>
         <CsButton />
         <Footer />

@@ -3,13 +3,11 @@ import { HiOutlineArrowRight } from 'react-icons/hi'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { useTranslation } from "react-i18next"
 
 const CardProgram = ({ img, title, tingkat, description, link, animate }) => {
   useEffect(() => {
     AOS.init()
   }, [])
-  const { t } = useTranslation()
   return (
     <div data-aos={animate} data-aos-duration="1000" className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-biruPrimary md:hover:!scale-110 hover:text-white">
       <Link to={link} target="_blank">
@@ -23,7 +21,7 @@ const CardProgram = ({ img, title, tingkat, description, link, animate }) => {
         target="_blank"
         className="flex items-center text-biruPrimary text-xl font-semibold my-2 group-hover:text-white"
       >
-        <span className="mr-2">{t('cardsprogram.selengkapnya')}</span>
+        <span className="mr-2">Selengkapnya</span>
         <HiOutlineArrowRight />
       </Link>
     </div>

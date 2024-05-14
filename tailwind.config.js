@@ -13,11 +13,17 @@ export default {
         hijauPrimary: '#37B02D',
         blackPrimary: '#1D1D1B',
         blackSecondary: '#343432',
+        biruUndangan: '#212456',
+        orangeUndangan: '#F69221',
+        kremUndangan: '#F8BE7B'
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(circle at center, var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [require('tailwindcss-animated')],
-};
+}

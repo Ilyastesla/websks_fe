@@ -1,4 +1,3 @@
-import { useTranslation } from 'react-i18next'
 import LogoSKS from '../../assets/Logo-Sekolah-Kak-Seto-(White).png'
 import { FaWhatsapp } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
@@ -7,7 +6,6 @@ import { FaFacebook } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
-  const { t } = useTranslation()
   const currentDate = new Date()
   const year = currentDate.getFullYear()
   return (
@@ -51,7 +49,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">{t('footer.unit')}</h2>
+            <h2 className="text-2xl font-semibold mb-4">Unit Sekolah</h2>
             <ol className="flex flex-col gap-4">
               <li className="hover:text-biruSecondary">
                 <a href="/homeschooling-kak-seto">Homeschooling Kak Seto</a>
@@ -70,20 +68,20 @@ const Footer = () => {
           <div className="flex flex-col gap-5">
             <h2 className="text-2xl font-semibold mb-4">Program</h2>
             <ol className="flex flex-col gap-4">
-              <li className="hover:text-biruSecondary">{t('footer.pendidikan', { education: 'Formal' })}</li>
-              <li className="hover:text-biruSecondary">{t('footer.pendidikan', { education: 'Nonformal' })}</li>
-              <li className="hover:text-biruSecondary">{t('footer.pendidikan', { education: 'Informal' })}</li>
-              <li className="hover:text-biruSecondary">{t('footer.pendidikanSLB')}</li>
+              <li className="hover:text-biruSecondary">Pendidikan Formal</li>
+              <li className="hover:text-biruSecondary">Pendidikan Nonformal</li>
+              <li className="hover:text-biruSecondary">Pendidikan Informal</li>
+              <li className="hover:text-biruSecondary">Sekolah Luar Biasa</li>
             </ol>
           </div>
           <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">{t('footer.tautan')}</h2>
+            <h2 className="text-2xl font-semibold mb-4">Tautan Bermanfaat</h2>
             <ol className="flex flex-col gap-4">
-              <li className="hover:text-biruSecondary">{t('footer.unduh')}</li>
-              <li className="hover:text-biruSecondary">{t('footer.daftar')}</li>
-              <li className="hover:text-biruSecondary">{t('footer.karya')}</li>
-              <li className="hover:text-biruSecondary">{t('footer.karir')}</li>
-              <li className="hover:text-biruSecondary">{t('footer.layanan')}</li>
+              <li className="hover:text-biruSecondary">Unduh Brosur</li>
+              <li className="hover:text-biruSecondary">Daftar Sekarang</li>
+              <li className="hover:text-biruSecondary">Karya Peserta Didik</li>
+              <li className="hover:text-biruSecondary">Karir</li>
+              <li className="hover:text-biruSecondary">Layanan Pelanggan</li>
             </ol>
           </div>
         </div>

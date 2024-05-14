@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
 
 const languages = [
   { code: 'id', lang: 'Bahasa Indonesia' },
@@ -7,10 +6,8 @@ const languages = [
 ]
 
 const DropdownNav = () => {
-  const { i18n } = useTranslation()
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng)
+  const changeLanguage = () => {
     setIsOpen(!isOpen)
   }
 
@@ -24,7 +21,7 @@ const DropdownNav = () => {
     <div className="relative inline-block text-left">
       <div>
         <button type="button" onClick={toggleDropdown} id='options-menu' aria-haspopup="true" aria-expanded="true" className="border-2 border-biruPrimary rounded-lg text-biruPrimary px-4 py-2.5 font-medium flex justify-between items-center gap-2 hover:shadow-md">
-          <img src={`/images/${i18n.language.toUpperCase()}.png`} alt="" />
+          <img src={`/images/ID.png`} alt="" />
           <img src="/images/dropdown.svg" alt="" />
         </button>
       </div>
@@ -38,13 +35,12 @@ const DropdownNav = () => {
             aria-labelledby="options-menu"
           >
             {languages.map((lng) => {
-              const active = i18n.language === lng.code ? 'bg-biruSecondary text-white' : 'text-gray-700'
               return (
                 <a
                   key={lng.code}
-                  onClick={() => changeLanguage(lng.code)}
+                  onClick={() => changeLanguage()}
                   href="#"
-                  className={`duration-300 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-biruPrimary hover:font-semibold ${active}`}
+                  className={`duration-300 block px-4 py-2 text-sm hover:bg-gray-100 hover:text-biruPrimary hover:font-semibold`}
                   role="menuitem"
                 >
                   {lng.lang}

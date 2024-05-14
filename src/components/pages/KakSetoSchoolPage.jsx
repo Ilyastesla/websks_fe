@@ -10,11 +10,9 @@ import Footer from '../organisms/Footer'
 import CsButton from '../atoms/CsButton'
 import IconGlobe from '../../assets/subprogram/Icon Globe.png'
 import IconKacaPembesar from '../../assets/subprogram/Icon Kaca Pembesar.png'
-import { useTranslation } from 'react-i18next'
 import Testimoni from '../organisms/Testimoni'
 
 const KakSetoSchoolPage = () => {
-  const { t } = useTranslation()
   return (
     <>
       <Helmet>
@@ -25,18 +23,18 @@ const KakSetoSchoolPage = () => {
         <div>
           <HeroPage2
             backgroundClass="bgmerah"
-            title={`${t('herosection2.kenapa', { school: 'Kak Seto School?' })}`}
+            title="Kenapa sih pilih Kak Seto School?"
             pointsLeft={[
-              t('herosection2.sks.line1'),
-              t('herosection2.sks.line2'),
-              t('herosection2.sks.line3'),
-              t('herosection2.sks.line4'),
+              'Berdiri sejak 2018',
+              'Menggunakan TIK sebagai basis media pembelajaran',
+              'Menyediakan berbagai program kreatif, aplikatif & inovatif',
+              'Nyaman dan ramah anak',
             ]}
             pointsRight={[
-              t('herosection2.sks.line5'),
-              t('herosection2.sks.line6'),
-              t('herosection2.sks.line7'),
-              t('herosection2.sks.line8'),
+              'Mendorong berkembangnya minat bakat dan potensi anak',
+              'Menanamkan karakter positif pada anak',
+              'Sekolah Formal rasa homeschooling',
+              'Pendekatan secara individual terhadap anak'
             ]}
             imageSrc={image}
             classNameImg="w-auto h-auto mb-0 mt-[-22.6rem]"
@@ -53,7 +51,7 @@ const KakSetoSchoolPage = () => {
         <JadiBisaSection theme={2} textColor="text-merahSecondary" />
         <Testimoni theme='bg-merahSecondary' />
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
-          {t('locationsection.title', { location: 'KSS' })}
+          Lokasi SKS Pusat
         </LocationSection>
         <CsButton />
         <Footer />

@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next"
 import ButtonCardSub from '../atoms/ButtonCardSub'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -9,8 +8,57 @@ function ArticleSubProgram() {
     AOS.init()
   })
 
-  const { t } = useTranslation()
-  const cards = t('cardsubprogram.cards', { returnObjects: true })
+  const cards = [{
+    gap: "gap-[251px]",
+    animate: "fade-right",
+    title: "Komunitas",
+    points: [
+      "Program belajar secara klasikal.",
+      "Exclusive class (10 peserta didik dalam satu kelas)",
+      "Jadwal belajar seminggu 3x (tiga kali)",
+      "Pembelajaran akademik dilaksanakan di kelas",
+      "Kegiatan non-akademik dilaksanakan menyesuaikan dengan tema yang telah ditentukan."
+    ]
+  },
+  {
+    gap: "gap-[94px]",
+    animate: "fade-up",
+    title: "Komunitas Online Learning",
+    points: [
+      "Proses belajar menerapkan sistem pembelajaran Multi Channel Learning dengan menggunakan Learning Management System sebagai media pembelajaran",
+      "Konten pembelajaran digital yang lebih beraneka ragam dan menarik",
+      "Jadwal belajar seminggu 3x (tiga kali)",
+      "Dua metode pembelajaran yaitu:"
+    ],
+    subpoints: [
+      "Komunitas Online Learning Plus, menggunakan strategi pembelajaran personalized learning",
+      "Komunitas Online Learning Reguler, menggunakan strategi pembelajaran group learning"
+    ]
+  },
+  {
+    gap: "gap-[275px]",
+    animate: "fade-up",
+    title: "Distance Learning",
+    points: [
+      "Metode belajar mandiri",
+      "Akan didukung kurikulum dan bahan ajar (modul belajar)",
+      "Pendampingan belajar dilakukan oleh keluarga, tutor visit/bimbel",
+      "Tempat dan waktu belajar fleksibel",
+      "Orang tua dan murid dilibatkan dalam pemilihan jam belajar"
+    ]
+  },
+  {
+    gap: "gap-[220px]",
+    animate: "fade-left",
+    title: "Distance Learning Tunggal",
+    points: [
+      "Metode belajar mandiri",
+      "Dapat menggunakan kurikulum dan bahan ajar berdasarkan referensi yang dianjurkan oleh sekolah.",
+      "Pendampingan belajar dilakukan oleh keluarga, tutor visit/bimbel",
+      "Tempat dan waktu belajar fleksibel",
+      "Hadir ke sekolah hanya pada saat evaluasi belajar."
+    ]
+  }]
   return (
     <>
       {cards?.map((card, index) => (

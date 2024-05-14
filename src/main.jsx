@@ -8,8 +8,10 @@ import KakSetoSchoolPage from "./components/pages/KakSetoSchoolPage"
 import SekolahKhususKakSetoPage from "./components/pages/SekolahKhususKakSetoPage"
 import KakSetoLearningCenterPage from "./components/pages/KakSetoLearningCenterPage"
 import { HelmetProvider } from "react-helmet-async"
-import './i18n.js'
-import Loading from "./components/organisms/Loading.jsx"
+import HomePage from "./components/pages/undangan/HomePage"
+import AcaraPage from "./components/pages/undangan/AcaraPage"
+import RSVPPage from "./components/pages/undangan/RSVPPage"
+import ThanksPage from "./components/pages/undangan/ThanksPage"
 
 const BASE_URL = "http://192.168.207.190:5173/"
 
@@ -34,15 +36,29 @@ const router = createBrowserRouter([
     path: "/kak-seto-learning-center",
     element: <KakSetoLearningCenterPage />,
   },
+  {
+    path: "/undangan",
+    element: <HomePage />,
+  },
+  {
+    path: "/undangan/acara",
+    element: <AcaraPage />,
+  },
+  {
+    path: "/undangan/rsvp",
+    element: <RSVPPage />,
+  },
+  {
+    path: "/undangan/thanks",
+    element: <ThanksPage />,
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <React.Suspense fallback={<Loading />}>
-      <HelmetProvider>
-        <RouterProvider router={router} />
-      </HelmetProvider>
-    </React.Suspense>
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>
 )
 
