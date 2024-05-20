@@ -4,7 +4,7 @@ import UndanganTemplate from "../../templates/UndanganTemplate1"
 const UndanganPage = () => {
   return (
     <UndanganTemplate>
-      <UndanganHome />
+      <UndanganHome/>
     </UndanganTemplate>
   )
 }
