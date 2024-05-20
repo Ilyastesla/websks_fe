@@ -18,7 +18,7 @@ const HomeSchoolingKakSetoPage = () => {
       <Helmet>
         <title>HomeSchooling Kak Seto - Sekolah Kak Seto</title>
       </Helmet>
-      <div className='overflow-x-hidden overflow-y-hidden'>
+      <div className='overflow-x-hidden overflow-y-hidden landing-page'>
         {/* Navbar */}
         <Navbar2 />
         <div>
@@ -37,7 +37,7 @@ const HomeSchoolingKakSetoPage = () => {
               'Tempat dan Waktu Belajar Fleksibel',
             ]}
             imageSrc={image}
-            classNameImg="w - auto h-auto mb-0 mt-[-18.6rem]"
+            classNameImg="w-auto h-auto mb-0 mt-[-18.6rem]"
             cover={cover}
           />
         </div>
@@ -50,10 +50,6 @@ const HomeSchoolingKakSetoPage = () => {
         </LocationSection>
       </div>
       <CsButton />
-      <div style="position: relative;">
-        <div id="google_translate_element" style="position: relative; opacity: 0;"></div>
-        <button style="position: absolute; left: 0; top: 0; z-index: -1;">Translate</button>
-      </div>
       <Footer />
     </>
   )

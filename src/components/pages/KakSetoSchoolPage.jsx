@@ -18,7 +18,7 @@ const KakSetoSchoolPage = () => {
       <Helmet>
         <title>Kak Seto School - Sekolah Kak Seto</title>
       </Helmet>
-      <div className='overflow-x-hidden'>
+      <div className='overflow-x-hidden landing-page'>
         <Navbar2 />
         <div>
           <HeroPage2
