@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 const NavbarUndangan = () => {
   const menu = ['Sampul', 'Acara', 'Absen', 'Salam']
   return (
-    <nav className="absolute w-full bottom-0 h-16 bg-biruUndangan border-gray-200  rounded-t-2xl">
+    <nav className="fixed max-w-[414px] w-full bottom-0 h-16 bg-biruUndangan border-gray-200 rounded-t-2xl">
       <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
         {menu?.map((item, index) => {
           const url = item === 'Sampul' ? '/undangan' : `/undangan/${item.toLowerCase()}`
