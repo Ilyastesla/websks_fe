@@ -2,7 +2,7 @@ import NavbarUndangan from "../molecules/NavbarUndangan"
 
 const UndanganTemplate2 = ({ children }) => {
   return (
-    <div className="relative h-screen max-w-[414px] flex flex-col justify-between mx-auto bg-biruUndangan text-white undangan pattern-undangan">
+    <div className="relative h-screen max-w-[414px] flex flex-col justify-between mx-auto bg-biruUndangan text-white pattern-undangan">
       <div className="flex justify-center mt-[41px]">
         <img src="/images/undangan/Logo+Tulisan1.png" className="" alt="" />
       </div>

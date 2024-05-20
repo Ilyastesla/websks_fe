@@ -21,10 +21,8 @@ export default {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-        dm_serif_display: ["DM Serif Display", 'serif'],
-        birthstone: ['Birthstone', 'serif'],
-        opensans: ["Open Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"]
+        poly: ['Poly', 'sans-serif'],
+        meryChristole: ['Mercy Christole', 'sans-serif']
       },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(circle at center, var(--tw-gradient-stops))',

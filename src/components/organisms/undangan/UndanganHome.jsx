@@ -6,16 +6,34 @@ const UndanganHome = () => {
   const nama = searchParams.get('nama') || 'Nama Tamu'
 
   return (
-    <div className="!font-opensans flex flex-col justify-center items-center h-full">
-      <h1 className=" text-[40px] leading-10 font-normal font-dm_serif_display">
-        GRADUATION{" "}
-        <span className="text-2xl leading-6 font-dm_serif_display">INVITATION</span>
-      </h1>
-      <h2 className="text-3xl italic mb-4 font-birthstone text-[80px] leading-[128px]">Ceremony</h2>
-      <p className="text-base mb-2 font-opensans">20 - DEC - 2023</p>
-      <p className="text-sm mb-4 font-opensans">Kepada Yth.</p>
-      <p className="text-lg font-bold mb-8 font-opensans">{nama}</p>
-      <Link to={'/undangan/acara'} className="text-sm bg-kremUndangan text-black py-2 px-4 rounded-full font-opensans">
+    <div className="flex flex-col justify-between items-center h-full">
+      <div className="mb-4">
+        <p className="font-poly text-[20px]">Undangan</p>
+        <p className="font-meryChristole text-[35px] leading-tight">LEPAS KENANG</p>
+        <p className="font-poly text-[30px]">2024</p>
+      </div>
+
+      <div className="mb-10">
+        <p className="text-[13px] max-w-[246px] mb-4">
+          Bersama Sekolah Kak Seto, Siapkan dirimu menuju masa depan
+        </p>
+        <p className="text-[13px]">
+          20 - JUNI - 2024
+        </p>
+      </div>
+
+      <div className="mb-8">
+        <p className="text-[12px]">
+          Kepada Yth.
+        </p>
+        <p className="text-[20px] font-bold">
+          {nama}
+        </p>
+        <p className="text-[12px] max-w-[186px]">
+          Komunitas Reguler Homeschooling Kak Seto Pusat
+        </p>
+      </div>
+      <Link to={'/undangan/acara'} className="text-[14px] font-semibold bg-krem2Undangan text-biruUndangan px-[20px] py-[15px] rounded-[5px]">
         Buka Undangan
       </Link>
     </div>

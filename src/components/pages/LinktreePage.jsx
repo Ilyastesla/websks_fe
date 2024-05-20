@@ -1,6 +1,5 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import CustomerServiceCards from "../molecules/CustomerServiceCards";
+import { Helmet } from "react-helmet"
+import CustomerServiceCards from "../molecules/CustomerServiceCards"
 
 export default function LinktreePage() {
   return (
@@ -23,5 +22,5 @@ export default function LinktreePage() {
         </div>
       </div>
     </>
-  );
+  )
 }
