@@ -23,7 +23,7 @@ const NavbarUndangan = () => {
 const activeClassName = 'text-biruUndangan bg-krem2Undangan'
 
 const Button = ({ icon, label, to }) => (
-  <NavLink to={to} end className={({ isActive }) => isActive ? `${activeClassName} rounded-full inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group` : 'text-gray-500 inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group duration-300 rounded-full'} >
+  <NavLink unstable_viewTransition to={to} end className={({ isActive }) => isActive ? `${activeClassName} rounded-full inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group` : 'text-gray-500 inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group duration-300 rounded-full'} >
     {({ isActive }) => (
       <>
         <Icon name={icon} isActive={isActive} />
