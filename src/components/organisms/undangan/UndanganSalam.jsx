@@ -1,4 +1,4 @@
-const UndanganThanks = () => {
+const UndanganSalam = () => {
   return (
     <div className="text-sm leading-[22px] !font-opensans">
       <p className="font-opensans">Terima kasih atas kehadiran <br />
@@ -10,4 +10,4 @@ const UndanganThanks = () => {
   )
 }
 
-export default UndanganThanks
+export default UndanganSalam

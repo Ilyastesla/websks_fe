@@ -10,8 +10,8 @@ import KakSetoLearningCenterPage from "./components/pages/KakSetoLearningCenterP
 import { HelmetProvider } from "react-helmet-async"
 import HomePage from "./components/pages/undangan/HomePage"
 import AcaraPage from "./components/pages/undangan/AcaraPage"
-import RSVPPage from "./components/pages/undangan/RSVPPage"
-import ThanksPage from "./components/pages/undangan/ThanksPage"
+import AbsenPage from "./components/pages/undangan/AbsenPage"
+import SalamPage from "./components/pages/undangan/SalamPage"
 import LinktreePage from "./components/pages/LinktreePage"
 
 const BASE_URL = "http://192.168.207.190:5173/"
@@ -51,11 +51,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/undangan/absen",
-    element: <RSVPPage />,
+    element: <AbsenPage />,
   },
   {
     path: "/undangan/salam",
-    element: <ThanksPage />,
+    element: <SalamPage />,
   },
 ])
 
