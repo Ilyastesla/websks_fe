@@ -1,10 +1,10 @@
-import UndanganRSVP from "../../organisms/undangan/UndanganAbsen"
+import UndanganAbsen from "../../organisms/undangan/UndanganAbsen"
 import UndanganTemplate from "../../templates/UndanganTemplate2"
 
 const AbsenPage = () => {
   return (
     <UndanganTemplate>
-      <UndanganRSVP />
+      <UndanganAbsen />
     </UndanganTemplate>
   )
 }
