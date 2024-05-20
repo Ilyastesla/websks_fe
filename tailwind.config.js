@@ -16,7 +16,8 @@ export default {
 
         biruUndangan: '#212456',
         orangeUndangan: '#F69221',
-        kremUndangan: '#F8BE7B'
+        kremUndangan: '#F8BE7B',
+        krem2Undangan: '#FFE4C7',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

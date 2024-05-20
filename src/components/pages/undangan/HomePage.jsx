@@ -1,5 +1,5 @@
 import UndanganHome from "../../organisms/undangan/UndanganHome"
-import UndanganTemplate from "../../templates/UndanganTemplate"
+import UndanganTemplate from "../../templates/UndanganTemplate1"
 
 const UndanganPage = () => {
   return (

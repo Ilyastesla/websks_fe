@@ -1,5 +1,5 @@
 import UndanganThanks from "../../organisms/undangan/UndanganThanks"
-import UndanganTemplate from "../../templates/UndanganTemplate"
+import UndanganTemplate from "../../templates/UndanganTemplate1"
 
 const ThanksPage = () => {
   return (

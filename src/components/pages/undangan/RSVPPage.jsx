@@ -1,5 +1,5 @@
 import UndanganRSVP from "../../organisms/undangan/UndanganRSVP"
-import UndanganTemplate from "../../templates/UndanganTemplate"
+import UndanganTemplate from "../../templates/UndanganTemplate1"
 
 const RSVPPage = () => {
   return (
