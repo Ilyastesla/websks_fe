@@ -1,11 +1,11 @@
 const UndanganSalam = () => {
   return (
-    <div className="text-sm leading-[22px] !font-opensans">
-      <p className="font-opensans">Terima kasih atas kehadiran <br />
+    <div className="">
+      <p className="font-medium">Terima kasih atas kehadiran <br />
         <span>Bapak/Ibu/Saudara/i</span>
       </p>
-      <p className="">Hormat Kami</p>
-      <p>Atas Nama Panitia</p>
+      <p className="mt-5 text-sm">Hormat Kami</p>
+      <p className="text-xl font-semibold">Atas Nama Panitia</p>
     </div>
   )
 }
