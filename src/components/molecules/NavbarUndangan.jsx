@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom'
 
 const NavbarUndangan = ({ isHidden }) => {
   const location = useLocation();
@@ -9,18 +9,19 @@ const NavbarUndangan = ({ isHidden }) => {
     <nav className={`${isHidden ? 'hidden' : ''} fixed w-full max-w-[414px] bottom-0 h-16 bg-biruUndangan border-gray-200 rounded-t-2xl shadow-[0px_-5px_30px_0px_#252525]`}>
       <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
         {menu?.map((item, index) => {
-          const url = item === 'Sampul' ? `/undangan?nis=${nis}` : `/undangan/${item.toLowerCase()}?nis=${nis}`;
-          return <Button key={index} icon={item.toLowerCase()} label={item.toLowerCase()} to={url} />;
+          const url = item === 'Sampul' ? `/undangan?nis=${nis}` : `/undangan/${item.toLowerCase()}?nis=${nis}`
+          return <Button key={index} icon={item.toLowerCase()} label={item.toLowerCase()} to={url} />
         })}
       </div>
     </nav>
-  );
-};
+  )
+}
 
-const activeClassName = 'text-biruUndangan bg-krem2Undangan';
+const activeClassName = 'text-biruUndangan bg-krem2Undangan'
 
 const Button = ({ icon, label, to }) => (
   <NavLink
+    unstable_viewTransition
     to={to}
     end
     className={({ isActive }) =>
@@ -36,7 +37,7 @@ const Button = ({ icon, label, to }) => (
       </>
     )}
   </NavLink>
-);
+)
 
 const Icon = ({ name, isActive }) => {
   const icons = {
@@ -136,7 +137,7 @@ const Icon = ({ name, isActive }) => {
         fill=""
       />
     ),
-  };
+  }
 
   return (
     <svg
@@ -150,7 +151,7 @@ const Icon = ({ name, isActive }) => {
     >
       {icons[name]}
     </svg>
-  );
-};
+  )
+}
 
-export default NavbarUndangan;
+export default NavbarUndangan
