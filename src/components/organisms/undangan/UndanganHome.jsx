@@ -1,11 +1,37 @@
 import { Link, useLocation } from 'react-router-dom';
 import siswaLulus from '../../../../public/siswaLulus.json';
+import { useEffect, useState } from 'react';
 
 const UndanganHome = ({ setIsHidden }) => {
+  const [isButtonShow, setIsButtonShow] = useState(false);
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
-  const nis = searchParams.get('nis') || 'Nama Tamu';
+  const nis = searchParams.get('nis') || 'NIS';
   const siswa = siswaLulus.RECORDS;
+
+  const result = siswa.find((data) => data.nis === nis);
+  useEffect(() => {
+    if (!result) {
+      setIsButtonShow(false);
+    } else {
+      setIsButtonShow(true);
+    }
+  }, [result]);
+  
+  const renderContent = () => {
+    return (
+      <div>
+        {result ? (
+          <>
+            <p className="text-[20px] font-bold">{result.nama}</p>
+            <p className="text-[12px]">{result.sekolah}</p>
+          </>
+        ) : (
+          <p>Data Tidak Ditemukan</p>
+        )}
+      </div>
+    );
+  };
 
   return (
     <div className="flex flex-col justify-between items-center h-full">
@@ -22,22 +48,15 @@ const UndanganHome = ({ setIsHidden }) => {
 
       <div className="mb-8">
         <p className="text-[12px]">Kepada Yth.</p>
-        {siswa.map((data, index) => {
-          if (data.nis == nis) {
-            return (
-              <>
-                <p key={index} className="text-[20px] font-bold">
-                  {data.nama}
-                </p>
-                <p key={index} className="text-[12px] ">
-                  {data.sekolah}
-                </p>
-              </>
-            );
-          }
-        })}
+        {nis === 'NIS' ? (
+          <>
+            <p>Data Tidak Ditemukan</p>
+          </>
+        ) : (
+          renderContent()
+        )}
       </div>
-      <Link to={`/undangan/acara?nis=${nis}`} className="text-[14px] font-semibold bg-krem2Undangan text-biruUndangan px-[20px] py-[15px] rounded-[5px]">
+      <Link to={`/undangan/acara?nis=${nis}`} className={`${isButtonShow ? '' : 'hidden'} text-[14px] font-semibold bg-krem2Undangan text-biruUndangan px-[20px] py-[15px] rounded-[5px]`}>
         <button
           onClick={() => {
             setIsHidden(false);

@@ -4,7 +4,7 @@ import siswaLulus from '../../../../public/siswaLulus.json';
 const UndanganAbsen = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
-  const nis = searchParams.get('nis') || 'Nama Tamu';
+  const nis = searchParams.get('nis') || 'NIS';
   const siswa = siswaLulus.RECORDS;
   return (
     <>
