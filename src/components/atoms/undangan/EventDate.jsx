@@ -13,11 +13,11 @@ function EventDate() {
     const tanggalAcara = getTanggalAcara();
 
     return (
-        <div className="text-center mb-8">
-            <p className="text-md mb-8 mt-6">{tanggalAcara} | 12:00 WIB</p>
-            <p className="text-md mb-2">Lokasi Acara:</p>
-            <p className="text-md ">Graha Convention Hall Ronatama</p>
-            <p className="text-md">Jl. Dahlia No. 16A, Depok, Jawa Barat</p>
+        <div className="text-center mb-5 xs:mb-8">
+            <p className="text-sm xs:text-md mb-5 xs:mb-8 mt-6">{tanggalAcara} | 12:00 WIB</p>
+            <p className="text-sm xs:text-md xs:mb-2">Lokasi Acara:</p>
+            <p className="text-xs xs:text-md ">Graha Convention Hall Ronatama</p>
+            <p className="text-xs xs:text-md ">Jl. Dahlia No. 16A, Depok, Jawa Barat</p>
         </div>
     );
 }

@@ -11,7 +11,7 @@ function UndanganAcara() {
       <Countdown />
       <EventDate />
       <div className="flex items-center">
-        <a href="https://maps.app.goo.gl/WgLh8YY1qQwkv3Tc6" target="_blank" rel="noopener noreferrer" className="bg-krem2Undangan text-biruUndangan px-6 py-3 rounded-lg font-semibold flex items-center space-x-2">
+        <a href="https://maps.app.goo.gl/WgLh8YY1qQwkv3Tc6" target="_blank" rel="noopener noreferrer" className="bg-krem2Undangan text-biruUndangan text-sm xs:text-md px-3 xs:px-6 py-2 xs:py-3 rounded-lg font-semibold flex items-center space-x-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="24" width="24">
             <path fill="#142b52" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" /></svg>
           <span className='underline px-1 font-bold'>Google Maps</span>
