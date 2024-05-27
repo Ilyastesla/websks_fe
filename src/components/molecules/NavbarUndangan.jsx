@@ -1,10 +1,10 @@
 import { NavLink, useLocation } from 'react-router-dom'
 
 const NavbarUndangan = ({ isHidden }) => {
-  const location = useLocation()
-  const searchParams = new URLSearchParams(location.search)
-  const nis = searchParams.get('nis') || 'Nama Tamu'
-  const menu = ['Sampul', 'Acara', 'Absen', 'Salam']
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const nis = searchParams.get('nis') || 'NIS';
+  const menu = ['Sampul', 'Acara', 'Absen', 'Salam'];
   return (
     <nav className={`${isHidden ? 'hidden' : ''} fixed w-full max-w-[414px] bottom-0 h-16 bg-biruUndangan border-gray-200 rounded-t-2xl shadow-[0px_-5px_30px_0px_#252525]`}>
       <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
