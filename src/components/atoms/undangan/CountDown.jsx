@@ -1,55 +1,62 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
+import AOS from "aos"
+import 'aos/dist/aos.css'
 
 function calculateTimeLeft() {
-    const eventDate = new Date(2024, 5, 20, 12, 0, 0); // Tanggal bulan tahun, bulan dimulai dari 0
-    const now = new Date();
-    const difference = eventDate - now;
+  const eventDate = new Date(2024, 5, 20, 12, 0, 0) // Tanggal bulan tahun, bulan dimulai dari 0
+  const now = new Date()
+  const difference = eventDate - now
 
-    let timeLeft = {};
+  let timeLeft = {}
 
-    if (difference > 0) {
-        timeLeft = {
-            hari: Math.floor(difference / (1000 * 60 * 60 * 24)),
-            jam: Math.floor((difference / (1000 * 60 * 60)) % 24),
-            menit: Math.floor((difference / 1000 / 60) % 60),
-            detik: Math.floor((difference / 1000) % 60)
-        };
-    } else {
-        timeLeft = {
-            hari: 0,
-            jam: 0,
-            menit: 0,
-            detik: 0
-        };
+  if (difference > 0) {
+    timeLeft = {
+      hari: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      jam: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      menit: Math.floor((difference / 1000 / 60) % 60),
+      detik: Math.floor((difference / 1000) % 60)
     }
-
-    return timeLeft;
+  } else {
+    timeLeft = {
+      hari: 0,
+      jam: 0,
+      menit: 0,
+      detik: 0
+    }
+  }
+  return timeLeft
 }
 
 function Countdown() {
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
+  useEffect(() => {
+    AOS.init({
+      offset: -100,
+      duration: 800,
+      once: false
+    })
 
-        return () => clearTimeout(timer);
-    }, [timeLeft]);
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft())
+    }, 1000)
 
-    return (
-        <div className="flex flex-col items-center rounded-lg">
-            <div className="text-[40px] font-mono mx-4">
-                {`${timeLeft.hari}:${timeLeft.jam.toString().padStart(2, '0')}:${timeLeft.menit.toString().padStart(2, '0')}:${timeLeft.detik.toString().padStart(2, '0')}`}
-            </div>
-            <div className="text-lg space-x-6 font-semibold">
-                <span className="text-lg">Hari</span>
-                <span className="text-lg">Jam</span>
-                <span className="text-lg">Menit</span>
-                <span className="text-lg">Detik</span>
-            </div>
-        </div>
-    );
+    return () => clearTimeout(timer)
+  }, [timeLeft])
+
+  return (
+    <div data-aos="fade-up" className="flex flex-col items-center rounded-lg">
+      <div className="text-[40px] font-mono mx-4">
+        {`${timeLeft.hari}:${timeLeft.jam.toString().padStart(2, '0')}:${timeLeft.menit.toString().padStart(2, '0')}:${timeLeft.detik.toString().padStart(2, '0')}`}
+      </div>
+      <div className="text-lg space-x-6 font-semibold">
+        <span className="text-lg">Hari</span>
+        <span className="text-lg">Jam</span>
+        <span className="text-lg">Menit</span>
+        <span className="text-lg">Detik</span>
+      </div>
+    </div>
+  )
 }
 
-export default Countdown;
+export default Countdown
