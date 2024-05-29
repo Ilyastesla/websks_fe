@@ -1,12 +1,10 @@
-import { useEffect } from 'react';
-import Countdown from '../../atoms/undangan/CountDown';
-import EventDate from '../../atoms/undangan/EventDate';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import { useEffect } from 'react'
+import Countdown from '../../atoms/undangan/CountDown'
+import EventDate from '../../atoms/undangan/EventDate'
+import AOS from "aos"
+import 'aos/dist/aos.css'
 
-
-function UndanganAcara() {
-
+function UndanganLokasi() {
   useEffect(() => {
     AOS.init({
       offset: -100,
@@ -46,4 +44,4 @@ function UndanganAcara() {
   );
 }
 
-export default UndanganAcara;
+export default UndanganLokasi
