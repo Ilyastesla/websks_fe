@@ -46,14 +46,14 @@ function Countdown() {
 
   return (
     <div data-aos="fade-up" className="flex flex-col items-center rounded-lg">
-      <div className="text-[30px] xs:text-[40px] font-mono mx-4">
+      <div className="text-[30px] font-mono mx-4">
         {`${timeLeft.hari}:${timeLeft.jam.toString().padStart(2, '0')}:${timeLeft.menit.toString().padStart(2, '0')}:${timeLeft.detik.toString().padStart(2, '0')}`}
       </div>
-      <div className="text-sm xs:text-lg space-x-3 xs:space-x-6 font-semibold">
-        <span className="text-sm xs:text-lg">Hari</span>
-        <span className="text-sm xs:text-lg">Jam</span>
-        <span className="text-sm xs:text-lg">Menit</span>
-        <span className="text-sm xs:text-lg">Detik</span>
+      <div className="text-sm xs:text-lg space-x-3 font-semibold">
+        <span className="text-sm xs:text-md">Hari</span>
+        <span className="text-sm xs:text-md">Jam</span>
+        <span className="text-sm xs:text-md">Menit</span>
+        <span className="text-sm xs:text-md">Detik</span>
       </div>
     </div>
   )

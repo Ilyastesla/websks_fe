@@ -30,7 +30,7 @@ const UndanganHome = ({ setIsHidden }) => {
       <div>
         {result ? (
           <div data-aos="fade-up">
-            <p className="text-[16px] xs:text-[20px] font-bold">{result.nama}</p>
+            <p className="text-[16px] xs:text-[20px] font-bold max-w-[320px]">{result.nama}</p>
             <p className="text-[10px] xs:text-[12px]">{result.sekolah}</p>
           </div>
         ) : (
