@@ -17,7 +17,7 @@ const UndanganTemplate2 = ({ children }) => {
           <img src="/images/undangan/Logo+Tulisan1.svg" className="mb-4 w-[100px] xs:w-[160px]" alt="Logo+Tulisan1" />
         </div>
         <div className="my-auto rounded-lg mx-10 text-center z-50">{children}</div>
-        <img data-aos="fade-up" src="/images/undangan/gedung1.png" alt="" className="absolute bottom-0" />
+        <img data-aos="fade-up" src="/images/undangan/gedung1.png" alt="" className="w-full absolute bottom-0" />
         <img data-aos="fade-right" src="/images/undangan/border2-left.svg" alt="" className="absolute h-screen left-0" />
         <img data-aos="fade-left" src="/images/undangan/border2-left.svg" alt="" className="absolute h-screen right-0" />
         <NavbarUndangan />
