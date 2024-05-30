@@ -19,7 +19,7 @@ const UndanganTemplate = ({ children }) => {
           <img src="/images/undangan/Logo+Tulisan1.svg" className="mb-4 w-[100px] xs:w-[160px]" alt="Logo+Tulisan1" />
         </div> */}
         <div className="my-auto rounded-lg mx-10 text-center z-50">{cloneElement(children, { setIsHidden })}</div>
-        <img data-aos="fade-up" src="/images/undangan/gedung1.png" alt="gedung1" className="absolute left-0 right-0 bottom-0" />
+        <img data-aos="fade-up" src="/images/undangan/gedung1.png" alt="gedung1" className="w-full absolute left-0 right-0 bottom-0" />
         <img data-aos="fade-right" src="/images/undangan/sampulkiri.png" alt="sampulkiri" className="absolute h-screen left-0" />
         <img data-aos="fade-left" src="/images/undangan/sampulkanan.png" alt="sampulkanan" className="absolute h-screen right-0" />
         <NavbarUndangan isHidden={isHidden} />

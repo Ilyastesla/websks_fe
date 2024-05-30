@@ -24,7 +24,7 @@ const UndanganAbsen = () => {
           return <img data-aos="fade-up" key={index} src={`/qr-code/lepaskenang2024-${data.nis}.png`} alt="" className='mx-auto my-6 xs:my-10 w-[180px] xs:w-max' />
         }
       })}
-      <p data-aos="fade-up" className='text-xs xs:text-sm'>Tunjukan kepada panitia untuk presensi di lokasi acara.</p>
+      <p data-aos="fade-up" className='mx-auto text-xs xs:text-sm max-w-[270px]'>Tunjukan kepada panitia untuk presensi di lokasi acara.</p>
     </>
   )
 }

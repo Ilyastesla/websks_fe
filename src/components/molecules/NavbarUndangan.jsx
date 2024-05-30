@@ -77,7 +77,7 @@ const NavbarUndangan = ({ isHidden }) => {
           {({ isActive }) => (
             <>
               <QrCode isActive={isActive} />
-              <span className={`text-[9px] font-semibold group-hover:text-biruUndangan ${isActive ? 'text-biruUndangan' : ''}`}>QR Code</span>
+              <span className={`text-xs font-semibold group-hover:text-biruUndangan ${isActive ? 'text-biruUndangan' : ''}`}>QR</span>
             </>
           )}
         </NavLink>
