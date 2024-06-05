@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', './node_modules/flowbite/**/*.js'],
   theme: {
     extend: {
       screens: {
+        xxs: '320px',
         xs: '350px',
         // => @media (min-width: 450px) { ... }
 
@@ -40,12 +41,14 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         poly: ['Poly', 'sans-serif'],
-        meryChristole: ['Mercy Christole', 'sans-serif'],
+        cormorand: ['Cormorant Garamond', 'serif']
       },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(circle at center, var(--tw-gradient-stops))',
       },
     },
   },
-  plugins: [require('tailwindcss-animated')],
-};
+  plugins: [
+    require('tailwindcss-animated'),
+  ],
+}

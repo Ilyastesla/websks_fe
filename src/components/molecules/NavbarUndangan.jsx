@@ -49,23 +49,6 @@ const NavbarUndangan = ({ isHidden }) => {
         </NavLink>
         <NavLink
           unstable_viewTransition
-          to={`/undangan/info?nis=${nis}`}
-          end
-          className={({ isActive }) =>
-            isActive
-              ? `${activeClassName} rounded-full inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group`
-              : 'text-gray-500 inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group duration-300 rounded-full'
-          }
-        >
-          {({ isActive }) => (
-            <>
-              <Info isActive={isActive} />
-              <span className={`text-xs font-semibold group-hover:text-biruUndangan ${isActive ? 'text-biruUndangan' : ''}`}>Info</span>
-            </>
-          )}
-        </NavLink>
-        <NavLink
-          unstable_viewTransition
           to={`/undangan/qrcode?nis=${nis}`}
           end
           className={({ isActive }) =>
@@ -77,10 +60,28 @@ const NavbarUndangan = ({ isHidden }) => {
           {({ isActive }) => (
             <>
               <QrCode isActive={isActive} />
-              <span className={`text-xs font-semibold group-hover:text-biruUndangan ${isActive ? 'text-biruUndangan' : ''}`}>QR</span>
+              <span className={`text-xs font-semibold group-hover:text-biruUndangan ${isActive ? 'text-biruUndangan' : ''}`}> Presensi </span>
             </>
           )}
         </NavLink>
+        <NavLink
+          unstable_viewTransition
+          to={`/undangan/info?nis=${nis}`}
+          end
+          className={({ isActive }) =>
+            isActive
+              ? `${activeClassName} rounded-full inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group`
+              : 'text-gray-500 inline-flex flex-col items-center justify-center px-5 hover:bg-krem2Undangan group duration-300 rounded-full'
+          }
+        >
+          {({ isActive }) => (
+            <>
+              <Info isActive={isActive} />
+              <span className={`text-xs font-semibold group-hover:text-biruUndangan ${isActive ? 'text-biruUndangan' : ''}`}>Informasi</span>
+            </>
+          )}
+        </NavLink>
+
         <NavLink
           unstable_viewTransition
           to={`/undangan/salam?nis=${nis}`}

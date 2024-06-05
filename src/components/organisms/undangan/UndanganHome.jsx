@@ -45,22 +45,25 @@ const UndanganHome = ({ setIsHidden }) => {
 
   return (
     <FullScreen handle={handle}>
+
+      {/* <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/830375941&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div><a href="https://soundcloud.com/maxkomusic" title="MaxKoMusic" target="_blank">MaxKoMusic</a> · <a href="https://soundcloud.com/maxkomusic/happy-commercial-no-copyright-background-music-piano-free-download" title="Happy Commercial | No-Copyright Background Music | Piano (FREE DOWNLOAD)" target="_blank">Happy Commercial | No-Copyright Background Music | Piano (FREE DOWNLOAD)</a></div> */}
+
       <div className="flex flex-col justify-between items-center h-full">
         <img src="/images/undangan/LogoWarna.png" data-aos="fade-up" className="mb-4 h-[60px] xs:h-[90px]" alt="Logo+Tulisan1" />
 
         <div data-aos="fade-up" className="mb-4 xs:mt-5">
-          <p className="font-poly text-[20px] xs:text-[30px] xs:mb-2">UNDANGAN</p>
-          <p className="font-meryChristole text-[26px] xs:text-[35px] leading-tight">LEPAS KENANG</p>
+          <p className="font-poppins text-[20px] xs:text-[20px] xs:mb-2">UNDANGAN</p>
+          <p className="font-cormorant text-[26px] xss:text-[30px] xs:text-[38px] font-semibold leading-tight">LEPAS KENANG</p>
           {/* <p className="font-poly text-[20px] xs:text-[30px]">2024</p> */}
         </div>
 
-        <div data-aos="fade-up" className="mb-8 xs:mb-10">
+        <div data-aos="fade-up" className="mb-8 xs:mb-8">
           {/* <p className="text-[11px] xs:text-[13px] max-w-[246px] mb-4">Bersama Sekolah Kak Seto, Siapkan dirimu menuju masa depan</p> */}
-          <p className="text-[11px] xs:text-[13px]">20 - JUNI - 2024</p>
+          <p className="text-[11px] xs:text-[13px]">20&nbsp;&nbsp;&nbsp;JUNI&nbsp;&nbsp;&nbsp;2024</p>
         </div>
 
         <div data-aos='fade-up' className="mb-5 xs:mb-8">
-          <p className="text-[10px] xs:text-[12px]">Kepada Yth.</p>
+          <p className="text-[10px] xs:text-[12px]">Yang Terhormat</p>
           {nis === 'NIS' ? (
             <>
               <p>Data Tidak Ditemukan</p>

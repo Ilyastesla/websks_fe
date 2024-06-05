@@ -18,13 +18,13 @@ const UndanganAbsen = () => {
   const siswa = siswaLulus.RECORDS
   return (
     <>
-      <h1 data-aos="fade-up" className='font-semibold text-xl xs:text-2xl'>QR Code Presensi</h1>
+      <h1 data-aos="fade-up" className='font-semibold text-xl xs:text-2xl'><i>QR Code</i> Presensi</h1>
       {siswa.map((data, index) => {
         if (data.nis == nis) {
           return <img data-aos="fade-up" key={index} src={`/qr-code/lepaskenang2024-${data.nis}.png`} alt="" className='mx-auto my-6 xs:my-10 w-[180px] xs:w-max' />
         }
       })}
-      <p data-aos="fade-up" className='mx-auto text-xs xs:text-sm max-w-[270px]'>Tunjukan kepada panitia untuk presensi di lokasi acara.</p>
+      <p data-aos="fade-up" className='mx-auto text-xs xs:text-sm max-w-[270px]'>Perlihatkan kepada panitia di lokasi acara untuk dipindai sebagai presensi.</p>
     </>
   )
 }

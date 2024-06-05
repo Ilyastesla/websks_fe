@@ -17,7 +17,7 @@ const UndanganSalam = () => {
         <span>Bapak/Ibu/Saudara/i</span>
       </p>
       <p className="mt-5 text-sm">Hormat Kami</p>
-      <p className="text-xl font-semibold">Atas Nama Panitia</p>
+      <p className="text-xl font-semibold">Panitia</p>
     </div>
   )
 }

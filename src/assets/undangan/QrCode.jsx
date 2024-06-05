@@ -5,7 +5,7 @@ const QrCode = ({ isActive }) => {
       height="23"
       viewBox="0 0 22 22"
       xmlns="http://www.w3.org/2000/svg"
-      className={`w-5 h-5 mb-2  ${isActive ? 'text-biruUndangan' : 'text-krem2Undangan'} group-hover:text-biruUndangan`}
+      className={`w-8 h-8 mb-1  ${isActive ? 'text-biruUndangan' : 'text-krem2Undangan'} group-hover:text-biruUndangan`}
       aria-hidden="true"
       fill="currentColor"
     >
