@@ -43,6 +43,11 @@ const UndanganHome = ({ setIsHidden }) => {
     )
   }
 
+  const playAudio = () => {
+    const audio = new Audio('../../../../public/music/graduate.mp3');
+    audio.play();
+  };
+
   return (
     <FullScreen handle={handle}>
 
@@ -77,6 +82,7 @@ const UndanganHome = ({ setIsHidden }) => {
             onClick={() => {
               setIsHidden(false)
               handle.enter()
+              playAudio();
             }}
           >
             Buka Undangan
