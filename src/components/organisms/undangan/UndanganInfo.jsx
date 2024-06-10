@@ -205,12 +205,12 @@ const UndanganInfo = () => {
               </div>
               {/* informasi */}
               <div className="mt-8 text-xs">
-                <div className="-ml-10 flex flex-col">
-                  <span>Wisudawan</span>
+                <div className="ml-2 flex flex-col text-left">
+                  <span>Peserta Laki-laki</span>
                   <span className="font-semibold">Setelan Jas</span>
                 </div>
                 <div className="ml-10 mt-5 flex flex-col text-right">
-                  <span>Wisudawati</span>
+                  <span>Peserta Perempuan</span>
                   <span className="font-semibold">Kebaya</span>
                 </div>
               </div>

@@ -1,6 +1,11 @@
 {
     "RECORDS": [
         {
+            "nis": "1000000000",
+            "nama": "Prof. Dr. H. Seto Mulyadi, S.Psi., M.Si., Psikolog.",
+            "sekolah": "SEKOLAH KAK SETO"
+        },
+        {
             "departemen": "SD",
             "nis": "1512003014",
             "nama": "Fariz Azka Fazaridwan",
