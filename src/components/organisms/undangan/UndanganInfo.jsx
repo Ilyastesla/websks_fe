@@ -70,11 +70,11 @@ const UndanganInfo = () => {
                   </tr>
                   <tr>
                     <td className="pr-4">13:00</td>
-                    <td>Penampilan Wisudawan</td>
+                    <td>Penampilan Peserta</td>
                   </tr>
                   <tr>
                     <td className="pr-4">13:10</td>
-                    <td>Prosesi Wisuda</td>
+                    <td>Proses lepas kenang</td>
                   </tr>
                   <tr>
                     <td className="pr-4">14:50</td>
@@ -158,7 +158,7 @@ const UndanganInfo = () => {
               <p className="mb-2 text-krem2Undangan">
                 <ol className="text-left list-decimal text-xs">
                   <li className="">Undangan Digital wajib dibawa sebagai tanda registrasi</li>
-                  <li className="">Undangan berlaku untuk satu wisudawan dan dua orang tua/wali.</li>
+                  <li className="">Undangan berlaku untuk satu peserta dan dua orang tua/wali.</li>
                   <li className="">Peserta dan tamu undangan menggunakan tema busana yang telah ditentukan.</li>
                   <li className="">Peserta dan tamu undangan diharapkan sudah makan siang sebelum kegiatan dimulai.</li>
                   <li className="">Peserta dan tamu undangan sudah melaksanakan salat zuhur.</li>
