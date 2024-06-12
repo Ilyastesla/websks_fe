@@ -17,7 +17,6 @@ const KakSetoLearningCenterPage = () => {
       </Helmet>
       <div className='overflow-x-hidden'>
         <Navbar2 />
-        <Navbar2 />
         <div>
           <HeroPage2
             backgroundClass="bgkuning"
@@ -45,7 +44,7 @@ const KakSetoLearningCenterPage = () => {
           backgroundColor={"bg-kuningPrimary"}
           borderColor={"border-[#875900]"}
         >
-          Lokasi HSKS Pusat Kak Seto Learning Center
+          Lokasi Kak Seto Learning Center
         </LocationSection>
         <CsButton />
         <Footer />

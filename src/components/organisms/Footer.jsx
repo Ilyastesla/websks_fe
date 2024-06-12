@@ -1,9 +1,9 @@
 import LogoSKS from '../../assets/Logo-Sekolah-Kak-Seto-(White).png'
 import { FaWhatsapp } from 'react-icons/fa'
-import { FaTwitter } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
+import { FaTiktok } from "react-icons/fa"
 
 const Footer = () => {
   const currentDate = new Date()
@@ -25,19 +25,19 @@ const Footer = () => {
                 <h3 className="text-lg font-semibold">Ceria</h3>
               </li>
               <li className="flex gap-5 mt-7">
-                <a href="">
+                <a target='_blank' href="https://www.instagram.com/hskakseto">
                   <FaInstagram size={25} className="hover:scale-125 duration-500" />
                 </a>
-                <a href="">
+                <a target='_blank' href="https://www.facebook.com/homeschoolingkakseto">
                   <FaFacebook size={25} className="hover:scale-125 duration-500" />
                 </a>
-                <a href="">
+                <a target='_blank' href="https://www.youtube.com/HomeschoolingKakSetoPusat">
                   <FaYoutube size={25} className="hover:scale-125 duration-500" />
                 </a>
-                <a href="">
-                  <FaTwitter size={25} className="hover:scale-125 duration-500" />
+                <a target='_blank' href="https://www.tiktok.com/@sekolahkakseto">
+                  <FaTiktok size={25} className="hover:scale-125 duration-500" />
                 </a>
-                <a href="">
+                <a target='_blank' href="/linktree">
                   <FaWhatsapp size={25} className="hover:scale-125 duration-500" />
                 </a>
               </li>
