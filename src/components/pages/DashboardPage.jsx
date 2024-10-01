@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async"
-import CardsProgram from "../molecules/CardsProgram"
+import CardsSchool from "../molecules/CardsSchool"
 import HeroSection1 from "../organisms/HeroSection1"
 import Navbar from "../molecules/Navbar"
 import Carousel from "../templates/Carousel1"
@@ -15,7 +15,7 @@ const DashboardPage = () => {
       <div className='overflow-x-hidden'>
         <Navbar />
         <HeroSection1 />
-        <CardsProgram />
+        <CardsSchool />
         <Carousel />
         <CsButton />
         <Footer />

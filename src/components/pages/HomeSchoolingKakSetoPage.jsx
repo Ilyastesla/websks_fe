@@ -24,7 +24,7 @@ const HomeSchoolingKakSetoPage = () => {
         <div>
           <HeroPage2
             backgroundClass="bgbiru"
-            title="Kenapa sih pilih HomeSchooling Kak Seto?"
+            title="Kenapa sih pilih Homeschooling Kak Seto?"
             pointsLeft={[
               'Berdiri sejak 2007',
               'Tutor Ramah Anak dan Berpengalaman',
@@ -42,9 +42,9 @@ const HomeSchoolingKakSetoPage = () => {
           />
         </div>
         {/* Card Sub Program */}
-        <SubProgramSection school="HOMESCHOOLING KAK SETO" backgroundColour="text-biruPrimary" imgRight={IconTanganTos} imgLeft={IconLampu} />
+        <SubProgramSection school="HOMESCHOOLING KAK SETO" backgroundColour="text-biruPrimary" imgRight={IconTanganTos} imgLeft={IconLampu} company="1" limit="0" />
         <JadiBisaSection theme={1} textColor="text-biruPrimary" />
-        <Testimoni theme="bg-biruPrimary" />
+        <Testimoni theme="bg-biruPrimary" company="1" limit="4" />
         <LocationSection backgroundColor={'bg-biruPrimary'} borderColor={'border-[#05215D]'}>
           Lokasi HSKS Pusat
         </LocationSection>

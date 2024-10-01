@@ -41,14 +41,9 @@ const SekolahKhususKakSetoPage = () => {
             cover={cover}
           />
         </div>
-        <SubProgramSection
-          school="SEKOLAH KHUSUS KAK SETO"
-          backgroundColour="text-biruPrimary"
-          imgRight={IconTanganTos}
-          imgLeft={IconLampu}
-        />
+        <SubProgramSection school="SEKOLAH KHUSUS KAK SETO" backgroundColour="text-biruSecondary" imgRight={IconTanganTos} imgLeft={IconLampu} company="3" limit="4" />
         <JadiBisaSection theme={1} textColor="text-biruSecondary" />
-        <Testimoni theme="bg-biruSecondary" />
+        <Testimoni theme="bg-biruSecondary" company="3" limit="4" />
         <LocationSection
           backgroundColor={"bg-biruSecondary"}
           borderColor={"border-biruPrimary"}

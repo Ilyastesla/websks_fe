@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import { HiOutlineArrowRight } from 'react-icons/hi'
 import { useEffect } from 'react'
+import Loading from './Loading'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const CardProgram = ({ img, title, tingkat, description, link, animate }) => {
+
+const CardSchool = ({ img, title, tingkat, description, link, animate }) => {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -13,7 +15,9 @@ const CardProgram = ({ img, title, tingkat, description, link, animate }) => {
       <Link to={link} target="_blank">
         <img src={img} alt={title} className="mx-auto mb-[14px] w-full" />
       </Link>
-      <h1 className="text-2xl font-semibold mb-2">{title}</h1>
+      <Link to={link} target="_blank">
+        <h1 className="text-2xl font-semibold mb-2">{title}</h1>
+      </Link>
       <p className="text-xl font-medium">{tingkat}</p>
       <p>{description}</p>
       <Link
@@ -28,4 +32,4 @@ const CardProgram = ({ img, title, tingkat, description, link, animate }) => {
   )
 }
 
-export default CardProgram
+export default CardSchool

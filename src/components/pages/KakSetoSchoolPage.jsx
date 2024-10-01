@@ -42,14 +42,9 @@ const KakSetoSchoolPage = () => {
           />
         </div>
         {/* Card Sub Program */}
-        <SubProgramSection
-          school="KAK SETO SCHOOL"
-          backgroundColour="text-merahSecondary"
-          imgRight={IconGlobe}
-          imgLeft={IconKacaPembesar}
-        />
+        <SubProgramSection school="KAK SETO SCHOOL" backgroundColour="text-merahSecondary" imgRight={IconGlobe} imgLeft={IconKacaPembesar} company="2" limit="0" />
         <JadiBisaSection theme={2} textColor="text-merahSecondary" />
-        <Testimoni theme='bg-merahSecondary' />
+        <Testimoni theme="bg-merahSecondary" company="2" limit="4" />
         <LocationSection backgroundColor={'bg-merahPrimary'} borderColor={'border-[#740939]'}>
           Lokasi SKS Pusat
         </LocationSection>

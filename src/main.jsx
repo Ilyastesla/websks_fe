@@ -17,25 +17,26 @@ import InfoPage from "./components/pages/undangan/InfoPage"
 
 const BASE_URL = "http://192.168.207.190:5173/"
 
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <DashboardPage />,
   },
   {
-    path: "/homeschooling-kak-seto",
+    path: "/HSKS",
     element: <HomeSchoolingKakSetoPage />,
   },
   {
-    path: "/kak-seto-school",
+    path: "/KSS",
     element: <KakSetoSchoolPage />,
   },
   {
-    path: "/sekolah-khusus-kak-seto",
+    path: "/SKKS",
     element: <SekolahKhususKakSetoPage />,
   },
   {
-    path: "/kak-seto-learning-center",
+    path: "/KSLC",
     element: <KakSetoLearningCenterPage />,
   },
   {

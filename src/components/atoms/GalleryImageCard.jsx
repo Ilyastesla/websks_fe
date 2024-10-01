@@ -1,10 +1,10 @@
 
 
-export default function GalleryImageCard({ title, body, link }) {
+export default function GalleryImageCard({ title, body, link, picture }) {
   return (
     <div className="rounded-md box-border overflow-hidden group-hover:border-4 hover:border-kuningPrimary relative group cursor-pointer">
       <img
-        src={link}
+        src={picture}
         alt="Gallery Content"
         className="duration-500 filter group-hover:brightness-[.28] group-hover:scale-125"
       />

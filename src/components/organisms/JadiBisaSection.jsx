@@ -2,23 +2,33 @@ import BagImage from "../../assets/gallery/bag.webp"
 import TriangleRulerImage from "../../assets/gallery/triangel_ruler.webp"
 import BrushImage from "../../assets/gallery/brush.webp"
 import BookImage from "../../assets/gallery/book.webp"
-import JadiBisaGallery from "../molecules/JadiBisaGallery"
+
+import GalleryImageCard from "../atoms/GalleryImageCard"
 import AOS from "aos"
 import 'aos/dist/aos.css'
-import { useEffect } from "react"
+import { useDataPost } from '../../features/useDataPost'
+import Loading from '../atoms/Loading'
+import { useEffect } from 'react'
 
 export default function JadiBisaSection({ theme, textColor }) {
-  useEffect(() => {
-    AOS.init()
-  }, [])
   let backgroundImage = [BagImage, TriangleRulerImage]
   let firstWordTitle = "Jelajah"
+
+  const posttype="testimoni"
+  const { isLoading, data: dataPost, fetchDataPost } = useDataPost({posttype})
+
+  useEffect(() => {
+    fetchDataPost()
+  }, [])
+
+  
   // let backgroundColor = "bg-transparent";
   if (theme == 2) {
     backgroundImage = [BookImage, BrushImage]
     firstWordTitle = "Explore"
     // backgroundColor = "bg-merahSecondary"
   }
+
   return (
     <>
       <section className="my-20">
@@ -42,7 +52,20 @@ export default function JadiBisaSection({ theme, textColor }) {
               {firstWordTitle} #JadiBisa <br />
               bersama Sekolah Kak Seto
             </h1>
-            <JadiBisaGallery />
+            <div>
+              <div className="mx-auto mt-5 px-5 max-w-[75em] grid grid-cols-1 gap-1 md:mt-14 md:grid-cols-2 lg:grid-cols-3">
+                {isLoading && (
+                  <Loading />
+                )}
+                
+                {!isLoading &&
+                  dataPost.data &&
+                  dataPost.data.map((news, index) => (
+                    <GalleryImageCard key={news.idtestimoni} title={news.title} body={news.subtitle} link="#" picture="images/KakSetoSchool.png"/>
+                  ))
+                }
+              </div>
+            </div>
           </div>
         </div>
       </section>

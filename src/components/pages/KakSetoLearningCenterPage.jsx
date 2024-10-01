@@ -38,8 +38,9 @@ const KakSetoLearningCenterPage = () => {
             cover={cover}
           />
         </div>
+        <SubProgramSection school="KAK SETO LEARNING CENTER" backgroundColour="text-biruPrimary" imgRight={IconGlobe} imgLeft={IconKacaPembesar} company="3" limit="4" />
         <JadiBisaSection theme={2} textColor="text-kuningPrimary" />
-        <Testimoni theme='bg-kuningPrimary' />
+        <Testimoni theme="bg-kuningPrimary" company="4" limit="4" />
         <LocationSection
           backgroundColor={"bg-kuningPrimary"}
           borderColor={"border-[#875900]"}
