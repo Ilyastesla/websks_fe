@@ -1,31 +1,34 @@
-import BagImage from "../../assets/gallery/bag.webp"
-import TriangleRulerImage from "../../assets/gallery/triangel_ruler.webp"
-import BrushImage from "../../assets/gallery/brush.webp"
-import BookImage from "../../assets/gallery/book.webp"
+import BagImage from '../../assets/gallery/bag.webp';
+import TriangleRulerImage from '../../assets/gallery/triangel_ruler.webp';
+import BrushImage from '../../assets/gallery/brush.webp';
+import BookImage from '../../assets/gallery/book.webp';
 
-import GalleryImageCard from "../atoms/GalleryImageCard"
-import AOS from "aos"
-import 'aos/dist/aos.css'
-import { useDataPost } from '../../features/useDataPost'
-import Loading from '../atoms/Loading'
-import { useEffect } from 'react'
+// import GalleryImageCard from '../atoms/GalleryImageCard';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useDataPost } from '../../features/useDataPost';
+import Loading from '../atoms/Loading';
+import { useEffect } from 'react';
+// import CardTestimoni from '../molecules/CardTestimoni';
+import CardJadiBisa from '../molecules/CardJadiBisa';
 
-export default function JadiBisaSection({ theme, textColor }) {
-  let backgroundImage = [BagImage, TriangleRulerImage]
-  let firstWordTitle = "Jelajah"
-
-  const posttype="testimoni"
-  const { isLoading, data: dataPost, fetchDataPost } = useDataPost({posttype})
-
+const JadiBisaSection = ({ theme, company, limit, textColor }) => {
+  const posttype = 'testimoni';
+  const {
+    isLoading,
+    data: dataPost,
+    fetchDataPost,
+  } = useDataPost({ company, limit, posttype });
   useEffect(() => {
-    fetchDataPost()
-  }, [])
+    fetchDataPost();
+  }, []);
 
-  
+  let backgroundImage = [BagImage, TriangleRulerImage];
+  let firstWordTitle = 'Jelajah';
   // let backgroundColor = "bg-transparent";
   if (theme == 2) {
-    backgroundImage = [BookImage, BrushImage]
-    firstWordTitle = "Explore"
+    backgroundImage = [BookImage, BrushImage];
+    firstWordTitle = 'Explore';
     // backgroundColor = "bg-merahSecondary"
   }
 
@@ -45,30 +48,52 @@ export default function JadiBisaSection({ theme, textColor }) {
               className="w-28 h-28 translate-y-4 hidden md:block lg:32 animate-wiggle-more animate-infinite"
             />
           </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col justify-center pb-10">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            className="flex flex-col justify-center pb-10"
+          >
             <h1
               className={`${textColor} text-2xl leading-5 font-semibold text-center mt-6 md:mt-10 md:text-2xl lg:text-5xl`}
             >
               {firstWordTitle} #JadiBisa <br />
               bersama Sekolah Kak Seto
             </h1>
-            <div>
-              <div className="mx-auto mt-5 px-5 max-w-[75em] grid grid-cols-1 gap-1 md:mt-14 md:grid-cols-2 lg:grid-cols-3">
-                {isLoading && (
-                  <Loading />
-                )}
-                
-                {!isLoading &&
-                  dataPost.data &&
-                  dataPost.data.map((news, index) => (
-                    <GalleryImageCard key={news.idtestimoni} title={news.title} body={news.subtitle} link="#" picture="images/KakSetoSchool.png"/>
-                  ))
-                }
+            <div className="grid grid-cols-10 mx-12 pt-10">
+              <div className="col-span-9">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:-mr-[5.2em]"
+                >
+                  {isLoading && <Loading />}
+                  {!isLoading &&
+                    dataPost.data &&
+                    dataPost.data.map((news, index) => (
+                      <CardJadiBisa
+                        key={news.idtutor}
+                        ProfilePicture={news.gambar}
+                        name={news.title}
+                        position={news.subtitle}
+                        comment={news.content}
+                      />
+                    ))}
+                </div>
+              </div>
+              <div className="flex place-items-center" data-aos="fade-up">
+                <a
+                  href=""
+                  className="bg-biruPrimary writing-mode-vertical-rl text-white text-3xl rounded-t-2xl p-2 h-[60px] rotate-90 -ml-[3em] lg:-ml-[0.2em] hover:text-blackPrimary"
+                >
+                  Selengkapnya
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
+
+export default JadiBisaSection;
