@@ -1,0 +1,96 @@
+import LogoSKS from '../../assets/Logo-Sekolah-Kak-Seto-(White).png'
+import { FaWhatsapp } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaTiktok } from "react-icons/fa"
+
+const Footer = () => {
+  const currentDate = new Date()
+  const year = currentDate.getFullYear()
+  return (
+    <div className="bg-biruPrimary py-4 mt-24 px-5 pattern">
+      <div className="container mx-auto text-white py-20">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 justify-between">
+          <div className="flex flex-col gap-5">
+            <img src={LogoSKS} alt="gambar" className="max-w-40 max-h-40" />
+            <ul className="flex flex-col gap-3">
+              <li>
+                <h3 className="text-lg font-semibold">Cerdas</h3>
+              </li>
+              <li>
+                <h3 className="text-lg font-semibold">Kreatif</h3>
+              </li>
+              <li>
+                <h3 className="text-lg font-semibold">Ceria</h3>
+              </li>
+              <li className="flex gap-5 mt-7">
+                <a target='_blank' href="https://www.instagram.com/hskakseto">
+                  <FaInstagram size={25} className="hover:scale-125 duration-500" />
+                </a>
+                <a target='_blank' href="https://www.facebook.com/homeschoolingkakseto">
+                  <FaFacebook size={25} className="hover:scale-125 duration-500" />
+                </a>
+                <a target='_blank' href="https://www.youtube.com/HomeschoolingKakSetoPusat">
+                  <FaYoutube size={25} className="hover:scale-125 duration-500" />
+                </a>
+                <a target='_blank' href="https://www.tiktok.com/@sekolahkakseto">
+                  <FaTiktok size={25} className="hover:scale-125 duration-500" />
+                </a>
+                <a target='_blank' href="/linktree">
+                  <FaWhatsapp size={25} className="hover:scale-125 duration-500" />
+                </a>
+              </li>
+              <li>
+                <p>
+                  Contact Person: <br /> Tlp (021) 22211078 <br /> WhatsApp 0811-9511-844
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-5">
+            <h2 className="text-2xl font-semibold mb-4">Unit Sekolah</h2>
+            <ol className="flex flex-col gap-4">
+              <li className="hover:text-biruSecondary">
+                <a href="/homeschooling-kak-seto">Homeschooling Kak Seto</a>
+              </li>
+              <li className="hover:text-biruSecondary">
+                <a href="/kak-seto-school">Kak Seto School</a>
+              </li>
+              <li className="hover:text-biruSecondary">
+                <a href="/sekolah-khusus-kak-seto">Sekolah Khusus Kak Seto</a>
+              </li>
+              <li className="hover:text-biruSecondary">
+                <a href="/kak-seto-learning-center">Kak Seto Learning Center</a>
+              </li>
+            </ol>
+          </div>
+          <div className="flex flex-col gap-5">
+            <h2 className="text-2xl font-semibold mb-4">Program</h2>
+            <ol className="flex flex-col gap-4">
+              <li className="hover:text-biruSecondary">Pendidikan Formal</li>
+              <li className="hover:text-biruSecondary">Pendidikan Nonformal</li>
+              <li className="hover:text-biruSecondary">Pendidikan Informal</li>
+              <li className="hover:text-biruSecondary">Sekolah Luar Biasa</li>
+            </ol>
+          </div>
+          <div className="flex flex-col gap-5">
+            <h2 className="text-2xl font-semibold mb-4">Tautan Bermanfaat</h2>
+            <ol className="flex flex-col gap-4">
+              <li className="hover:text-biruSecondary">Unduh Brosur</li>
+              <li className="hover:text-biruSecondary">Daftar Sekarang</li>
+              <li className="hover:text-biruSecondary">Karya Peserta Didik</li>
+              <li className="hover:text-biruSecondary">Karir</li>
+              <li className="hover:text-biruSecondary">Layanan Pelanggan</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div className="container container-lg text-center flex justify-center text-white pt-10 border-t mx-auto">
+        <p>Sekolah Kak Seto. - &copy; {year} All rights reserved.</p>
+      </div>
+    </div>
+  )
+}
+
+export default Footer

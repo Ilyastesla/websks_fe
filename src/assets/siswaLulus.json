@@ -1,0 +1,1673 @@
+{
+  "RECORDS": [
+    {
+      "departemen": "DIREKSI",
+      "nis": "1000000000",
+      "nama": "Prof. Dr. H. Seto Mulyadi, S.Psi., M.Si., Psikolog.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1200000000",
+      "nama": "Januar Malik Djajasartika, S.E., M.E.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1300000000",
+      "nama": "Dimas Ramdani Triputra, S.E., M.M., M.I.Kom.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1400000000",
+      "nama": "Nur Annisa Muharromah, S.E., M.Ak.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1500000000",
+      "nama": "Fery Citra Febriyanto, S.E., M.M.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1600000000",
+      "nama": "Nurhuda Abdillah, M.Pd.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1700000000",
+      "nama": "Iin Imronah Amelia, S.Pd.I.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1800000000",
+      "nama": "Ade Rachmat Fikri, M.Pd.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "1900000000",
+      "nama": "Adhityo Haryadi, M.Pd.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "2000000000",
+      "nama": "Sri Kurnia Nuraeni, S.Pd., M.M.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "DIREKSI",
+      "nis": "2100000000",
+      "nama": "Budi Kurnia Suhaery, S.E., M.Pd.",
+      "sekolah": "SEKOLAH KAK SETO"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1512003014",
+      "nama": "Fariz Azka Fazaridwan",
+      "kelas": "VI-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1512306012",
+      "nama": "Nahwa Aisyah Putri Supriyanto",
+      "kelas": "VI-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1512305003",
+      "nama": "Arsyifa caesarah devran",
+      "kelas": "VI-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1512003011",
+      "nama": "Luqyana Fitria Ihsani",
+      "kelas": "VI-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1512104010",
+      "nama": "Rafi Altair Rahman",
+      "kelas": "VI-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1512205012",
+      "nama": "Rayhan jazely nurzaman",
+      "kelas": "VI-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532210002",
+      "nama": "Fauziah Aulia",
+      "kelas": "XII-A-IPA-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532312005",
+      "nama": "Hideto Raffi Syahranu",
+      "kelas": "XII-A-IPA-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110004",
+      "nama": "Muhammad Reza Fazl Rabbani Zaki",
+      "kelas": "XII-A-IPA-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110016",
+      "nama": "Nyimas Nabila Kayla Rosyadi",
+      "kelas": "XII-A-IPA-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532211016",
+      "nama": "Putri Safa Sarif ",
+      "kelas": "XII-A-IPA-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532312011",
+      "nama": "Rahmat Agustio",
+      "kelas": "XII-A-IPA-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110008",
+      "nama": "Shafira Inby Chandra",
+      "kelas": "XII-A-IPA-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532211014",
+      "nama": "Christabelle Emmanuella Gosal",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110002",
+      "nama": "Dimas Pratama Firmansyah",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532312007",
+      "nama": "Fabian Hiras Valerio Napitupulu",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532211006",
+      "nama": "Lea Ciarachel",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110005",
+      "nama": "Muhammad Kevin Al Razzakhean Eman",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532210001",
+      "nama": "NAYLA ANANDA DIVASRAYA",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532210003",
+      "nama": "Nazwa Meutia Anwar",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110007",
+      "nama": "RACHMA KHABIRA GUNAWAN",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110011",
+      "nama": "Siffa Aditya Arifky Subagio",
+      "kelas": "XII-A-IPS-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532312010",
+      "nama": "Annisa Shahdina Devi",
+      "kelas": "XII-A-IPS-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532211019",
+      "nama": "Danish kalayman subagya",
+      "kelas": "XII-A-IPS-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1532110010",
+      "nama": "Zaidansyah Alvaro Tarigan",
+      "kelas": "XII-A-IPS-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522007006",
+      "nama": "Abisha Andros Armand",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107003",
+      "nama": "Almira Aliya Aghna",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522207002",
+      "nama": "Feivel Lehetta Princessa Napitupulu",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107004",
+      "nama": "Kaindra Andaru Prasya",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522208009",
+      "nama": "Khalisha Nayla Novansca",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107005",
+      "nama": "Nimeesha Laikarashel Amena",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107006",
+      "nama": "RAISSA AYOKA DAHAYU",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107007",
+      "nama": "Zoe Pyrena Kariisa Putri Yusuf",
+      "kelas": "IX-DL",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107008",
+      "nama": "Anindya Fitria Prabowo",
+      "kelas": "IX-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522208010",
+      "nama": "Dominique Ivania Victoria Sibarani",
+      "kelas": "IX-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107010",
+      "nama": "Saverio Inby Chandra",
+      "kelas": "IX-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522207001",
+      "nama": "Tarang pinggala cahyo atmodjo",
+      "kelas": "IX-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1522107011",
+      "nama": "Valentino Matthew Harahap",
+      "kelas": "IX-KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO BEKASI"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801044",
+      "nama": "ABIZAR ALGHIFARI HAFIDZ",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801020",
+      "nama": "AFNAAN DODI ZULKIFLI",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111902038",
+      "nama": "AISHA GUSTI SATRIO",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205054",
+      "nama": "AMALIAH SAJIDAH",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801014",
+      "nama": "CHERISHEAVEN CHAN",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801026",
+      "nama": "CUT FRIYAL SAMIRA JASMINE",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801042",
+      "nama": "EDGAR RALPH ARCHIELLO",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801024",
+      "nama": "FILZA AL AZKIA",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801029",
+      "nama": "HAFIZUDDIN DZAKKA ALDURI",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801050",
+      "nama": "HAMEMAYU HAYUNING BAWONO SETYOKO",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205014",
+      "nama": "JEEVAN VADILAN AKAWA",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104062",
+      "nama": "JOSHUA SABAM HAMONANGAN SIAGIAN",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003091",
+      "nama": "KALYLA HAGYA LILACITA NASUTION",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801031",
+      "nama": "KIMORA ZEBA SYARIEF",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003050",
+      "nama": "MAHESSA DIANA PUTRI",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801003",
+      "nama": "MALIKA DAFAKEIVE SESARIO",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801027",
+      "nama": "MUHAMMAD ARSYAN ATHHARA YOGA",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003051",
+      "nama": "MUHAMMAD ASYRAF ABDILLAH",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003070",
+      "nama": "NIRVANADA NARWASTUSWASTI",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104044",
+      "nama": "PUTRI KIANI HASIBUAN",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801017",
+      "nama": "RAVIO HARIYADI",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801007",
+      "nama": "SAVIERO AZKA RADITE",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801028",
+      "nama": "ZHAVIRA RUSYDA SABILIA",
+      "kelas": "VI - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104060",
+      "nama": "AZZAHRA NAISYA NARESWARI",
+      "kelas": "VI - DLT",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111902016",
+      "nama": "ANDRA SYACHPUTRA",
+      "kelas": "VI - INK",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003085",
+      "nama": "KHANSA FAIZAH HAFIZHAH",
+      "kelas": "VI - INK",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801038",
+      "nama": "VIRYARAMA MANGGALA GUNAWAN",
+      "kelas": "VI - INK",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104043",
+      "nama": " LIU HAMZAH LUTHFI",
+      "kelas": "VI - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205047",
+      "nama": "ANNISA BELLA WIYONO",
+      "kelas": "VI - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111902036",
+      "nama": "JAIMA SORA ORIEANNA",
+      "kelas": "VI - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112002006",
+      "nama": "KARELL BINTANG SOESATYO",
+      "kelas": "VI - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112306044",
+      "nama": "KAYYISA ELMA MAZEA",
+      "kelas": "VI - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104089",
+      "nama": "EVANGELINE SOTERIA CHANDRA",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112306019",
+      "nama": "FARAH HANIFA RISMADI",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205058",
+      "nama": "FARIZ MUSTHAFA YANDITRA",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205015",
+      "nama": "FESIA FREEMAN",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003053",
+      "nama": "JEAN MARIA HELENA ROOROH",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801049",
+      "nama": "MAIZZA RAHMA FJOLA ADYAN",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205072",
+      "nama": "MOCH. NARARYA AHYAN ALTAMIS",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205050",
+      "nama": "MUHAMAD FATHAN DIPONEGORO",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1111801011",
+      "nama": "MUHAMMAD JULIAN RIFKY LATUCONSINA",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104049",
+      "nama": "MUHAMMAD TENGGARA WARDHANA",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112205067",
+      "nama": "PAULINE MONICA KURNIAWAN",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112104070",
+      "nama": "REIKA CASSIOPEIA KONDO",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112003028",
+      "nama": "SAKTI RADJA AL ABRAR MALAND",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SD",
+      "nis": "1112306029",
+      "nama": "SHABINE ARREILA SHEIKTA ZAHRAWAN",
+      "kelas": "VI - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110010",
+      "nama": "ADHA TORANE",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311006",
+      "nama": "AFRIZAH DERTA MULYANINGSIH",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110018",
+      "nama": "BRYAN FREDDERICK HARIADI",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312076",
+      "nama": "FILZAH NUR HALWA SIREGAR",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312071",
+      "nama": "FLORENSIA ALMARETI JOHAN",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110075",
+      "nama": "LUI IFDAL ZIKRA",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311001",
+      "nama": "NAYLA AZZALEA YASMIN",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211087",
+      "nama": "RAHMA SEPTIANI",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311011",
+      "nama": "RAINA RAYA SHAMARA",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312063",
+      "nama": "REYNALDI MUHAMMAD RACHMADI",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110037",
+      "nama": "RIFATH ARIF ANDHIKA",
+      "kelas": "XII - IPA - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110011",
+      "nama": "ADIDHARMA DEWABRATA KUSUMAPUTRA",
+      "kelas": "XII - IPA - DLT",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211096",
+      "nama": "AZMIE PETRA AUDHA",
+      "kelas": "XII - IPA - DLT",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211042",
+      "nama": "BUNGA CINTA LESTARI",
+      "kelas": "XII - IPA - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312043",
+      "nama": "WIRAVINDRA WILBERT WINARSO",
+      "kelas": "XII - IPA - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311012",
+      "nama": "ADHITYA PUTRA PASARIBU",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110012",
+      "nama": "AISYAH IBRAHIM BASALAMAH",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110065",
+      "nama": "ALEA MAHARANI PRASETIA",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132210009",
+      "nama": "AMANDA SASMITA",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110015",
+      "nama": "ARFA SYARIFYANTO FAJAR",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132210014",
+      "nama": "AYU LISTYA HANDOKO",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132210004",
+      "nama": "FARIANSYAH HERBINTANG",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110022",
+      "nama": "INDRA RIZKY RAHARJA",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211100",
+      "nama": "KEEGAN DJ. AMPERAWAN MA'RUF",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110051",
+      "nama": "KEISHA ANINDITA ABHINAWA",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110025",
+      "nama": "MAXIMILLIAN DANIEL SIAHAYA",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211101",
+      "nama": "MUHAMMAD ARKAN\t",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110033",
+      "nama": "NATASHA OLIVIA WIRAWAN",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110036",
+      "nama": "RAYYAN IRFANSHAH",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110081",
+      "nama": "YUSUF ATTAR MAHANG",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110061",
+      "nama": "ZHARA JASMINE CHALISA PUTRI ARISAKTI",
+      "kelas": "XII - IPA - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211068",
+      "nama": "ALBERT NICHOLAS CHANDRA",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110013",
+      "nama": "ALEXA CLEOPHILA YESERELLA",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211077",
+      "nama": "ALIYAH NADINE VALLISHA",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312020",
+      "nama": "ANGELICA KIMBERLY KAMBEY",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110019",
+      "nama": "FARREL MALIKH AKBAR",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211073",
+      "nama": "HANIIFAH NAHDAH",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110023",
+      "nama": "ISYAH MARDHIYYAH UTSMAN",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110085",
+      "nama": "JESSICA SYALOM LEGI",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110028",
+      "nama": "MUHAMMAD SAVA MAHESWARA",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110024",
+      "nama": "MUHAMMAD ZAKY NAUFAL HAFIDZ",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110040",
+      "nama": "SITI HANIFAH BUDIMAN",
+      "kelas": "XII - IPS - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110027",
+      "nama": "MUHAMMAD ARSENIO ALGIFARI",
+      "kelas": "XII - IPS - A - DLT",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110047",
+      "nama": "ABINATHA ARIYANTONITYASA",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311004",
+      "nama": "AISYAH AL IQRIMA",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311010",
+      "nama": "AURENCYA YUNIS VALENTINA",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110048",
+      "nama": "CUT NASYWA FAKHIRA",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132210013",
+      "nama": "HARKI YUSUF LAZUARDY",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211048",
+      "nama": "LATISHA MARIE-LOUISE RUMIRIS SILALAHI",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110030",
+      "nama": "NADIA PATRICIA MULYA",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110057",
+      "nama": "RAFLI RAMADHAN PURBA",
+      "kelas": "XII - IPS - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110014",
+      "nama": "ALVERTA ESMERALD HARDY HARDJAWINATA",
+      "kelas": "XII - IPS - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1131910057",
+      "nama": "ASHA MARIA ASSUNCAO",
+      "kelas": "XII - IPS - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110074",
+      "nama": "A. CHRISVANKO HANDOKO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110082",
+      "nama": "ALLENZKA FRANZINE ",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110016",
+      "nama": "AYESHA PUTINAYA SAFARA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311007",
+      "nama": "BALQIS FARAH AGRONOVA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110049",
+      "nama": "ELIZABETH ALFARENA NATHANIELA PRANOWO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132311002",
+      "nama": "ELVINA ADRISTI PUTRI",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312072",
+      "nama": "FATHIA ALSYA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110073",
+      "nama": "GRACIA PRAMESWARI NITIKUSUMO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110050",
+      "nama": "GRISELDA KHARIS WONG",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110062",
+      "nama": "HERMAYNIE SYADIFA KAMILA FAUZI",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132210003",
+      "nama": "KEIRA AZZAHRA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110052",
+      "nama": "LIDWINA JOAN TRIPRIYOGO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110026",
+      "nama": "MICHAELA FIDELIA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110053",
+      "nama": "MUHAMMAD AKBAR ATALLAH ",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110063",
+      "nama": "MUHAMMAD AYMAN PASCAL NASUTION",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110029",
+      "nama": "MUHAMMAD TAUFIK WIJAYA PASMAH",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110031",
+      "nama": "NAIFA RABBANI DIWINOTO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110032",
+      "nama": "NAILA RABBANI DIWINOTO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110054",
+      "nama": "PUTRI FADHILLA WARSONO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110045",
+      "nama": "RADEN MAS VALENZO ADRIANO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110079",
+      "nama": "RAFIE AWLIYA RAMADHAN",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211097",
+      "nama": "RAYA EMILIA PUTERI",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132110039",
+      "nama": "SAKYLLA ZAHRA ZULKARNAIN",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211078",
+      "nama": "SHAFINA HUMAIRA OGI",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211104",
+      "nama": "SINDI PALCANDRA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211038",
+      "nama": "STEVEN MULIAWAN",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132312078",
+      "nama": "TANIA ANGELIKA",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1132211083",
+      "nama": "VALENTINUS CAHYO WASKITO",
+      "kelas": "XII - IPS - KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122207003",
+      "nama": "ABILIO FARHAT HARUN",
+      "kelas": "IX - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107016",
+      "nama": "ALDRICH BEZALEEL SOLIM",
+      "kelas": "IX - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107025",
+      "nama": "FAIKHAA 'ADZROO KAAMILA QURROTA'AINA",
+      "kelas": "IX - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107011",
+      "nama": "FAIRA WIDIAKAISYA PUTRI",
+      "kelas": "IX - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107027",
+      "nama": "FELICITA MARY",
+      "kelas": "IX - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122208053",
+      "nama": "KAYLA RUQAYA ROPAFADZO KEMBO",
+      "kelas": "IX - A - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107019",
+      "nama": "ALYSSA FARADIBA KIRANA",
+      "kelas": "IX - A - INK",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107029",
+      "nama": "HANIF ADITYA RAIS",
+      "kelas": "IX - A - INK",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107041",
+      "nama": "MATTHEW DARELL ISWARA",
+      "kelas": "IX - A - INK",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122208061",
+      "nama": "KEISYA ZAHRA AISYAH",
+      "kelas": "IX - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107049",
+      "nama": "MUHAMMAD HAFIZ GARNADI",
+      "kelas": "IX - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107022",
+      "nama": "SAPTA HILMI DEWANTO PUTRA",
+      "kelas": "IX - A - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107055",
+      "nama": "ANINDITA NAFISA RYANTO ",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107018",
+      "nama": "CHARISSA FAITH SIAHAYA",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107047",
+      "nama": "JILLY HENRIETTA",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107063",
+      "nama": "LUIGI DEMARIO PRAWIRADIREDJA",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122208063",
+      "nama": "MAHOGANY NAHLA YUSUF",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107033",
+      "nama": "RADHIKA HUSSAIN INDRAWAN",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107061",
+      "nama": "RAKA FAYDH EL HANAN",
+      "kelas": "IX - A KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107062",
+      "nama": "ALISYA AIMEE MALIQA",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107007",
+      "nama": "ALLAYAH TSAQIF PUTRA YUSUF",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107043",
+      "nama": "ALTIMO BENRIEYADIN",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107030",
+      "nama": "HYLENT ERYSTA KHOMARUDIN",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122309023",
+      "nama": "MUHAMMAD SAHAL MA'RUF",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107031",
+      "nama": "MUSHTHAFA AZFAR",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107021",
+      "nama": "PRABU HAFIY DELOVIC",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122309057",
+      "nama": "RACHMAH SYAFIRA",
+      "kelas": "IX - B - DL",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107008",
+      "nama": "ARCHANGELA STELLA MANURUNG ",
+      "kelas": "IX - B - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107042",
+      "nama": "AZRIEL GARIN INDRASTRA SIRAIT",
+      "kelas": "IX - B - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107056",
+      "nama": "CANTIKA CINTA RAMADHANI",
+      "kelas": "IX - B - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107024",
+      "nama": "EMYR KANZ",
+      "kelas": "IX - B - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107014",
+      "nama": "NARA AYANA DJATIKUSUMA",
+      "kelas": "IX - B - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107015",
+      "nama": "PUTRI BIRRU SHAFA",
+      "kelas": "IX - B - KOM",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122308003",
+      "nama": "ANASTASIA SALVANDA ABBYGAEL MULIANI",
+      "kelas": "IX - B KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107057",
+      "nama": "DIAZ PUTRA PATRIA",
+      "kelas": "IX - B KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107045",
+      "nama": "EMIR ABDULLAH SIREGAR",
+      "kelas": "IX - B KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107048",
+      "nama": "MUHAMMAD FAWWAZ AL FATHIR",
+      "kelas": "IX - B KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122208052",
+      "nama": "PRIYANKA SHAKIRA IRAWAN ",
+      "kelas": "IX - B KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1122107035",
+      "nama": "VINESSA XAVIERA",
+      "kelas": "IX - B KOP",
+      "sekolah": "HOMESCHOOLING KAK SETO PUSAT"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110010",
+      "nama": "Dea Ananda Putri",
+      "kelas": "XII-IPA",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110014",
+      "nama": "Najwa Laika Amalia",
+      "kelas": "XII-IPA",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332312012",
+      "nama": "RAIHAN RAZAAN RAMADHAN ",
+      "kelas": "XII-IPA",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110015",
+      "nama": "Reno Rizky Ramadhan",
+      "kelas": "XII-IPA",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110018",
+      "nama": "Siti Marwah",
+      "kelas": "XII-IPA",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332010008",
+      "nama": "Anton Kaswari ",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110002",
+      "nama": "Bela Puspita Sari",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110003",
+      "nama": "Chairunnisya salsabila Putri ",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110004",
+      "nama": "Deo Jonatan Wibowo ",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110001",
+      "nama": "Ikhsan Rahman",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110013",
+      "nama": "Marsya Devinda Darmawan",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110006",
+      "nama": "Nordesma. Martin.Hukom",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110007",
+      "nama": "Romy hambali",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110019",
+      "nama": "Sugit Prayitno",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332110020",
+      "nama": "Zhakira Anaya Putri",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMA",
+      "nis": "1332211009",
+      "nama": "Zul Melki Angga Harahap",
+      "kelas": "XII-IPS",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322208011",
+      "nama": "ALAM AL-IFAN",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322208004",
+      "nama": "BILQIS QAANITAH ASHIILA",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322107003",
+      "nama": "Dendy Alfian Mardianto",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322107004",
+      "nama": "Khoiron Yusub",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322208006",
+      "nama": "KHOIRUL DAFA",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322107006",
+      "nama": "Listiani",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322309003",
+      "nama": "SABILA NUR FATHIYYAH ",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322107007",
+      "nama": "Suci Ramadani",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    },
+    {
+      "departemen": "SMP",
+      "nis": "1322107008",
+      "nama": "Virly Savira",
+      "kelas": "IX",
+      "sekolah": "KOMUNITAS BERLIAN"
+    }
+  ]
+}
