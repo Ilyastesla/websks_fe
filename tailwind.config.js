@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   content: [
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -12,6 +14,8 @@ export default {
 }
 
 =======
+=======
+>>>>>>> Stashed changes
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
     './node_modules/flowbite/**/*.js',
@@ -60,12 +64,7 @@ export default {
       backgroundImage: {
         'radial-gradient': 'radial-gradient(circle at center, var(--tw-gradient-stops))',
       },
-      writingMode: {
-        'vertical-lr': 'vertical-lr',
-        'vertical-rl': 'vertical-rl',
-      },
     },
   },
   plugins: [require('tailwindcss-animated')],
 };
->>>>>>> Stashed changes
