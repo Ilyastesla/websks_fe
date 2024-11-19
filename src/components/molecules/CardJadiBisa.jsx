@@ -1,12 +1,14 @@
-const CardJadiBisa = ({ ProfilePicture }) => {
+const CardJadiBisa = ({ ProfilePicture, name }) => {
   return (
-    <div className="place-content-start  my-1 mx-1  ">
-      <div className="h-[308px]">
-        <img
-          src={ProfilePicture}
-          alt=""
-          className="object-none shadow-xl w-full h-full "
-        />
+    <div className="relative h-[300px] my-1 mx-1 group">
+      {/* Gambar */}
+      <img src={ProfilePicture} alt="" className="object-cover shadow-xl w-full h-full" />
+
+      {/* Overlay Nama */}
+      <div className="absolute inset-0 bg-black bg-opacity-60 flex items-end justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h2 className="text-2xl font-semibold text-white bg-black bg-opacity-30 rounded-xl px-4 py-2 mb-6">
+          {name}
+        </h2>
       </div>
     </div>
   );

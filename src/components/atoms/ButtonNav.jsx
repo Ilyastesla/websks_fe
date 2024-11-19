@@ -8,7 +8,7 @@ function ButtonNav() {
         Daftar Peserta Didik Baru
       </button>
     </a>
-  )
+  );
 }
 
-export default ButtonNav
+export default ButtonNav;

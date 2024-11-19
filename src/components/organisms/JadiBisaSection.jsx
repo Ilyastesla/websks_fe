@@ -11,14 +11,15 @@ import Loading from '../atoms/Loading';
 import { useEffect } from 'react';
 // import CardTestimoni from '../molecules/CardTestimoni';
 import CardJadiBisa from '../molecules/CardJadiBisa';
+import { Link } from 'react-router-dom';
 
-const JadiBisaSection = ({ theme, company, limit, textColor }) => {
+const JadiBisaSection = ({ theme, company, limit, textColor, link }) => {
   const posttype = 'testimoni';
   const {
     isLoading,
     data: dataPost,
     fetchDataPost,
-  } = useDataPost({ company, limit, posttype });
+  } = useDataPost({ company, limit, posttype, link });
   useEffect(() => {
     fetchDataPost();
   }, []);
@@ -81,12 +82,12 @@ const JadiBisaSection = ({ theme, company, limit, textColor }) => {
                 </div>
               </div>
               <div className="flex place-items-center" data-aos="fade-up">
-                <a
-                  href=""
-                  className="bg-biruPrimary writing-mode-vertical-rl text-white text-3xl rounded-t-2xl p-2 h-[60px] rotate-90 -ml-[3em] lg:-ml-[0.2em] hover:text-blackPrimary"
+                <Link
+                  to="/Explore"
+                  className="bg-biruPrimary  text-white shadow-md hover:bg-white hover:text-biruPrimary transition text-3xl rounded-t-2xl p-2 h-[60px] rotate-90 -ml-[3em] lg:-ml-[0.2em] "
                 >
                   Selengkapnya
-                </a>
+                </Link>
               </div>
             </div>
           </div>

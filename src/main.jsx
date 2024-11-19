@@ -14,6 +14,8 @@ import SalamPage from './components/pages/undangan/SalamPage';
 import LinktreePage from './components/pages/LinktreePage';
 import LokasiPage from './components/pages/undangan/LokasiPage';
 import InfoPage from './components/pages/undangan/InfoPage';
+import ExploreJadiBisa from './components/pages/ExploreJadiBisa';
+import DetailArtikelExploreJadiBisa from './components/pages/DetailArtikelExploreJadiBisa';
 
 const BASE_URL = 'http://192.168.207.190:5173/';
 
@@ -61,6 +63,14 @@ const router = createBrowserRouter([
   {
     path: '/undangan/salam',
     element: <SalamPage />,
+  },
+  {
+    path: '/Explore',
+    element: <ExploreJadiBisa />,
+  },
+  {
+    path: '/DetailArtikel',
+    element: <DetailArtikelExploreJadiBisa />,
   },
 ]);
 
