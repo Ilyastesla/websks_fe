@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import { useDataPost } from '../../features/useDataPost';
 import Loading from '../atoms/Loading';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 // import CardTestimoni from '../molecules/CardTestimoni';
 
 // const dataTutor = [
@@ -55,12 +56,12 @@ const Tutor = ({ theme, company, limit }) => {
         </div>
         <hr className="mt-8 border-4 border-white" />
         <div className="grid justify-items-end	" data-aos="fade-up">
-          <a
-            href=""
+          <Link
             className="bg-white text-3xl mr-[1.7em] p-4 rounded-b-2xl hover:text-biruPrimary"
+            to="/PageTutor"
           >
             Selengkapnya
-          </a>
+          </Link>
         </div>
         {/*--------------------------------------------------------------------------------------------------------*/}
         <div

@@ -16,6 +16,7 @@ import LokasiPage from './components/pages/undangan/LokasiPage';
 import InfoPage from './components/pages/undangan/InfoPage';
 import ExploreJadiBisa from './components/pages/ExploreJadiBisa';
 import DetailArtikelExploreJadiBisa from './components/pages/DetailArtikelExploreJadiBisa';
+import PageTutor from './components/pages/PageTutor';
 
 const BASE_URL = 'http://192.168.207.190:5173/';
 
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
   {
     path: '/DetailArtikel',
     element: <DetailArtikelExploreJadiBisa />,
+  },
+  {
+    path: '/PageTutor',
+    element: <PageTutor />,
   },
 ]);
 
