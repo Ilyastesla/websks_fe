@@ -9,12 +9,12 @@ const Footer = () => {
   const currentDate = new Date()
   const year = currentDate.getFullYear()
   return (
-    <div className="bg-biruPrimary py-4 mt-24 px-5 pattern">
-      <div className="container mx-auto text-white py-20">
+    <div className="bg-biruPrimary px-5 pattern text-sm">
+      <div className="container mx-auto text-white py-10">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 justify-between">
           <div className="flex flex-col gap-5">
-            <img src={LogoSKS} alt="gambar" className="max-w-40 max-h-40" />
-            <ul className="flex flex-col gap-3">
+            <img src={LogoSKS} alt="gambar" className="max-w-36 max-h-36" />
+            <ul className="flex flex-col gap-2">
               <li>
                 <h3 className="text-lg font-semibold">Cerdas</h3>
               </li>
@@ -48,9 +48,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">Unit Sekolah</h2>
-            <ol className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5 text-left">
+            <h2 className="text-base font-semibold mb-4">Unit Sekolah</h2>
+            <ol className="flex flex-col gap-3">
               <li className="hover:text-biruSecondary">
                 <a href="/homeschooling-kak-seto">Homeschooling Kak Seto</a>
               </li>
@@ -66,8 +66,8 @@ const Footer = () => {
             </ol>
           </div>
           <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">Program</h2>
-            <ol className="flex flex-col gap-4">
+            <h2 className="text-base font-semibold mb-4">Program</h2>
+            <ol className="flex flex-col gap-3">
               <li className="hover:text-biruSecondary">Pendidikan Formal</li>
               <li className="hover:text-biruSecondary">Pendidikan Nonformal</li>
               <li className="hover:text-biruSecondary">Pendidikan Informal</li>
@@ -75,8 +75,8 @@ const Footer = () => {
             </ol>
           </div>
           <div className="flex flex-col gap-5">
-            <h2 className="text-2xl font-semibold mb-4">Tautan Bermanfaat</h2>
-            <ol className="flex flex-col gap-4">
+            <h2 className="text-base font-semibold mb-4">Tautan Bermanfaat</h2>
+            <ol className="flex flex-col gap-3">
               <li className="hover:text-biruSecondary">Unduh Brosur</li>
               <li className="hover:text-biruSecondary">Daftar Sekarang</li>
               <li className="hover:text-biruSecondary">Karya Peserta Didik</li>
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container container-lg text-center flex justify-center text-white pt-10 border-t mx-auto">
+      <div className="container container-lg text-center flex justify-center text-white py-5 border-t mx-auto">
         <p>Sekolah Kak Seto. - &copy; {year} All rights reserved.</p>
       </div>
     </div>

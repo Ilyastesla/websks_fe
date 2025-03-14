@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import CsButton from '../atoms/CsButton';
 import Footer from '../organisms/Footer';
-import Navbar2 from '../molecules/Navbar2';
+import Navbar from '../molecules/Navbar';
 import PageTutorSection from '../organisms/PageTutorSection';
 
 const PageTutor = () => {
@@ -10,7 +10,7 @@ const PageTutor = () => {
       <Helmet>
         <title>Detail Tutor</title>
       </Helmet>
-      <Navbar2 />
+      <Navbar />
       <div className="grid w-full place-items-center">
         <div className=" container w-full">
           <div className="overflow-x-hidden overflow-y-hidden ">

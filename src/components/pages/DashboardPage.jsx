@@ -13,7 +13,7 @@ const DashboardPage = () => {
         <title>Beranda - Sekolah Kak Seto</title>
       </Helmet>
       <div className='overflow-x-hidden'>
-        <Navbar />
+        <Navbar school="HSKS"/>
         <HeroSection1 />
         <CardsSchool />
         <Carousel />

@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import LocationSection from '../organisms/LocationSection';
 import SubProgramSection from '../organisms/SubProgramSection';
 import JadiBisaSection from '../organisms/JadiBisaSection';
-import Navbar2 from '../molecules/Navbar2';
+import Navbar from '../molecules/Navbar';
 import HeroPage2 from '../templates/HeroPage1';
 import image from '../../assets/heropage2/image2.png';
 import cover from '../../assets/heropage2/cover2.png';
@@ -18,11 +18,11 @@ const KakSetoSchoolPage = () => {
       <Helmet>
         <title>Kak Seto School - Sekolah Kak Seto</title>
       </Helmet>
-      <Navbar2 />
+      <Navbar />
       <div className="grid w-full place-items-center">
         <div className=" container w-full">
           <div className="overflow-x-hidden">
-            {/* <Navbar2 /> */}
+            {/* <Navbar /> */}
             <div>
               <HeroPage2
                 backgroundClass="bgmerah"

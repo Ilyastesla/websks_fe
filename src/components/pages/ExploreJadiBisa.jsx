@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import CsButton from '../atoms/CsButton';
 import Footer from '../organisms/Footer';
-import Navbar2 from '../molecules/Navbar2';
+import Navbar from '../molecules/Navbar';
 
 import ExploreJadiBisaSection from '../organisms/ExploreJadiBisaSection';
 
@@ -11,7 +11,7 @@ const ExploreJadiBisa = () => {
       <Helmet>
         <title>Explore Jadi Bisa</title>
       </Helmet>
-      <Navbar2 />
+      <Navbar />
       <div className="grid w-full place-items-center">
         <div className=" container w-full">
           <div className="overflow-x-hidden overflow-y-hidden ">

@@ -38,6 +38,7 @@ const Testimoni = ({ theme, company, limit }) => {
     data: dataPost,
     fetchDataPost,
   } = useDataPost({ company, limit, posttype });
+  
   useEffect(() => {
     fetchDataPost();
   }, []);

@@ -4,7 +4,7 @@ import Footer from '../organisms/Footer';
 import Testimoni from '../organisms/Testimoni';
 import LocationSection from '../organisms/LocationSection';
 import JadiBisaSection from '../organisms/JadiBisaSection';
-import Navbar2 from '../molecules/Navbar2';
+import Navbar from '../molecules/Navbar';
 import SubProgramSection from '../organisms/SubProgramSection';
 import HeroPage2 from '../templates/HeroPage1';
 import image from '../../assets/heropage2/image1.png';
@@ -19,9 +19,9 @@ const HomeSchoolingKakSetoPage = () => {
       <Helmet>
         <title>HomeSchooling Kak Seto - Sekolah Kak Seto</title>
       </Helmet>
-      <Navbar2 />
+      <Navbar school="HSKS" />
       <div className="grid w-full place-items-center">
-        <div className=" container w-full">
+        <div className=" w-full">
           <div className="overflow-x-hidden overflow-y-hidden">
             {/* Navbar */}
 

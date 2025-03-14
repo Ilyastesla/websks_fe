@@ -10,12 +10,13 @@ const CardSchool = ({ img, title, tingkat, description, link, animate }) => {
     AOS.init();
   }, []);
   return (
+    <Link to={link}>
     <div
       data-aos={animate}
-      data-aos-duration="1000"
-      className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-biruPrimary md:hover:!scale-110 hover:text-white"
+      data-aos-duration="300"
+      className="flex flex-col justify-between border-2 shadow rounded-2xl px-[26px] py-10 flex-grow flex-shrink basis-0 group hover:bg-gradient-to-br from-biruPrimary to-blue-600 md:hover:!scale-105 hover:text-white"
     >
-      <Link to={link} target="_blank">
+      <Link to={link}>
         <img src={img} alt={title} className="mx-auto mb-[14px] w-full" />
       </Link>
       <Link to={link} target="_blank">
@@ -25,13 +26,13 @@ const CardSchool = ({ img, title, tingkat, description, link, animate }) => {
       <p>{description}</p>
       <Link
         to={link}
-        target="_blank"
         className="flex items-center text-biruPrimary text-xl font-semibold my-2 group-hover:text-white"
       >
         <span className="mr-2">Selengkapnya</span>
         <HiOutlineArrowRight />
       </Link>
     </div>
+    </Link>
   );
 };
 

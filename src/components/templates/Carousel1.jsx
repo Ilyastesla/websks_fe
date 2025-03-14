@@ -4,9 +4,11 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import gambar1 from "../../assets/carousel/picture1.png"
 import gambar2 from "../../assets/carousel/picture2.png"
-import gambar3 from "../../assets/carousel/picture3.png"
+//import gambar3 from "../../assets/carousel/picture3.png"
 import gambar4 from "../../assets/carousel/picture4.png"
 import gambar5 from "../../assets/carousel/picture5.png"
+import gambar6 from "../../assets/carousel/picture6.png"
+import gambar7 from "../../assets/carousel/picture7.png"
 import MagnifGlassImage from "../../assets/carousel/magnif-glass.webp"
 import BrushImage from "../../assets/carousel/brush.webp"
 import Aos from "aos"
@@ -64,11 +66,12 @@ function Carousel1() {
   }, [])
 
   // Array gambar
-  const images = [gambar1, gambar2, gambar3, gambar4, gambar5]
+  const images = [gambar7,gambar6,gambar1, gambar4]
   // Komponen carousel
   return (
     <>
-      <div className="pt-14 relative">
+      <div className="mt-20 min-h-screen bg-slate-100 align-middle">
+        {/*
         <div className="absolute w-full -z-50 flex justify-between pt-16 md:pt-0">
           <img data-aos="fade-right" data-aos-duration="1000"
             src={MagnifGlassImage}
@@ -81,9 +84,10 @@ function Carousel1() {
             className="h-20 md:h-32 lg:h-52"
           />
         </div>
-        <div className="text-xl block text-center font-semibold p-10 md:text-3xl lg:text-5xl">
-          <h1 data-aos="fade-up" data-aos-duration="1000">
-            <span className="bg-red-500 px-2 mx-2 text-white rounded-md text-bold">
+        */}
+        <div className="text-xl block text-center font-semibold p-10 pt-32">
+          <h1 data-aos="fade-up" data-aos-duration="1000" className="text-lg text-center text-bold lg:text-5xl ">
+            <span className="bg-red-500 px-2 mx-2 text-white rounded-md">
               #JadiBisa
             </span>
             bersama Sekolah Kak Seto

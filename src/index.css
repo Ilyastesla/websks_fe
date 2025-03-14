@@ -4,6 +4,7 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  font-size:1em;
 }
 
 @tailwind base;
@@ -11,9 +12,7 @@
 @tailwind utilities;
 
 @layer base {
-  ul, ol {
-    list-style: revert;
-  }
+  
 }
 ::-webkit-scrollbar {
   width: 15px;
